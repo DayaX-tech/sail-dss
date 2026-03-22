@@ -1,6 +1,5 @@
 import axios from 'axios'
 
-// Use relative URL — Vite proxy forwards to http://localhost:8000
 const api = axios.create({
   baseURL: 'https://sail-dss-backend.onrender.com',
   timeout: 30000,
