@@ -12,7 +12,7 @@ Features:
   - Contact details
   - Weather advisory (if configured)
 """
-import os, io, smtplib, ssl
+import os, io, smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -77,7 +77,10 @@ def _send_email(to_email, subject, html_body, attachments=None):
                 part.add_header("Content-Disposition", f'attachment; filename="{pdf_name}"')
                 msg.attach(part)
         ctx = ssl.create_default_context()
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx) as srv:
+        with smtplib.SMTP("smtp.gmail.com", 587) as srv:
+            srv.ehlo()
+            srv.starttls()
+            srv.ehlo()
             srv.login(GMAIL_USER, GMAIL_APP_PASS)
             srv.sendmail(GMAIL_USER, to_email, msg.as_string())
         return {"status":"sent","to":to_email,"subject":subject}
