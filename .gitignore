@@ -1,5 +1,12 @@
-__pycache__/
-node_modules/
-venv/
+backend/.env
 .env
-dist/
+*.env
+__pycache__/
+*.pyc
+backend/venv/
+venv/
+frontend/node_modules/
+node_modules/
+frontend/dist/
+.DS_Store
+Thumbs.db
