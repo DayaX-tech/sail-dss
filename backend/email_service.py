@@ -691,11 +691,5 @@ def send_arrival_notification(order, customer_email):
     return _send_email(customer_email, f"🏁 Arrived | Order {order.get('order_id')} at {order.get('destination')}", html)
 
 
-@app.get("/debug-email")
-def debug_email():
-    import os
-    return {
-        "gmail_user_set": bool(os.getenv("GMAIL_USER")),
-        "gmail_pass_set": bool(os.getenv("GMAIL_APP_PASSWORD")),
-        "user_value": os.getenv("GMAIL_USER","NOT SET"),
+
     }
