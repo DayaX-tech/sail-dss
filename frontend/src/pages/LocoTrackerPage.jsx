@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { LoadingSpinner } from '../components/UIKit'
 import { Activity } from 'lucide-react'
 import axios from 'axios'
-const BASE = ''
+const BASE = 'https://sail-dss-backend.onrender.com'
 const STATUS_C = { Available:'#34c759', 'On Duty':'#FF7A00', Maintenance:'#ff2d55' }
 
 export default function LocoTrackerPage() {
