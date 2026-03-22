@@ -689,3 +689,13 @@ def send_arrival_notification(order, customer_email):
       <p>Bring your e-RR and company authorisation letter.</p>
       <p style="color:#888;font-size:11px;">SAIL Bokaro DSS · logistics@sail-bokaro.in</p></div>"""
     return _send_email(customer_email, f"🏁 Arrived | Order {order.get('order_id')} at {order.get('destination')}", html)
+
+
+@app.get("/debug-email")
+def debug_email():
+    import os
+    return {
+        "gmail_user_set": bool(os.getenv("GMAIL_USER")),
+        "gmail_pass_set": bool(os.getenv("GMAIL_APP_PASSWORD")),
+        "user_value": os.getenv("GMAIL_USER","NOT SET"),
+    }
