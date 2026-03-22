@@ -5,7 +5,7 @@ import { Mail, Send, Search, CheckCircle, Clock, AlertTriangle, Package, MapPin 
 import axios from 'axios'
 import { fetchOrders } from '../services/api'
 
-const BASE = ''
+const BASE = 'https://sail-dss-backend.onrender.com'
 
 export default function CustomerHubPage() {
   const [tab, setTab]         = useState('dispatch')
