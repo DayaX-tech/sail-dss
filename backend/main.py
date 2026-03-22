@@ -817,4 +817,4 @@ def debug_email():
     return {
         "gmail_user_set": bool(os.getenv("GMAIL_USER")),
         "gmail_pass_set": bool(os.getenv("GMAIL_APP_PASSWORD")),
-        "user_value": os.getenv("GMAIL_USER","NOT SET"),
+        "user_value": os.getenv("GMAIL_USER","NOT SET"),)}
