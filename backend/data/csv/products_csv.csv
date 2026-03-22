@@ -1,0 +1,15 @@
+product_code,product_name,product_type,unit_weight_tons,handling_type,compatible_wagon_type,storage_requirement,base_price_per_ton
+HR-COIL,Hot Rolled Coil,Flat,7.5,Crane,BCNA,Covered,72976
+CR-SHEET,Cold Rolled Sheet,Flat,6.0,Crane,BCNA,Covered,48993
+PLATE-H,Heavy Plate,Flat,8.0,Crane,BRN,Open,75126
+PLATE-M,Medium Plate,Flat,7.0,Crane,BRN,Open,49296
+SLAB-A,Steel Slab Grade A,Semi-Finished,9.0,Crane,BOST,Open,47034
+SLAB-B,Steel Slab Grade B,Semi-Finished,8.5,Crane,BOST,Open,49613
+BILLET-S,Steel Billet Standard,Semi-Finished,5.0,Mechanical,BOXN,Open,63393
+BILLET-H,Steel Billet High Carbon,Semi-Finished,5.5,Mechanical,BOXN,Open,69782
+TMT-12,TMT Bar 12mm,Long,4.0,Mechanical,BCN,Open,61292
+TMT-16,TMT Bar 16mm,Long,4.5,Mechanical,BCN,Open,49878
+TMT-20,TMT Bar 20mm,Long,5.0,Mechanical,BCN,Open,52966
+WIRE-ROD,Wire Rod Coil,Long,3.5,Crane,BCNA,Covered,79095
+STRUCT-A,Structural Steel A,Long,6.0,Crane,BRN,Open,83504
+PIG-IRON,Pig Iron,Raw,8.0,Mechanical,BCN,Open,75170

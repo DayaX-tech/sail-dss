@@ -1,0 +1,41 @@
+route_id,source_location_id,source_location,destination_city,destination_state,route_distance_km,rail_freight_cost_per_ton,expected_transit_time_hours,route_availability_status,railway_zone,transit_days
+1,1,Bokaro Steel Plant,Mumbai,Maharashtra,1650,1815,33,Active,Western/Southern,4
+2,1,Bokaro Steel Plant,Delhi,Delhi,1300,1430,26,Active,Western/Southern,3
+3,1,Bokaro Steel Plant,Kolkata,West Bengal,280,800,6,Active,Eastern,1
+4,1,Bokaro Steel Plant,Chennai,Tamil Nadu,1850,2035,37,Active,Western/Southern,5
+5,1,Bokaro Steel Plant,Hyderabad,Telangana,1450,1595,29,Active,Western/Southern,4
+6,1,Bokaro Steel Plant,Pune,Maharashtra,1600,1760,32,Active,Western/Southern,4
+7,1,Bokaro Steel Plant,Ahmedabad,Gujarat,1720,1892,34,Maintenance,Western/Southern,4
+8,1,Bokaro Steel Plant,Surat,Gujarat,1680,1848,33,Active,Western/Southern,4
+9,1,Bokaro Steel Plant,Jaipur,Rajasthan,1420,1562,28,Active,Western/Southern,4
+10,1,Bokaro Steel Plant,Lucknow,Uttar Pradesh,1050,1155,21,Active,Central,3
+11,1,Bokaro Steel Plant,Kanpur,Uttar Pradesh,980,1078,19,Active,Central,2
+12,1,Bokaro Steel Plant,Nagpur,Maharashtra,1120,1232,22,Active,Western/Southern,3
+13,1,Bokaro Steel Plant,Visakhapatnam,Andhra Pradesh,780,858,15,Maintenance,Central,2
+14,1,Bokaro Steel Plant,Bhopal,Madhya Pradesh,1050,1155,21,Active,Central,3
+15,1,Bokaro Steel Plant,Patna,Bihar,380,800,7,Active,Eastern,1
+16,1,Bokaro Steel Plant,Ludhiana,Punjab,1480,1628,29,Active,Western/Southern,4
+17,1,Bokaro Steel Plant,Agra,Uttar Pradesh,1180,1298,23,Active,Western/Southern,3
+18,1,Bokaro Steel Plant,Vadodara,Gujarat,1690,1859,33,Active,Western/Southern,4
+19,1,Bokaro Steel Plant,Nashik,Maharashtra,1580,1738,31,Active,Western/Southern,4
+20,1,Bokaro Steel Plant,Faridabad,Haryana,1320,1452,26,Active,Western/Southern,3
+21,1,Bokaro Steel Plant,Meerut,Uttar Pradesh,1260,1386,25,Active,Western/Southern,3
+22,1,Bokaro Steel Plant,Rajkot,Gujarat,1820,2002,36,Active,Western/Southern,5
+23,1,Bokaro Steel Plant,Coimbatore,Tamil Nadu,2050,2255,41,Active,Western/Southern,5
+24,1,Bokaro Steel Plant,Jabalpur,Madhya Pradesh,1100,1210,22,Active,Western/Southern,3
+25,1,Bokaro Steel Plant,Gwalior,Madhya Pradesh,1200,1320,24,Maintenance,Western/Southern,3
+26,1,Bokaro Steel Plant,Vijayawada,Andhra Pradesh,920,1012,18,Active,Central,2
+27,1,Bokaro Steel Plant,Jodhpur,Rajasthan,1650,1815,33,Active,Western/Southern,4
+28,1,Bokaro Steel Plant,Madurai,Tamil Nadu,2150,2365,43,Active,Western/Southern,6
+29,1,Bokaro Steel Plant,Raipur,Chhattisgarh,720,800,14,Active,Central,2
+30,1,Bokaro Steel Plant,Kota,Rajasthan,1420,1562,28,Active,Western/Southern,4
+31,1,Bokaro Steel Plant,Ranchi,Jharkhand,180,800,6,Active,Eastern,1
+32,1,Bokaro Steel Plant,Howrah,West Bengal,290,800,6,Maintenance,Eastern,1
+33,1,Bokaro Steel Plant,Dhanbad,Jharkhand,150,800,6,Active,Eastern,1
+34,1,Bokaro Steel Plant,Jamshedpur,Jharkhand,120,800,6,Active,Eastern,1
+35,1,Bokaro Steel Plant,Bhilai,Chhattisgarh,680,800,13,Active,Central,1
+36,1,Bokaro Steel Plant,Durgapur,West Bengal,310,800,6,Active,Eastern,1
+37,1,Bokaro Steel Plant,Rourkela,Odisha,390,800,7,Maintenance,Eastern,1
+38,1,Bokaro Steel Plant,Bokaro,Jharkhand,0,800,6,Active,Eastern,1
+39,1,Bokaro Steel Plant,Allahabad,Uttar Pradesh,750,825,15,Active,Central,2
+40,1,Bokaro Steel Plant,Varanasi,Uttar Pradesh,680,800,13,Active,Central,1

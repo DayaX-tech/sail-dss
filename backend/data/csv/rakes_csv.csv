@@ -1,0 +1,501 @@
+rake_id,rake_type,wagon_type,total_wagons,capacity_per_wagon_tons,total_rake_capacity_tons,current_station,arrival_time,availability_status,railway_zone,loco_assigned,formation_siding
+RK-001,Half,BCNA,36,58.0,2030.0,Ranchi,2026-03-20 16:28,In Transit,CR,True,SID-6
+RK-002,Half,BRN,32,55.0,2475.0,Bokaro Steel City,2026-03-23 06:28,Assigned,SCR,True,SID-3
+RK-003,Mini,BOXN,30,60.0,3240.0,Rourkela,2026-03-21 03:28,Available,ER,False,SID-5
+RK-004,Mini,BOST,57,52.0,1924.0,Dhanbad Jn,2026-03-21 10:28,Available,SCR,False,SID-1
+RK-005,Half,BTPN,37,50.0,2700.0,Asansol Jn,2026-03-20 19:28,Available,SCR,False,SID-5
+RK-006,Full,BCN,42,45.0,2250.0,Rourkela,2026-03-22 18:28,Available,ECR,True,SID-2
+RK-007,Full,BCNA,31,58.0,2436.0,Gomoh Jn,2026-03-22 11:28,Available,WR,True,SID-5
+RK-008,Half,BRN,48,55.0,3025.0,Ranchi,2026-03-20 13:28,Available,ER,False,SID-3
+RK-009,Half,BOXN,53,60.0,3480.0,Asansol Jn,2026-03-20 15:28,Available,CR,False,SID-1
+RK-010,Full,BOST,54,52.0,1872.0,Dhanbad Jn,2026-03-22 03:28,Maintenance,NR,False,SID-5
+RK-011,Full,BTPN,46,50.0,2900.0,Dhanbad Jn,2026-03-22 21:28,Available,SCR,True,SID-2
+RK-012,Mini,BCN,49,45.0,1350.0,Dhanbad Jn,2026-03-20 15:28,Available,SER,True,SID-6
+RK-013,Mini,BCNA,44,58.0,1914.0,Ranchi,2026-03-20 23:28,Assigned,ECR,True,SID-6
+RK-014,Mini,BRN,42,55.0,1705.0,Bokaro Steel City,2026-03-21 22:28,Available,ECR,False,SID-2
+RK-015,Full,BOXN,46,60.0,2400.0,Asansol Jn,2026-03-20 15:28,Assigned,SER,True,SID-4
+RK-016,Half,BOST,57,52.0,2964.0,Rourkela,2026-03-21 05:28,Available,CR,True,SID-3
+RK-017,Half,BTPN,37,50.0,2350.0,Asansol Jn,2026-03-20 08:28,Assigned,SCR,False,SID-4
+RK-018,Full,BCN,43,45.0,2115.0,Asansol Jn,2026-03-21 19:28,Assigned,SCR,False,SID-4
+RK-019,Full,BCNA,47,58.0,1856.0,Dhanbad Jn,2026-03-22 10:28,Assigned,WR,True,SID-2
+RK-020,Mini,BRN,46,55.0,2420.0,Bokaro Steel City,2026-03-21 13:28,Assigned,NR,False,SID-4
+RK-021,Full,BOXN,30,60.0,2460.0,Tatanagar Jn,2026-03-21 02:28,Assigned,NR,True,SID-2
+RK-022,Half,BOST,38,52.0,2236.0,Ranchi,2026-03-21 14:28,Available,SCR,True,SID-6
+RK-023,Half,BTPN,48,50.0,1850.0,Asansol Jn,2026-03-21 20:28,Available,ER,True,SID-6
+RK-024,Half,BCN,50,45.0,1575.0,Asansol Jn,2026-03-20 19:28,Assigned,CR,True,SID-1
+RK-025,Full,BCNA,51,58.0,3306.0,Bokaro Steel City,2026-03-20 15:28,Available,NR,False,SID-5
+RK-026,Half,BRN,58,55.0,2530.0,Ranchi,2026-03-20 20:28,Available,CR,False,SID-6
+RK-027,Full,BOXN,49,60.0,2460.0,Ranchi,2026-03-23 05:28,Assigned,SER,True,SID-1
+RK-028,Half,BOST,46,52.0,1664.0,Ranchi,2026-03-22 11:28,Available,SER,False,SID-5
+RK-029,Full,BTPN,39,50.0,2600.0,Dhanbad Jn,2026-03-20 16:28,Available,ECR,True,SID-6
+RK-030,Half,BCN,40,45.0,1935.0,Tatanagar Jn,2026-03-21 05:28,Assigned,ER,False,SID-2
+RK-031,Half,BCNA,53,58.0,2378.0,Asansol Jn,2026-03-21 13:28,Available,SER,False,SID-4
+RK-032,Full,BRN,43,55.0,2695.0,Gomoh Jn,2026-03-20 20:28,In Transit,NR,True,SID-5
+RK-033,Full,BOXN,50,60.0,1980.0,Gomoh Jn,2026-03-22 20:28,Maintenance,NR,True,SID-3
+RK-034,Half,BOST,33,52.0,2340.0,Dhanbad Jn,2026-03-23 02:28,Maintenance,WR,True,SID-2
+RK-035,Full,BTPN,33,50.0,2750.0,Asansol Jn,2026-03-21 01:28,Assigned,ER,True,SID-3
+RK-036,Full,BCN,36,45.0,1935.0,Bokaro Steel City,2026-03-20 09:28,Available,ER,False,SID-3
+RK-037,Full,BCNA,35,58.0,1740.0,Tatanagar Jn,2026-03-21 02:28,Assigned,ER,True,SID-5
+RK-038,Mini,BRN,47,55.0,1980.0,Asansol Jn,2026-03-22 01:28,Assigned,WR,True,SID-3
+RK-039,Half,BOXN,48,60.0,1860.0,Ranchi,2026-03-22 17:28,Assigned,CR,True,SID-3
+RK-040,Full,BOST,46,52.0,2288.0,Gomoh Jn,2026-03-21 08:28,Available,ECR,False,SID-6
+RK-041,Mini,BTPN,38,50.0,2000.0,Bokaro Steel City,2026-03-21 03:28,Available,NR,True,SID-4
+RK-042,Full,BCN,46,45.0,1485.0,Dhanbad Jn,2026-03-21 01:28,Available,ER,False,SID-6
+RK-043,Full,BCNA,33,58.0,2842.0,Ranchi,2026-03-20 08:28,Available,WR,True,SID-5
+RK-044,Full,BRN,43,55.0,1925.0,Dhanbad Jn,2026-03-20 08:28,Available,ECR,True,SID-6
+RK-045,Full,BOXN,34,60.0,2340.0,Tatanagar Jn,2026-03-21 14:28,Maintenance,NR,True,SID-2
+RK-046,Full,BOST,32,52.0,3016.0,Rourkela,2026-03-22 03:28,Available,CR,True,SID-6
+RK-047,Half,BTPN,34,50.0,1550.0,Gomoh Jn,2026-03-20 08:28,Assigned,WR,True,SID-6
+RK-048,Full,BCN,33,45.0,1665.0,Tatanagar Jn,2026-03-20 22:28,Maintenance,SCR,False,SID-1
+RK-049,Half,BCNA,43,58.0,2262.0,Gomoh Jn,2026-03-23 00:28,Available,SER,False,SID-3
+RK-050,Full,BRN,45,55.0,2420.0,Dhanbad Jn,2026-03-23 06:28,Assigned,ECR,True,SID-3
+RK-051,Full,BOXN,47,60.0,2220.0,Dhanbad Jn,2026-03-22 05:28,Assigned,ECR,True,SID-3
+RK-052,Full,BOST,42,52.0,3016.0,Tatanagar Jn,2026-03-21 21:28,Available,ER,True,SID-5
+RK-053,Half,BTPN,35,50.0,1500.0,Ranchi,2026-03-22 01:28,Assigned,ER,True,SID-5
+RK-054,Half,BCN,30,45.0,2565.0,Gomoh Jn,2026-03-21 10:28,In Transit,CR,False,SID-2
+RK-055,Full,BCNA,50,58.0,2610.0,Dhanbad Jn,2026-03-20 22:28,In Transit,CR,False,SID-4
+RK-056,Full,BRN,58,55.0,1705.0,Rourkela,2026-03-21 10:28,In Transit,CR,False,SID-6
+RK-057,Full,BOXN,38,60.0,1980.0,Asansol Jn,2026-03-22 09:28,Maintenance,CR,True,SID-3
+RK-058,Half,BOST,35,52.0,1664.0,Asansol Jn,2026-03-22 07:28,Available,WR,True,SID-6
+RK-059,Full,BTPN,39,50.0,1900.0,Tatanagar Jn,2026-03-22 08:28,In Transit,CR,True,SID-4
+RK-060,Half,BCN,36,45.0,1755.0,Bokaro Steel City,2026-03-22 03:28,Assigned,SCR,False,SID-6
+RK-061,Full,BCNA,36,58.0,2784.0,Ranchi,2026-03-20 12:28,Assigned,CR,True,SID-6
+RK-062,Full,BRN,44,55.0,2145.0,Dhanbad Jn,2026-03-22 04:28,In Transit,SCR,False,SID-1
+RK-063,Half,BOXN,52,60.0,3060.0,Tatanagar Jn,2026-03-22 22:28,In Transit,ER,True,SID-5
+RK-064,Full,BOST,50,52.0,1976.0,Asansol Jn,2026-03-22 06:28,In Transit,SER,True,SID-2
+RK-065,Full,BTPN,57,50.0,1850.0,Rourkela,2026-03-22 01:28,Available,ECR,False,SID-5
+RK-066,Mini,BCN,40,45.0,1665.0,Tatanagar Jn,2026-03-20 23:28,Assigned,WR,True,SID-5
+RK-067,Full,BCNA,44,58.0,2262.0,Gomoh Jn,2026-03-22 16:28,Available,ECR,True,SID-2
+RK-068,Full,BRN,41,55.0,2970.0,Gomoh Jn,2026-03-21 16:28,Assigned,SER,True,SID-1
+RK-069,Full,BOXN,31,60.0,2220.0,Ranchi,2026-03-21 02:28,In Transit,NR,False,SID-3
+RK-070,Full,BOST,41,52.0,1924.0,Asansol Jn,2026-03-21 18:28,In Transit,CR,True,SID-2
+RK-071,Half,BTPN,37,50.0,2850.0,Gomoh Jn,2026-03-20 16:28,Assigned,WR,False,SID-4
+RK-072,Full,BCN,43,45.0,2160.0,Gomoh Jn,2026-03-23 01:28,Assigned,NR,True,SID-1
+RK-073,Mini,BCNA,34,58.0,2030.0,Bokaro Steel City,2026-03-22 09:28,Available,ECR,True,SID-1
+RK-074,Half,BRN,51,55.0,3025.0,Ranchi,2026-03-21 07:28,Available,WR,True,SID-3
+RK-075,Mini,BOXN,54,60.0,2100.0,Ranchi,2026-03-22 16:28,Available,ECR,True,SID-5
+RK-076,Half,BOST,57,52.0,1768.0,Dhanbad Jn,2026-03-20 11:28,Maintenance,WR,False,SID-2
+RK-077,Mini,BTPN,32,50.0,2100.0,Gomoh Jn,2026-03-21 11:28,Available,SER,False,SID-2
+RK-078,Half,BCN,33,45.0,2250.0,Dhanbad Jn,2026-03-22 06:28,Maintenance,ER,False,SID-1
+RK-079,Full,BCNA,58,58.0,2030.0,Bokaro Steel City,2026-03-20 09:28,Available,SER,False,SID-2
+RK-080,Full,BRN,54,55.0,2805.0,Asansol Jn,2026-03-22 10:28,In Transit,SER,True,SID-2
+RK-081,Half,BOXN,47,60.0,2040.0,Tatanagar Jn,2026-03-22 18:28,Assigned,ECR,True,SID-2
+RK-082,Full,BOST,39,52.0,2704.0,Ranchi,2026-03-22 02:28,Assigned,ECR,False,SID-3
+RK-083,Half,BTPN,45,50.0,1600.0,Dhanbad Jn,2026-03-20 22:28,Assigned,SER,True,SID-2
+RK-084,Full,BCN,45,45.0,1935.0,Gomoh Jn,2026-03-22 13:28,In Transit,SER,False,SID-5
+RK-085,Half,BCNA,54,58.0,2784.0,Bokaro Steel City,2026-03-21 08:28,Maintenance,NR,True,SID-3
+RK-086,Full,BRN,45,55.0,2035.0,Dhanbad Jn,2026-03-22 12:28,Assigned,ER,True,SID-5
+RK-087,Mini,BOXN,30,60.0,2820.0,Tatanagar Jn,2026-03-22 04:28,Available,NR,True,SID-4
+RK-088,Full,BOST,50,52.0,2548.0,Bokaro Steel City,2026-03-20 14:28,Available,ER,True,SID-4
+RK-089,Full,BTPN,52,50.0,2400.0,Rourkela,2026-03-20 15:28,In Transit,ER,True,SID-4
+RK-090,Half,BCN,38,45.0,1845.0,Asansol Jn,2026-03-20 09:28,Assigned,WR,True,SID-6
+RK-091,Half,BCNA,33,58.0,3016.0,Rourkela,2026-03-20 13:28,Assigned,CR,True,SID-2
+RK-092,Half,BRN,34,55.0,2805.0,Asansol Jn,2026-03-21 05:28,Assigned,SCR,True,SID-6
+RK-093,Mini,BOXN,54,60.0,2340.0,Gomoh Jn,2026-03-20 09:28,Available,CR,True,SID-2
+RK-094,Full,BOST,42,52.0,2652.0,Bokaro Steel City,2026-03-23 02:28,In Transit,SCR,True,SID-1
+RK-095,Half,BTPN,45,50.0,2800.0,Asansol Jn,2026-03-23 01:28,In Transit,ER,True,SID-5
+RK-096,Full,BCN,57,45.0,2385.0,Asansol Jn,2026-03-20 20:28,In Transit,SER,False,SID-6
+RK-097,Half,BCNA,31,58.0,2958.0,Rourkela,2026-03-21 06:28,In Transit,NR,True,SID-1
+RK-098,Full,BRN,35,55.0,2860.0,Ranchi,2026-03-22 12:28,In Transit,ER,True,SID-4
+RK-099,Full,BOXN,54,60.0,3180.0,Gomoh Jn,2026-03-22 06:28,Assigned,WR,True,SID-4
+RK-100,Half,BOST,45,52.0,1976.0,Dhanbad Jn,2026-03-22 01:28,Maintenance,CR,True,SID-2
+RK-101,Half,BTPN,30,50.0,2500.0,Gomoh Jn,2026-03-23 06:28,Available,SER,True,SID-4
+RK-102,Full,BCN,50,45.0,1575.0,Bokaro Steel City,2026-03-22 04:28,Assigned,SER,True,SID-5
+RK-103,Mini,BCNA,34,58.0,2320.0,Bokaro Steel City,2026-03-22 07:28,In Transit,CR,True,SID-4
+RK-104,Half,BRN,52,55.0,3135.0,Bokaro Steel City,2026-03-21 19:28,Assigned,NR,True,SID-4
+RK-105,Full,BOXN,53,60.0,2280.0,Asansol Jn,2026-03-21 21:28,Available,WR,True,SID-6
+RK-106,Half,BOST,53,52.0,2808.0,Gomoh Jn,2026-03-21 04:28,Assigned,SER,True,SID-2
+RK-107,Full,BTPN,43,50.0,2100.0,Gomoh Jn,2026-03-21 20:28,Available,WR,True,SID-4
+RK-108,Full,BCN,37,45.0,1620.0,Bokaro Steel City,2026-03-23 01:28,Maintenance,NR,True,SID-2
+RK-109,Half,BCNA,55,58.0,1856.0,Rourkela,2026-03-21 10:28,Available,ECR,True,SID-6
+RK-110,Full,BRN,46,55.0,2475.0,Tatanagar Jn,2026-03-20 17:28,Available,ECR,False,SID-2
+RK-111,Full,BOXN,48,60.0,2580.0,Ranchi,2026-03-22 02:28,Assigned,ER,True,SID-6
+RK-112,Half,BOST,33,52.0,2288.0,Bokaro Steel City,2026-03-22 15:28,Available,NR,True,SID-4
+RK-113,Full,BTPN,48,50.0,1550.0,Gomoh Jn,2026-03-23 04:28,Available,SCR,True,SID-2
+RK-114,Half,BCN,46,45.0,1665.0,Asansol Jn,2026-03-21 22:28,Assigned,ER,True,SID-5
+RK-115,Half,BCNA,38,58.0,1740.0,Tatanagar Jn,2026-03-22 15:28,Assigned,SCR,True,SID-2
+RK-116,Full,BRN,52,55.0,2090.0,Bokaro Steel City,2026-03-21 01:28,Available,WR,False,SID-2
+RK-117,Half,BOXN,33,60.0,3420.0,Gomoh Jn,2026-03-21 14:28,Assigned,SER,False,SID-3
+RK-118,Full,BOST,50,52.0,1768.0,Dhanbad Jn,2026-03-21 13:28,Assigned,NR,True,SID-5
+RK-119,Half,BTPN,57,50.0,2450.0,Bokaro Steel City,2026-03-21 07:28,In Transit,NR,True,SID-3
+RK-120,Full,BCN,46,45.0,1350.0,Dhanbad Jn,2026-03-22 10:28,Available,CR,False,SID-4
+RK-121,Mini,BCNA,33,58.0,2668.0,Rourkela,2026-03-22 22:28,Available,NR,True,SID-4
+RK-122,Full,BRN,46,55.0,3080.0,Asansol Jn,2026-03-21 07:28,Maintenance,NR,True,SID-2
+RK-123,Half,BOXN,45,60.0,2340.0,Asansol Jn,2026-03-20 17:28,Assigned,ECR,False,SID-2
+RK-124,Full,BOST,46,52.0,1820.0,Asansol Jn,2026-03-22 18:28,Available,SER,True,SID-2
+RK-125,Full,BTPN,37,50.0,2300.0,Ranchi,2026-03-22 20:28,In Transit,SCR,True,SID-2
+RK-126,Full,BCN,48,45.0,1710.0,Asansol Jn,2026-03-23 02:28,Available,SCR,True,SID-6
+RK-127,Half,BCNA,37,58.0,3190.0,Asansol Jn,2026-03-21 02:28,In Transit,SCR,True,SID-3
+RK-128,Mini,BRN,46,55.0,2970.0,Ranchi,2026-03-22 11:28,In Transit,CR,True,SID-3
+RK-129,Full,BOXN,47,60.0,2880.0,Gomoh Jn,2026-03-22 10:28,Maintenance,NR,True,SID-5
+RK-130,Full,BOST,48,52.0,2496.0,Bokaro Steel City,2026-03-22 16:28,Maintenance,WR,True,SID-5
+RK-131,Full,BTPN,53,50.0,2350.0,Asansol Jn,2026-03-22 17:28,Available,SER,True,SID-5
+RK-132,Full,BCN,55,45.0,2295.0,Dhanbad Jn,2026-03-23 03:28,In Transit,ECR,True,SID-4
+RK-133,Mini,BCNA,52,58.0,2494.0,Gomoh Jn,2026-03-21 17:28,Available,ER,False,SID-6
+RK-134,Mini,BRN,53,55.0,3190.0,Bokaro Steel City,2026-03-20 13:28,Assigned,SCR,True,SID-6
+RK-135,Mini,BOXN,55,60.0,2400.0,Ranchi,2026-03-20 21:28,Assigned,WR,False,SID-2
+RK-136,Full,BOST,37,52.0,1560.0,Tatanagar Jn,2026-03-22 22:28,Available,SER,True,SID-1
+RK-137,Full,BTPN,38,50.0,2500.0,Tatanagar Jn,2026-03-22 19:28,Available,ECR,True,SID-3
+RK-138,Half,BCN,45,45.0,2205.0,Bokaro Steel City,2026-03-20 08:28,Available,SER,True,SID-6
+RK-139,Full,BCNA,43,58.0,3364.0,Dhanbad Jn,2026-03-21 10:28,Available,ECR,True,SID-6
+RK-140,Half,BRN,50,55.0,2255.0,Tatanagar Jn,2026-03-21 01:28,Available,WR,True,SID-5
+RK-141,Full,BOXN,30,60.0,2520.0,Asansol Jn,2026-03-21 06:28,Maintenance,SER,False,SID-5
+RK-142,Full,BOST,34,52.0,2392.0,Tatanagar Jn,2026-03-22 05:28,Assigned,ECR,False,SID-2
+RK-143,Mini,BTPN,51,50.0,2050.0,Tatanagar Jn,2026-03-21 20:28,In Transit,SER,False,SID-4
+RK-144,Full,BCN,53,45.0,2340.0,Dhanbad Jn,2026-03-21 18:28,In Transit,SCR,True,SID-2
+RK-145,Mini,BCNA,38,58.0,2436.0,Rourkela,2026-03-21 14:28,In Transit,WR,True,SID-4
+RK-146,Full,BRN,39,55.0,2860.0,Gomoh Jn,2026-03-22 05:28,Available,SER,True,SID-2
+RK-147,Full,BOXN,46,60.0,2520.0,Bokaro Steel City,2026-03-22 08:28,In Transit,NR,True,SID-1
+RK-148,Full,BOST,43,52.0,1872.0,Ranchi,2026-03-20 11:28,In Transit,WR,False,SID-6
+RK-149,Full,BTPN,34,50.0,2900.0,Bokaro Steel City,2026-03-20 17:28,In Transit,SER,False,SID-6
+RK-150,Half,BCN,44,45.0,2025.0,Gomoh Jn,2026-03-21 08:28,Maintenance,SCR,True,SID-5
+RK-151,Full,BCNA,53,58.0,2900.0,Bokaro Steel City,2026-03-21 14:28,Assigned,ER,False,SID-4
+RK-152,Half,BRN,51,55.0,2585.0,Gomoh Jn,2026-03-23 06:28,Assigned,WR,False,SID-2
+RK-153,Mini,BOXN,53,60.0,2400.0,Dhanbad Jn,2026-03-22 23:28,In Transit,SER,True,SID-4
+RK-154,Full,BOST,48,52.0,3016.0,Bokaro Steel City,2026-03-22 06:28,Assigned,CR,False,SID-5
+RK-155,Full,BTPN,55,50.0,2000.0,Asansol Jn,2026-03-20 10:28,In Transit,SCR,True,SID-4
+RK-156,Full,BCN,37,45.0,2610.0,Ranchi,2026-03-20 15:28,Available,ER,True,SID-2
+RK-157,Half,BCNA,31,58.0,2436.0,Bokaro Steel City,2026-03-21 16:28,Available,ER,True,SID-3
+RK-158,Half,BRN,33,55.0,1650.0,Ranchi,2026-03-22 01:28,Assigned,ER,True,SID-6
+RK-159,Full,BOXN,58,60.0,1860.0,Dhanbad Jn,2026-03-22 06:28,Available,NR,True,SID-2
+RK-160,Half,BOST,48,52.0,3016.0,Tatanagar Jn,2026-03-20 18:28,Maintenance,SCR,False,SID-6
+RK-161,Full,BTPN,37,50.0,2250.0,Asansol Jn,2026-03-22 23:28,Available,SCR,True,SID-5
+RK-162,Full,BCN,54,45.0,1845.0,Dhanbad Jn,2026-03-21 19:28,In Transit,NR,True,SID-6
+RK-163,Full,BCNA,38,58.0,3074.0,Bokaro Steel City,2026-03-22 02:28,Available,NR,True,SID-4
+RK-164,Mini,BRN,47,55.0,2585.0,Tatanagar Jn,2026-03-20 10:28,Maintenance,SCR,True,SID-2
+RK-165,Full,BOXN,37,60.0,2940.0,Ranchi,2026-03-22 18:28,Available,ECR,False,SID-1
+RK-166,Full,BOST,32,52.0,2548.0,Asansol Jn,2026-03-21 22:28,Available,ER,True,SID-4
+RK-167,Full,BTPN,37,50.0,1750.0,Tatanagar Jn,2026-03-20 23:28,Available,ECR,False,SID-3
+RK-168,Half,BCN,36,45.0,1440.0,Tatanagar Jn,2026-03-21 06:28,Assigned,CR,True,SID-1
+RK-169,Full,BCNA,46,58.0,2958.0,Dhanbad Jn,2026-03-21 09:28,Maintenance,WR,True,SID-6
+RK-170,Full,BRN,30,55.0,1650.0,Bokaro Steel City,2026-03-20 09:28,Maintenance,ER,True,SID-6
+RK-171,Full,BOXN,36,60.0,3000.0,Asansol Jn,2026-03-23 02:28,Available,ECR,True,SID-3
+RK-172,Half,BOST,46,52.0,1716.0,Ranchi,2026-03-22 17:28,Assigned,WR,False,SID-5
+RK-173,Full,BTPN,41,50.0,1850.0,Dhanbad Jn,2026-03-22 22:28,Available,CR,True,SID-3
+RK-174,Mini,BCN,48,45.0,2250.0,Ranchi,2026-03-21 09:28,Assigned,ECR,True,SID-3
+RK-175,Full,BCNA,49,58.0,2784.0,Rourkela,2026-03-21 23:28,Assigned,SER,True,SID-4
+RK-176,Full,BRN,57,55.0,2860.0,Gomoh Jn,2026-03-21 16:28,Available,CR,False,SID-3
+RK-177,Mini,BOXN,54,60.0,2820.0,Tatanagar Jn,2026-03-21 17:28,Assigned,ER,True,SID-5
+RK-178,Half,BOST,36,52.0,1612.0,Rourkela,2026-03-22 01:28,In Transit,CR,False,SID-2
+RK-179,Full,BTPN,50,50.0,2700.0,Asansol Jn,2026-03-21 16:28,Available,ER,False,SID-5
+RK-180,Half,BCN,48,45.0,1620.0,Tatanagar Jn,2026-03-22 14:28,Available,NR,True,SID-6
+RK-181,Half,BCNA,47,58.0,1914.0,Ranchi,2026-03-20 12:28,Available,NR,True,SID-6
+RK-182,Full,BRN,53,55.0,3025.0,Tatanagar Jn,2026-03-20 21:28,Available,NR,True,SID-1
+RK-183,Half,BOXN,34,60.0,2100.0,Rourkela,2026-03-22 23:28,Available,SCR,True,SID-1
+RK-184,Half,BOST,40,52.0,2340.0,Rourkela,2026-03-22 22:28,Assigned,NR,False,SID-4
+RK-185,Full,BTPN,53,50.0,2200.0,Rourkela,2026-03-22 18:28,Available,SER,True,SID-6
+RK-186,Half,BCN,55,45.0,2340.0,Rourkela,2026-03-21 10:28,In Transit,NR,False,SID-6
+RK-187,Full,BCNA,31,58.0,1798.0,Gomoh Jn,2026-03-21 16:28,In Transit,ECR,True,SID-6
+RK-188,Full,BRN,43,55.0,1815.0,Bokaro Steel City,2026-03-20 09:28,Maintenance,NR,True,SID-1
+RK-189,Mini,BOXN,37,60.0,2520.0,Gomoh Jn,2026-03-21 03:28,Assigned,SCR,False,SID-4
+RK-190,Half,BOST,34,52.0,2236.0,Gomoh Jn,2026-03-22 11:28,Available,NR,True,SID-5
+RK-191,Half,BTPN,31,50.0,2600.0,Tatanagar Jn,2026-03-21 08:28,Available,SCR,True,SID-4
+RK-192,Half,BCN,45,45.0,2115.0,Asansol Jn,2026-03-21 18:28,Available,CR,True,SID-5
+RK-193,Half,BCNA,49,58.0,1972.0,Asansol Jn,2026-03-20 16:28,Maintenance,CR,True,SID-2
+RK-194,Full,BRN,45,55.0,3190.0,Bokaro Steel City,2026-03-21 19:28,Maintenance,SCR,False,SID-3
+RK-195,Mini,BOXN,40,60.0,2580.0,Tatanagar Jn,2026-03-22 11:28,Available,WR,True,SID-3
+RK-196,Half,BOST,52,52.0,2964.0,Dhanbad Jn,2026-03-22 00:28,Available,CR,False,SID-6
+RK-197,Half,BTPN,48,50.0,2900.0,Rourkela,2026-03-21 23:28,Assigned,WR,True,SID-2
+RK-198,Full,BCN,56,45.0,1395.0,Bokaro Steel City,2026-03-23 00:28,Available,WR,True,SID-2
+RK-199,Full,BCNA,40,58.0,2552.0,Dhanbad Jn,2026-03-21 00:28,Maintenance,SER,True,SID-1
+RK-200,Full,BRN,36,55.0,2310.0,Bokaro Steel City,2026-03-21 05:28,Available,SCR,False,SID-1
+RK-201,Full,BOXN,43,60.0,2640.0,Gomoh Jn,2026-03-22 04:28,Available,CR,True,SID-6
+RK-202,Full,BOST,44,52.0,1976.0,Ranchi,2026-03-21 18:28,Assigned,SER,True,SID-6
+RK-203,Half,BTPN,43,50.0,2300.0,Asansol Jn,2026-03-23 05:28,Available,CR,True,SID-2
+RK-204,Mini,BCN,54,45.0,1980.0,Asansol Jn,2026-03-20 12:28,Available,ECR,True,SID-5
+RK-205,Full,BCNA,31,58.0,2030.0,Gomoh Jn,2026-03-20 16:28,In Transit,SCR,False,SID-4
+RK-206,Full,BRN,45,55.0,2090.0,Gomoh Jn,2026-03-21 08:28,Available,NR,True,SID-6
+RK-207,Half,BOXN,42,60.0,2040.0,Tatanagar Jn,2026-03-21 16:28,Assigned,ER,False,SID-2
+RK-208,Full,BOST,36,52.0,2808.0,Ranchi,2026-03-22 23:28,Assigned,SER,True,SID-6
+RK-209,Mini,BTPN,48,50.0,2450.0,Rourkela,2026-03-21 19:28,Available,WR,True,SID-3
+RK-210,Full,BCN,53,45.0,1845.0,Rourkela,2026-03-21 15:28,Available,WR,True,SID-5
+RK-211,Full,BCNA,45,58.0,2378.0,Asansol Jn,2026-03-20 19:28,Available,NR,False,SID-3
+RK-212,Full,BRN,32,55.0,1760.0,Bokaro Steel City,2026-03-21 14:28,Available,SCR,True,SID-5
+RK-213,Mini,BOXN,32,60.0,2280.0,Rourkela,2026-03-21 21:28,Available,NR,True,SID-3
+RK-214,Full,BOST,42,52.0,2912.0,Rourkela,2026-03-22 01:28,In Transit,NR,True,SID-6
+RK-215,Half,BTPN,49,50.0,1500.0,Asansol Jn,2026-03-22 03:28,In Transit,ECR,True,SID-4
+RK-216,Full,BCN,39,45.0,1530.0,Bokaro Steel City,2026-03-21 14:28,Maintenance,CR,True,SID-2
+RK-217,Full,BCNA,38,58.0,3132.0,Tatanagar Jn,2026-03-20 19:28,Assigned,SCR,False,SID-6
+RK-218,Mini,BRN,54,55.0,2475.0,Ranchi,2026-03-20 18:28,In Transit,WR,True,SID-5
+RK-219,Full,BOXN,30,60.0,1800.0,Gomoh Jn,2026-03-20 18:28,Assigned,WR,True,SID-3
+RK-220,Full,BOST,32,52.0,2288.0,Gomoh Jn,2026-03-22 03:28,Available,SER,True,SID-1
+RK-221,Half,BTPN,34,50.0,2550.0,Rourkela,2026-03-22 20:28,Available,SCR,True,SID-6
+RK-222,Mini,BCN,58,45.0,1800.0,Dhanbad Jn,2026-03-22 22:28,Assigned,NR,True,SID-5
+RK-223,Full,BCNA,44,58.0,2378.0,Rourkela,2026-03-21 06:28,In Transit,ECR,False,SID-5
+RK-224,Full,BRN,34,55.0,2640.0,Tatanagar Jn,2026-03-20 13:28,Assigned,SCR,True,SID-5
+RK-225,Mini,BOXN,39,60.0,2820.0,Gomoh Jn,2026-03-22 04:28,Available,ER,False,SID-4
+RK-226,Half,BOST,58,52.0,2912.0,Bokaro Steel City,2026-03-20 10:28,Maintenance,SCR,True,SID-2
+RK-227,Mini,BTPN,50,50.0,1850.0,Asansol Jn,2026-03-22 04:28,Available,ER,False,SID-2
+RK-228,Half,BCN,36,45.0,1710.0,Dhanbad Jn,2026-03-21 11:28,Maintenance,CR,True,SID-1
+RK-229,Half,BCNA,36,58.0,1972.0,Rourkela,2026-03-22 19:28,In Transit,ECR,False,SID-1
+RK-230,Full,BRN,32,55.0,2695.0,Dhanbad Jn,2026-03-22 04:28,In Transit,SCR,True,SID-5
+RK-231,Full,BOXN,52,60.0,2700.0,Gomoh Jn,2026-03-22 12:28,In Transit,SER,True,SID-6
+RK-232,Half,BOST,33,52.0,2080.0,Ranchi,2026-03-21 12:28,Available,ECR,True,SID-1
+RK-233,Half,BTPN,38,50.0,2500.0,Rourkela,2026-03-22 19:28,Assigned,SER,True,SID-4
+RK-234,Mini,BCN,40,45.0,1800.0,Tatanagar Jn,2026-03-21 21:28,In Transit,ER,True,SID-1
+RK-235,Half,BCNA,48,58.0,2030.0,Ranchi,2026-03-22 04:28,In Transit,NR,True,SID-3
+RK-236,Full,BRN,47,55.0,2475.0,Rourkela,2026-03-21 09:28,Available,SER,False,SID-5
+RK-237,Full,BOXN,53,60.0,2520.0,Ranchi,2026-03-21 15:28,Available,SCR,False,SID-5
+RK-238,Half,BOST,38,52.0,2132.0,Rourkela,2026-03-22 19:28,Available,CR,True,SID-6
+RK-239,Full,BTPN,41,50.0,2100.0,Dhanbad Jn,2026-03-21 11:28,Assigned,SER,False,SID-2
+RK-240,Half,BCN,41,45.0,2520.0,Bokaro Steel City,2026-03-20 09:28,Assigned,ER,True,SID-6
+RK-241,Half,BCNA,31,58.0,2088.0,Tatanagar Jn,2026-03-21 10:28,In Transit,NR,True,SID-5
+RK-242,Full,BRN,51,55.0,2035.0,Rourkela,2026-03-21 11:28,In Transit,CR,True,SID-3
+RK-243,Half,BOXN,45,60.0,2760.0,Ranchi,2026-03-21 13:28,Assigned,CR,True,SID-2
+RK-244,Half,BOST,43,52.0,1612.0,Tatanagar Jn,2026-03-20 13:28,Available,NR,True,SID-1
+RK-245,Mini,BTPN,58,50.0,1700.0,Asansol Jn,2026-03-20 17:28,Assigned,WR,True,SID-6
+RK-246,Full,BCN,35,45.0,2070.0,Tatanagar Jn,2026-03-21 07:28,Available,CR,True,SID-2
+RK-247,Half,BCNA,58,58.0,2552.0,Bokaro Steel City,2026-03-21 14:28,Available,CR,True,SID-2
+RK-248,Full,BRN,49,55.0,2640.0,Bokaro Steel City,2026-03-20 10:28,Available,WR,False,SID-3
+RK-249,Half,BOXN,36,60.0,1980.0,Bokaro Steel City,2026-03-21 11:28,Available,WR,True,SID-1
+RK-250,Full,BOST,49,52.0,2808.0,Ranchi,2026-03-21 06:28,Available,ECR,False,SID-5
+RK-251,Mini,BTPN,51,50.0,2200.0,Rourkela,2026-03-20 10:28,Assigned,WR,True,SID-5
+RK-252,Mini,BCN,40,45.0,1530.0,Gomoh Jn,2026-03-21 01:28,Available,WR,True,SID-1
+RK-253,Half,BCNA,40,58.0,2262.0,Dhanbad Jn,2026-03-21 03:28,Available,SER,True,SID-1
+RK-254,Half,BRN,54,55.0,1980.0,Asansol Jn,2026-03-20 18:28,Available,CR,False,SID-1
+RK-255,Full,BOXN,34,60.0,2580.0,Gomoh Jn,2026-03-22 13:28,Assigned,CR,True,SID-6
+RK-256,Half,BOST,30,52.0,2236.0,Dhanbad Jn,2026-03-20 13:28,Assigned,CR,True,SID-3
+RK-257,Full,BTPN,49,50.0,2100.0,Dhanbad Jn,2026-03-22 01:28,Available,ER,False,SID-4
+RK-258,Half,BCN,56,45.0,1935.0,Tatanagar Jn,2026-03-22 07:28,Available,WR,False,SID-1
+RK-259,Full,BCNA,44,58.0,3248.0,Rourkela,2026-03-22 17:28,Maintenance,WR,True,SID-2
+RK-260,Half,BRN,33,55.0,3135.0,Bokaro Steel City,2026-03-21 22:28,Assigned,SER,True,SID-4
+RK-261,Full,BOXN,45,60.0,2640.0,Asansol Jn,2026-03-21 22:28,Assigned,ER,True,SID-2
+RK-262,Half,BOST,37,52.0,2964.0,Ranchi,2026-03-22 14:28,Assigned,ECR,True,SID-4
+RK-263,Half,BTPN,53,50.0,2650.0,Ranchi,2026-03-22 20:28,In Transit,WR,False,SID-6
+RK-264,Full,BCN,47,45.0,2385.0,Rourkela,2026-03-20 22:28,In Transit,SER,True,SID-2
+RK-265,Full,BCNA,39,58.0,2088.0,Rourkela,2026-03-22 16:28,Available,NR,True,SID-4
+RK-266,Half,BRN,48,55.0,2310.0,Bokaro Steel City,2026-03-21 16:28,Assigned,CR,True,SID-6
+RK-267,Half,BOXN,49,60.0,2400.0,Ranchi,2026-03-20 14:28,Available,CR,True,SID-6
+RK-268,Full,BOST,49,52.0,1664.0,Rourkela,2026-03-22 03:28,Assigned,ECR,True,SID-1
+RK-269,Full,BTPN,40,50.0,1600.0,Ranchi,2026-03-23 05:28,Available,NR,True,SID-1
+RK-270,Full,BCN,46,45.0,2160.0,Ranchi,2026-03-20 17:28,Available,CR,True,SID-6
+RK-271,Half,BCNA,31,58.0,2436.0,Gomoh Jn,2026-03-20 09:28,Maintenance,SER,True,SID-6
+RK-272,Half,BRN,41,55.0,2915.0,Bokaro Steel City,2026-03-23 01:28,In Transit,NR,True,SID-2
+RK-273,Full,BOXN,40,60.0,2940.0,Tatanagar Jn,2026-03-22 02:28,Available,ECR,True,SID-4
+RK-274,Half,BOST,45,52.0,1664.0,Asansol Jn,2026-03-20 23:28,Maintenance,WR,True,SID-4
+RK-275,Half,BTPN,57,50.0,2700.0,Bokaro Steel City,2026-03-22 16:28,Available,SER,True,SID-5
+RK-276,Half,BCN,57,45.0,1980.0,Gomoh Jn,2026-03-21 11:28,Assigned,ECR,False,SID-5
+RK-277,Full,BCNA,44,58.0,2668.0,Ranchi,2026-03-21 07:28,In Transit,ECR,False,SID-3
+RK-278,Full,BRN,48,55.0,3190.0,Dhanbad Jn,2026-03-21 04:28,Available,SER,False,SID-6
+RK-279,Full,BOXN,33,60.0,2880.0,Gomoh Jn,2026-03-22 02:28,Assigned,ER,True,SID-1
+RK-280,Full,BOST,43,52.0,1560.0,Tatanagar Jn,2026-03-20 17:28,Assigned,WR,True,SID-1
+RK-281,Full,BTPN,49,50.0,1750.0,Tatanagar Jn,2026-03-21 09:28,Available,ER,True,SID-6
+RK-282,Full,BCN,49,45.0,1890.0,Dhanbad Jn,2026-03-21 05:28,Assigned,SER,False,SID-2
+RK-283,Full,BCNA,57,58.0,1798.0,Rourkela,2026-03-20 12:28,Available,NR,True,SID-6
+RK-284,Half,BRN,43,55.0,1870.0,Tatanagar Jn,2026-03-22 14:28,Assigned,ECR,True,SID-2
+RK-285,Full,BOXN,56,60.0,3120.0,Gomoh Jn,2026-03-20 08:28,Available,ECR,True,SID-3
+RK-286,Half,BOST,58,52.0,1768.0,Dhanbad Jn,2026-03-23 04:28,Available,ECR,True,SID-1
+RK-287,Full,BTPN,46,50.0,1700.0,Rourkela,2026-03-20 14:28,In Transit,ER,False,SID-6
+RK-288,Half,BCN,32,45.0,1980.0,Bokaro Steel City,2026-03-21 09:28,Available,SCR,True,SID-3
+RK-289,Full,BCNA,40,58.0,1856.0,Bokaro Steel City,2026-03-20 14:28,Assigned,NR,True,SID-2
+RK-290,Half,BRN,52,55.0,2035.0,Tatanagar Jn,2026-03-21 10:28,In Transit,ER,False,SID-3
+RK-291,Half,BOXN,46,60.0,3420.0,Asansol Jn,2026-03-22 03:28,In Transit,CR,True,SID-1
+RK-292,Full,BOST,57,52.0,2496.0,Gomoh Jn,2026-03-20 14:28,Available,NR,True,SID-5
+RK-293,Half,BTPN,53,50.0,2850.0,Asansol Jn,2026-03-21 21:28,In Transit,WR,True,SID-1
+RK-294,Full,BCN,31,45.0,1800.0,Gomoh Jn,2026-03-22 14:28,In Transit,WR,True,SID-3
+RK-295,Half,BCNA,54,58.0,2726.0,Dhanbad Jn,2026-03-21 16:28,Available,SCR,True,SID-3
+RK-296,Full,BRN,40,55.0,1980.0,Gomoh Jn,2026-03-20 15:28,In Transit,WR,True,SID-1
+RK-297,Full,BOXN,53,60.0,2400.0,Tatanagar Jn,2026-03-22 09:28,In Transit,ECR,False,SID-1
+RK-298,Full,BOST,44,52.0,1820.0,Tatanagar Jn,2026-03-20 21:28,Assigned,ECR,True,SID-4
+RK-299,Mini,BTPN,43,50.0,2700.0,Ranchi,2026-03-20 09:28,Assigned,WR,True,SID-3
+RK-300,Full,BCN,32,45.0,1575.0,Bokaro Steel City,2026-03-21 15:28,In Transit,WR,True,SID-1
+RK-301,Half,BCNA,33,58.0,2030.0,Dhanbad Jn,2026-03-21 03:28,Maintenance,NR,False,SID-1
+RK-302,Full,BRN,47,55.0,2365.0,Gomoh Jn,2026-03-20 10:28,Assigned,SCR,True,SID-5
+RK-303,Full,BOXN,46,60.0,2520.0,Tatanagar Jn,2026-03-22 15:28,In Transit,SER,False,SID-5
+RK-304,Full,BOST,46,52.0,2028.0,Asansol Jn,2026-03-22 02:28,In Transit,CR,True,SID-4
+RK-305,Mini,BTPN,34,50.0,2000.0,Ranchi,2026-03-23 00:28,In Transit,WR,True,SID-6
+RK-306,Half,BCN,44,45.0,1710.0,Ranchi,2026-03-21 18:28,Maintenance,ER,False,SID-1
+RK-307,Full,BCNA,31,58.0,3248.0,Rourkela,2026-03-21 15:28,Available,WR,True,SID-5
+RK-308,Half,BRN,34,55.0,2530.0,Gomoh Jn,2026-03-22 19:28,Available,SCR,True,SID-5
+RK-309,Full,BOXN,44,60.0,3360.0,Bokaro Steel City,2026-03-20 13:28,Assigned,NR,False,SID-2
+RK-310,Full,BOST,47,52.0,3016.0,Ranchi,2026-03-21 09:28,Assigned,CR,True,SID-4
+RK-311,Half,BTPN,49,50.0,2400.0,Ranchi,2026-03-22 16:28,Assigned,ER,True,SID-5
+RK-312,Full,BCN,58,45.0,2385.0,Gomoh Jn,2026-03-21 04:28,In Transit,SCR,False,SID-4
+RK-313,Full,BCNA,54,58.0,1914.0,Bokaro Steel City,2026-03-22 22:28,Maintenance,NR,False,SID-2
+RK-314,Half,BRN,41,55.0,3135.0,Tatanagar Jn,2026-03-21 04:28,Assigned,NR,False,SID-4
+RK-315,Full,BOXN,52,60.0,2580.0,Tatanagar Jn,2026-03-21 13:28,In Transit,SCR,False,SID-5
+RK-316,Mini,BOST,32,52.0,2600.0,Ranchi,2026-03-22 23:28,Available,ECR,True,SID-1
+RK-317,Half,BTPN,54,50.0,1850.0,Tatanagar Jn,2026-03-21 01:28,Assigned,SCR,False,SID-4
+RK-318,Half,BCN,41,45.0,1440.0,Rourkela,2026-03-23 04:28,Available,ECR,True,SID-4
+RK-319,Half,BCNA,52,58.0,3190.0,Rourkela,2026-03-20 11:28,Assigned,SCR,True,SID-3
+RK-320,Mini,BRN,58,55.0,2365.0,Bokaro Steel City,2026-03-21 02:28,Assigned,SCR,True,SID-1
+RK-321,Full,BOXN,50,60.0,2040.0,Gomoh Jn,2026-03-22 01:28,In Transit,WR,False,SID-1
+RK-322,Half,BOST,56,52.0,2548.0,Rourkela,2026-03-22 02:28,Assigned,CR,True,SID-5
+RK-323,Half,BTPN,30,50.0,1550.0,Gomoh Jn,2026-03-23 00:28,Available,ECR,False,SID-5
+RK-324,Mini,BCN,34,45.0,1935.0,Gomoh Jn,2026-03-23 04:28,Available,SCR,True,SID-3
+RK-325,Full,BCNA,48,58.0,2900.0,Rourkela,2026-03-22 08:28,Available,SCR,True,SID-6
+RK-326,Half,BRN,45,55.0,2750.0,Gomoh Jn,2026-03-22 06:28,Maintenance,WR,True,SID-6
+RK-327,Half,BOXN,33,60.0,2580.0,Gomoh Jn,2026-03-21 06:28,Maintenance,NR,True,SID-4
+RK-328,Full,BOST,50,52.0,2080.0,Bokaro Steel City,2026-03-22 17:28,Available,NR,True,SID-4
+RK-329,Mini,BTPN,31,50.0,2700.0,Asansol Jn,2026-03-22 05:28,Available,WR,True,SID-6
+RK-330,Full,BCN,58,45.0,1575.0,Tatanagar Jn,2026-03-20 09:28,Assigned,ECR,True,SID-4
+RK-331,Full,BCNA,34,58.0,1856.0,Rourkela,2026-03-22 19:28,Assigned,ER,True,SID-6
+RK-332,Half,BRN,42,55.0,1870.0,Ranchi,2026-03-21 09:28,Available,WR,True,SID-6
+RK-333,Full,BOXN,53,60.0,3180.0,Tatanagar Jn,2026-03-21 17:28,Available,SCR,True,SID-2
+RK-334,Full,BOST,44,52.0,2236.0,Rourkela,2026-03-21 18:28,Assigned,ER,True,SID-4
+RK-335,Full,BTPN,51,50.0,1550.0,Gomoh Jn,2026-03-22 18:28,Available,CR,True,SID-5
+RK-336,Full,BCN,50,45.0,1530.0,Dhanbad Jn,2026-03-21 03:28,Available,SCR,True,SID-5
+RK-337,Half,BCNA,57,58.0,1740.0,Dhanbad Jn,2026-03-21 11:28,Available,ECR,True,SID-3
+RK-338,Mini,BRN,43,55.0,2915.0,Bokaro Steel City,2026-03-20 10:28,Assigned,ER,True,SID-6
+RK-339,Half,BOXN,58,60.0,2580.0,Ranchi,2026-03-21 08:28,Assigned,ECR,True,SID-3
+RK-340,Full,BOST,44,52.0,1612.0,Gomoh Jn,2026-03-20 14:28,Available,WR,True,SID-3
+RK-341,Half,BTPN,55,50.0,1800.0,Asansol Jn,2026-03-22 01:28,Assigned,CR,True,SID-1
+RK-342,Mini,BCN,51,45.0,2115.0,Dhanbad Jn,2026-03-22 23:28,Assigned,ECR,True,SID-2
+RK-343,Half,BCNA,33,58.0,2726.0,Bokaro Steel City,2026-03-21 16:28,In Transit,WR,True,SID-6
+RK-344,Full,BRN,48,55.0,2915.0,Ranchi,2026-03-23 00:28,Maintenance,ER,True,SID-5
+RK-345,Full,BOXN,55,60.0,1800.0,Gomoh Jn,2026-03-23 05:28,Available,SER,False,SID-5
+RK-346,Mini,BOST,33,52.0,1664.0,Bokaro Steel City,2026-03-20 11:28,In Transit,CR,True,SID-6
+RK-347,Mini,BTPN,54,50.0,1550.0,Dhanbad Jn,2026-03-21 20:28,In Transit,SER,True,SID-2
+RK-348,Full,BCN,33,45.0,1845.0,Gomoh Jn,2026-03-21 21:28,Assigned,ECR,False,SID-4
+RK-349,Half,BCNA,55,58.0,2958.0,Ranchi,2026-03-21 11:28,Available,SER,True,SID-3
+RK-350,Full,BRN,52,55.0,2695.0,Gomoh Jn,2026-03-22 18:28,Available,SCR,True,SID-6
+RK-351,Full,BOXN,34,60.0,2160.0,Dhanbad Jn,2026-03-21 12:28,Available,NR,False,SID-3
+RK-352,Half,BOST,51,52.0,2548.0,Gomoh Jn,2026-03-20 11:28,Maintenance,SCR,True,SID-6
+RK-353,Half,BTPN,33,50.0,2450.0,Bokaro Steel City,2026-03-21 22:28,Assigned,NR,False,SID-5
+RK-354,Full,BCN,46,45.0,1575.0,Bokaro Steel City,2026-03-20 22:28,Assigned,NR,True,SID-5
+RK-355,Mini,BCNA,56,58.0,2958.0,Asansol Jn,2026-03-21 09:28,Assigned,CR,True,SID-6
+RK-356,Half,BRN,35,55.0,2310.0,Gomoh Jn,2026-03-21 19:28,Available,ER,True,SID-5
+RK-357,Full,BOXN,35,60.0,1860.0,Bokaro Steel City,2026-03-22 11:28,Available,SER,True,SID-2
+RK-358,Half,BOST,42,52.0,2132.0,Dhanbad Jn,2026-03-21 03:28,Assigned,SCR,False,SID-4
+RK-359,Half,BTPN,40,50.0,2600.0,Gomoh Jn,2026-03-21 11:28,Assigned,ECR,True,SID-3
+RK-360,Half,BCN,31,45.0,2250.0,Dhanbad Jn,2026-03-20 12:28,In Transit,NR,True,SID-1
+RK-361,Mini,BCNA,43,58.0,2146.0,Ranchi,2026-03-21 11:28,Assigned,ECR,True,SID-4
+RK-362,Half,BRN,37,55.0,2805.0,Dhanbad Jn,2026-03-22 01:28,Assigned,SER,False,SID-3
+RK-363,Full,BOXN,33,60.0,2460.0,Tatanagar Jn,2026-03-22 03:28,In Transit,CR,True,SID-3
+RK-364,Full,BOST,38,52.0,2236.0,Rourkela,2026-03-21 04:28,Available,SCR,False,SID-1
+RK-365,Half,BTPN,30,50.0,1600.0,Bokaro Steel City,2026-03-20 12:28,Assigned,ECR,True,SID-4
+RK-366,Mini,BCN,56,45.0,2610.0,Asansol Jn,2026-03-22 00:28,In Transit,SER,False,SID-4
+RK-367,Full,BCNA,58,58.0,3132.0,Asansol Jn,2026-03-22 06:28,Available,CR,True,SID-1
+RK-368,Full,BRN,40,55.0,1925.0,Asansol Jn,2026-03-20 14:28,Available,NR,True,SID-4
+RK-369,Half,BOXN,55,60.0,2760.0,Gomoh Jn,2026-03-21 19:28,Available,ER,True,SID-2
+RK-370,Full,BOST,43,52.0,2704.0,Asansol Jn,2026-03-20 14:28,Available,SCR,True,SID-1
+RK-371,Full,BTPN,56,50.0,2200.0,Bokaro Steel City,2026-03-21 16:28,Assigned,WR,True,SID-3
+RK-372,Mini,BCN,35,45.0,1620.0,Ranchi,2026-03-22 05:28,Available,CR,True,SID-3
+RK-373,Half,BCNA,38,58.0,3364.0,Tatanagar Jn,2026-03-22 11:28,Assigned,NR,False,SID-6
+RK-374,Mini,BRN,51,55.0,2035.0,Bokaro Steel City,2026-03-22 10:28,Available,ECR,False,SID-1
+RK-375,Half,BOXN,36,60.0,2340.0,Asansol Jn,2026-03-22 13:28,Available,ECR,False,SID-3
+RK-376,Full,BOST,53,52.0,2080.0,Ranchi,2026-03-21 01:28,Available,SER,False,SID-5
+RK-377,Mini,BTPN,42,50.0,2750.0,Rourkela,2026-03-22 20:28,Available,SER,False,SID-2
+RK-378,Full,BCN,41,45.0,1980.0,Gomoh Jn,2026-03-21 08:28,Maintenance,WR,True,SID-6
+RK-379,Full,BCNA,43,58.0,2900.0,Ranchi,2026-03-21 10:28,Available,ER,True,SID-5
+RK-380,Mini,BRN,53,55.0,3080.0,Gomoh Jn,2026-03-22 15:28,Available,SCR,False,SID-6
+RK-381,Half,BOXN,30,60.0,3360.0,Gomoh Jn,2026-03-21 07:28,Available,CR,False,SID-6
+RK-382,Mini,BOST,51,52.0,2808.0,Gomoh Jn,2026-03-20 13:28,Available,SER,False,SID-1
+RK-383,Full,BTPN,52,50.0,2800.0,Ranchi,2026-03-22 10:28,Assigned,SCR,False,SID-3
+RK-384,Mini,BCN,53,45.0,2565.0,Rourkela,2026-03-22 07:28,In Transit,SER,True,SID-5
+RK-385,Half,BCNA,58,58.0,3364.0,Asansol Jn,2026-03-22 01:28,Available,ER,False,SID-1
+RK-386,Half,BRN,52,55.0,2640.0,Tatanagar Jn,2026-03-20 18:28,Assigned,WR,False,SID-3
+RK-387,Mini,BOXN,45,60.0,1980.0,Gomoh Jn,2026-03-22 04:28,Assigned,WR,True,SID-5
+RK-388,Full,BOST,43,52.0,1716.0,Bokaro Steel City,2026-03-20 22:28,In Transit,ER,False,SID-5
+RK-389,Half,BTPN,41,50.0,2650.0,Rourkela,2026-03-21 23:28,Assigned,CR,True,SID-3
+RK-390,Half,BCN,53,45.0,1755.0,Ranchi,2026-03-21 20:28,Available,WR,False,SID-6
+RK-391,Half,BCNA,41,58.0,3074.0,Bokaro Steel City,2026-03-22 14:28,In Transit,WR,True,SID-5
+RK-392,Mini,BRN,46,55.0,3135.0,Bokaro Steel City,2026-03-23 05:28,In Transit,SER,False,SID-1
+RK-393,Half,BOXN,32,60.0,2880.0,Asansol Jn,2026-03-20 21:28,Assigned,ECR,True,SID-2
+RK-394,Full,BOST,39,52.0,2704.0,Bokaro Steel City,2026-03-20 16:28,Maintenance,SER,True,SID-6
+RK-395,Full,BTPN,37,50.0,1900.0,Rourkela,2026-03-21 23:28,In Transit,ECR,True,SID-1
+RK-396,Mini,BCN,42,45.0,1890.0,Ranchi,2026-03-23 03:28,Available,SCR,True,SID-1
+RK-397,Mini,BCNA,44,58.0,3306.0,Gomoh Jn,2026-03-20 19:28,In Transit,ECR,True,SID-3
+RK-398,Mini,BRN,50,55.0,2915.0,Dhanbad Jn,2026-03-21 18:28,Assigned,CR,False,SID-6
+RK-399,Full,BOXN,42,60.0,2100.0,Ranchi,2026-03-21 12:28,Assigned,ER,True,SID-5
+RK-400,Full,BOST,34,52.0,2964.0,Dhanbad Jn,2026-03-21 06:28,Assigned,WR,False,SID-1
+RK-401,Half,BTPN,45,50.0,2200.0,Gomoh Jn,2026-03-22 07:28,In Transit,SCR,True,SID-3
+RK-402,Half,BCN,31,45.0,2430.0,Bokaro Steel City,2026-03-21 04:28,Assigned,SCR,True,SID-6
+RK-403,Full,BCNA,54,58.0,2610.0,Rourkela,2026-03-21 19:28,Assigned,CR,False,SID-2
+RK-404,Half,BRN,52,55.0,2585.0,Ranchi,2026-03-22 20:28,Available,SCR,False,SID-4
+RK-405,Full,BOXN,36,60.0,2040.0,Bokaro Steel City,2026-03-21 10:28,Assigned,SER,True,SID-3
+RK-406,Full,BOST,37,52.0,2028.0,Rourkela,2026-03-20 09:28,Maintenance,SCR,False,SID-5
+RK-407,Full,BTPN,30,50.0,2500.0,Gomoh Jn,2026-03-22 22:28,In Transit,SCR,False,SID-5
+RK-408,Full,BCN,40,45.0,2430.0,Bokaro Steel City,2026-03-21 03:28,Available,ER,True,SID-5
+RK-409,Full,BCNA,31,58.0,1856.0,Dhanbad Jn,2026-03-22 14:28,In Transit,ER,False,SID-1
+RK-410,Mini,BRN,57,55.0,1760.0,Asansol Jn,2026-03-22 14:28,In Transit,ECR,False,SID-3
+RK-411,Half,BOXN,33,60.0,3000.0,Rourkela,2026-03-21 21:28,Assigned,CR,True,SID-5
+RK-412,Mini,BOST,49,52.0,2184.0,Tatanagar Jn,2026-03-20 14:28,Available,WR,True,SID-3
+RK-413,Full,BTPN,46,50.0,2700.0,Gomoh Jn,2026-03-23 03:28,Assigned,CR,True,SID-5
+RK-414,Full,BCN,36,45.0,1395.0,Tatanagar Jn,2026-03-22 08:28,Available,SCR,True,SID-4
+RK-415,Full,BCNA,53,58.0,2320.0,Ranchi,2026-03-21 14:28,Available,NR,False,SID-3
+RK-416,Half,BRN,33,55.0,1705.0,Tatanagar Jn,2026-03-22 20:28,Assigned,SER,False,SID-1
+RK-417,Full,BOXN,55,60.0,3000.0,Gomoh Jn,2026-03-22 15:28,Maintenance,ER,True,SID-6
+RK-418,Half,BOST,51,52.0,2808.0,Bokaro Steel City,2026-03-22 13:28,Available,ER,True,SID-5
+RK-419,Half,BTPN,48,50.0,1700.0,Asansol Jn,2026-03-20 19:28,In Transit,ER,True,SID-6
+RK-420,Mini,BCN,55,45.0,1755.0,Asansol Jn,2026-03-22 04:28,Maintenance,ECR,True,SID-2
+RK-421,Full,BCNA,41,58.0,3132.0,Dhanbad Jn,2026-03-21 04:28,Available,CR,False,SID-2
+RK-422,Half,BRN,38,55.0,1705.0,Bokaro Steel City,2026-03-20 13:28,Available,ECR,True,SID-2
+RK-423,Full,BOXN,34,60.0,3420.0,Bokaro Steel City,2026-03-21 08:28,In Transit,ECR,True,SID-1
+RK-424,Full,BOST,56,52.0,2860.0,Asansol Jn,2026-03-20 15:28,In Transit,ECR,True,SID-2
+RK-425,Half,BTPN,41,50.0,1700.0,Ranchi,2026-03-20 15:28,Available,WR,True,SID-2
+RK-426,Half,BCN,54,45.0,1530.0,Tatanagar Jn,2026-03-22 11:28,Assigned,ECR,False,SID-6
+RK-427,Half,BCNA,39,58.0,2900.0,Asansol Jn,2026-03-21 19:28,Assigned,CR,False,SID-2
+RK-428,Full,BRN,57,55.0,1650.0,Ranchi,2026-03-21 12:28,In Transit,ER,True,SID-4
+RK-429,Mini,BOXN,55,60.0,2640.0,Tatanagar Jn,2026-03-20 21:28,In Transit,ER,True,SID-4
+RK-430,Mini,BOST,38,52.0,1612.0,Rourkela,2026-03-22 14:28,Available,ER,True,SID-3
+RK-431,Full,BTPN,44,50.0,2250.0,Tatanagar Jn,2026-03-22 05:28,Available,ECR,True,SID-6
+RK-432,Mini,BCN,53,45.0,1800.0,Rourkela,2026-03-22 01:28,Available,SCR,True,SID-1
+RK-433,Full,BCNA,36,58.0,2900.0,Asansol Jn,2026-03-20 21:28,Maintenance,SCR,True,SID-6
+RK-434,Half,BRN,30,55.0,3025.0,Tatanagar Jn,2026-03-20 16:28,Maintenance,ECR,False,SID-5
+RK-435,Mini,BOXN,38,60.0,2640.0,Tatanagar Jn,2026-03-20 16:28,In Transit,ER,True,SID-2
+RK-436,Half,BOST,47,52.0,2496.0,Rourkela,2026-03-20 09:28,Available,CR,True,SID-5
+RK-437,Half,BTPN,33,50.0,2350.0,Ranchi,2026-03-23 04:28,Assigned,ER,True,SID-3
+RK-438,Full,BCN,39,45.0,2610.0,Dhanbad Jn,2026-03-21 10:28,Available,ECR,False,SID-6
+RK-439,Half,BCNA,56,58.0,2088.0,Tatanagar Jn,2026-03-22 06:28,Available,SCR,True,SID-1
+RK-440,Half,BRN,32,55.0,1980.0,Bokaro Steel City,2026-03-23 05:28,Available,ECR,True,SID-1
+RK-441,Full,BOXN,31,60.0,2400.0,Asansol Jn,2026-03-23 02:28,In Transit,ER,False,SID-4
+RK-442,Full,BOST,42,52.0,2652.0,Ranchi,2026-03-21 06:28,Available,SCR,True,SID-6
+RK-443,Half,BTPN,30,50.0,2750.0,Tatanagar Jn,2026-03-21 18:28,Assigned,ECR,False,SID-1
+RK-444,Half,BCN,30,45.0,1710.0,Gomoh Jn,2026-03-21 16:28,Maintenance,SER,True,SID-5
+RK-445,Half,BCNA,35,58.0,1914.0,Tatanagar Jn,2026-03-20 10:28,Assigned,CR,False,SID-6
+RK-446,Mini,BRN,32,55.0,2585.0,Dhanbad Jn,2026-03-22 14:28,Available,ECR,False,SID-3
+RK-447,Half,BOXN,53,60.0,2820.0,Asansol Jn,2026-03-22 00:28,Maintenance,ECR,True,SID-6
+RK-448,Full,BOST,33,52.0,2080.0,Gomoh Jn,2026-03-21 10:28,Assigned,ER,True,SID-5
+RK-449,Full,BTPN,45,50.0,1750.0,Tatanagar Jn,2026-03-21 23:28,Assigned,ER,True,SID-2
+RK-450,Half,BCN,50,45.0,2430.0,Gomoh Jn,2026-03-22 12:28,Assigned,WR,False,SID-6
+RK-451,Half,BCNA,48,58.0,3132.0,Asansol Jn,2026-03-20 09:28,In Transit,ER,False,SID-5
+RK-452,Half,BRN,48,55.0,2805.0,Ranchi,2026-03-22 05:28,Assigned,SCR,False,SID-1
+RK-453,Half,BOXN,40,60.0,2760.0,Rourkela,2026-03-22 21:28,Assigned,ECR,False,SID-4
+RK-454,Half,BOST,55,52.0,1924.0,Dhanbad Jn,2026-03-22 11:28,Assigned,NR,True,SID-4
+RK-455,Half,BTPN,31,50.0,2050.0,Ranchi,2026-03-22 04:28,Available,ECR,True,SID-5
+RK-456,Half,BCN,33,45.0,1395.0,Bokaro Steel City,2026-03-20 14:28,In Transit,NR,True,SID-5
+RK-457,Full,BCNA,54,58.0,2146.0,Ranchi,2026-03-22 12:28,Available,CR,False,SID-3
+RK-458,Half,BRN,31,55.0,2365.0,Dhanbad Jn,2026-03-22 13:28,Available,ECR,False,SID-2
+RK-459,Half,BOXN,35,60.0,2520.0,Rourkela,2026-03-21 19:28,Available,SER,True,SID-2
+RK-460,Full,BOST,35,52.0,1664.0,Ranchi,2026-03-22 01:28,Available,SCR,True,SID-1
+RK-461,Half,BTPN,30,50.0,2850.0,Tatanagar Jn,2026-03-22 03:28,Assigned,NR,True,SID-4
+RK-462,Half,BCN,33,45.0,1665.0,Tatanagar Jn,2026-03-20 16:28,Assigned,WR,False,SID-6
+RK-463,Half,BCNA,46,58.0,2552.0,Rourkela,2026-03-21 02:28,Available,SER,False,SID-1
+RK-464,Half,BRN,49,55.0,2365.0,Gomoh Jn,2026-03-22 16:28,Available,ER,True,SID-5
+RK-465,Full,BOXN,32,60.0,2580.0,Gomoh Jn,2026-03-23 05:28,In Transit,NR,True,SID-4
+RK-466,Full,BOST,57,52.0,2808.0,Dhanbad Jn,2026-03-21 03:28,Maintenance,CR,True,SID-2
+RK-467,Full,BTPN,32,50.0,2550.0,Asansol Jn,2026-03-21 12:28,Assigned,WR,True,SID-2
+RK-468,Full,BCN,49,45.0,2475.0,Rourkela,2026-03-23 00:28,Available,ER,False,SID-2
+RK-469,Half,BCNA,53,58.0,2320.0,Gomoh Jn,2026-03-20 19:28,Available,CR,True,SID-5
+RK-470,Half,BRN,45,55.0,2035.0,Asansol Jn,2026-03-21 02:28,Available,ECR,True,SID-2
+RK-471,Half,BOXN,44,60.0,2520.0,Bokaro Steel City,2026-03-20 11:28,Available,SER,True,SID-5
+RK-472,Full,BOST,33,52.0,2392.0,Bokaro Steel City,2026-03-21 00:28,Maintenance,SCR,True,SID-3
+RK-473,Full,BTPN,37,50.0,1950.0,Ranchi,2026-03-22 05:28,In Transit,ER,False,SID-1
+RK-474,Full,BCN,54,45.0,1935.0,Rourkela,2026-03-21 08:28,Available,NR,True,SID-1
+RK-475,Half,BCNA,40,58.0,1972.0,Ranchi,2026-03-23 05:28,Maintenance,SCR,True,SID-3
+RK-476,Full,BRN,30,55.0,2530.0,Dhanbad Jn,2026-03-22 23:28,Assigned,CR,True,SID-3
+RK-477,Half,BOXN,51,60.0,3000.0,Asansol Jn,2026-03-22 23:28,Available,WR,False,SID-5
+RK-478,Half,BOST,49,52.0,2340.0,Tatanagar Jn,2026-03-22 11:28,Assigned,ECR,False,SID-3
+RK-479,Half,BTPN,31,50.0,2750.0,Gomoh Jn,2026-03-22 09:28,Available,CR,True,SID-1
+RK-480,Full,BCN,31,45.0,2610.0,Rourkela,2026-03-21 20:28,In Transit,SCR,True,SID-2
+RK-481,Full,BCNA,33,58.0,3248.0,Tatanagar Jn,2026-03-23 06:28,Available,ER,True,SID-4
+RK-482,Half,BRN,31,55.0,1760.0,Dhanbad Jn,2026-03-20 14:28,Assigned,ER,True,SID-3
+RK-483,Half,BOXN,47,60.0,3300.0,Asansol Jn,2026-03-22 11:28,Available,NR,True,SID-5
+RK-484,Full,BOST,33,52.0,2028.0,Dhanbad Jn,2026-03-20 17:28,Maintenance,ECR,False,SID-6
+RK-485,Mini,BTPN,47,50.0,2150.0,Rourkela,2026-03-21 08:28,Assigned,NR,False,SID-3
+RK-486,Half,BCN,35,45.0,1845.0,Ranchi,2026-03-21 02:28,Assigned,SER,True,SID-4
+RK-487,Full,BCNA,58,58.0,2204.0,Ranchi,2026-03-22 02:28,Available,SCR,True,SID-5
+RK-488,Full,BRN,51,55.0,3025.0,Rourkela,2026-03-22 15:28,Maintenance,ER,True,SID-2
+RK-489,Full,BOXN,40,60.0,2880.0,Dhanbad Jn,2026-03-20 13:28,Assigned,ER,True,SID-4
+RK-490,Full,BOST,42,52.0,3016.0,Rourkela,2026-03-22 02:28,Available,SCR,True,SID-2
+RK-491,Full,BTPN,31,50.0,2850.0,Gomoh Jn,2026-03-20 23:28,In Transit,CR,True,SID-4
+RK-492,Half,BCN,31,45.0,1890.0,Ranchi,2026-03-20 13:28,Available,WR,False,SID-5
+RK-493,Full,BCNA,45,58.0,2958.0,Gomoh Jn,2026-03-21 13:28,Available,SCR,True,SID-1
+RK-494,Mini,BRN,30,55.0,2420.0,Dhanbad Jn,2026-03-22 01:28,Assigned,WR,False,SID-2
+RK-495,Mini,BOXN,48,60.0,2640.0,Bokaro Steel City,2026-03-20 22:28,Available,CR,True,SID-1
+RK-496,Full,BOST,41,52.0,2652.0,Bokaro Steel City,2026-03-21 11:28,Assigned,CR,True,SID-1
+RK-497,Full,BTPN,34,50.0,2450.0,Dhanbad Jn,2026-03-23 03:28,Available,SCR,True,SID-1
+RK-498,Half,BCN,45,45.0,2520.0,Asansol Jn,2026-03-21 08:28,Available,ECR,False,SID-5
+RK-499,Mini,BCNA,46,58.0,3016.0,Bokaro Steel City,2026-03-23 06:28,Available,ER,True,SID-6
+RK-500,Mini,BRN,51,55.0,2640.0,Rourkela,2026-03-22 19:28,Available,ECR,True,SID-3

@@ -1,0 +1,501 @@
+customer_id,customer_name,customer_email,industry_type,customer_priority_class,contract_type,preferred_transport_mode,credit_rating,region,destination_city
+CUST-0001,Tata Steel Ltd,procurement@tatasteel.com,Steel,High,Annual,Road,AA,Maharashtra,Mumbai
+CUST-0002,JSW Steel,logistics@jsw.in,Steel,High,Spot,Road,AA,Delhi,Delhi
+CUST-0003,RINL Vizag,dispatch@rinl.co.in,Steel,High,Quarterly,Rail,AA,West Bengal,Kolkata
+CUST-0004,JSPL Raigarh,supply@jspl.com,Steel,Medium,Quarterly,Road,A,Tamil Nadu,Chennai
+CUST-0005,Essar Steel,freight@essar.com,Steel,Medium,Long-Term,Rail,A,Telangana,Hyderabad
+CUST-0006,SAIL Durgapur,logistics.dsp@sail.in,Steel,Low,Long-Term,Road,AA,Maharashtra,Pune
+CUST-0007,Bhushan Steel,purchase@bhushansteel.com,Steel,High,Spot,Road,AA,Gujarat,Ahmedabad
+CUST-0008,Uttam Galva,supply@uttamgalva.com,Steel,Low,Annual,Rail,BBB,Gujarat,Surat
+CUST-0009,Rashtriya Ispat Nigam,logistics@rinl.co.in,Steel,High,Long-Term,Road,AAA,Rajasthan,Jaipur
+CUST-0010,Kalyani Steels,procurement@kalyanisteels.com,Steel,High,Annual,Rail,A,Uttar Pradesh,Lucknow
+CUST-0011,Mahindra Steel,steel.logistics@mahindra.com,Steel,Medium,Quarterly,Rail,A,Uttar Pradesh,Kanpur
+CUST-0012,L&T Construction,materials@larsentoubro.com,Construction,Low,Spot,Road,AA,Maharashtra,Nagpur
+CUST-0013,Adani Ports,freight@adaniports.com,Infrastructure,Low,Quarterly,Rail,AAA,Andhra Pradesh,Visakhapatnam
+CUST-0014,GMR Infrastructure,logistics@gmrgroup.in,Infrastructure,Low,Quarterly,Rail,AAA,Madhya Pradesh,Bhopal
+CUST-0015,Hindustan Zinc,purchase@hindzinc.com,Mining,Low,Quarterly,Rail,BBB,Bihar,Patna
+CUST-0016,Vedanta Resources,supply@vedanta.co.in,Mining,Low,Annual,Road,AAA,Punjab,Ludhiana
+CUST-0017,NMDC Ltd,logistics@nmdc.co.in,Mining,Medium,Quarterly,Rail,AA,Uttar Pradesh,Agra
+CUST-0018,Coal India Ltd,material@coalindia.in,Mining,Medium,Annual,Rail,AAA,Gujarat,Vadodara
+CUST-0019,NTPC Ltd,procurement@ntpc.co.in,Power,High,Long-Term,Rail,AAA,Maharashtra,Nashik
+CUST-0020,BHEL Trichy,materials.trichy@bhel.in,Manufacturing,High,Spot,Rail,A,Haryana,Faridabad
+CUST-0021,Larsen & Toubro,procurement@lntecc.com,Construction,Medium,Long-Term,Rail,AA,Uttar Pradesh,Meerut
+CUST-0022,Shapoorji Pallonji,logistics@shapoorji.com,Construction,Medium,Annual,Rail,A,Gujarat,Rajkot
+CUST-0023,Gammon India,supply@gammonindia.com,Construction,High,Annual,Road,A,Tamil Nadu,Coimbatore
+CUST-0024,Afcons Infrastructure,materials@afcons.com,Construction,Low,Quarterly,Road,BBB,Madhya Pradesh,Jabalpur
+CUST-0025,IRB Infrastructure,logistics@irb.co.in,Infrastructure,Low,Long-Term,Road,AAA,Madhya Pradesh,Gwalior
+CUST-0026,HCC Ltd,procurement@hccindia.com,Construction,Medium,Long-Term,Rail,BBB,Andhra Pradesh,Vijayawada
+CUST-0027,NCC Ltd,supply@nccltd.in,Construction,Medium,Quarterly,Rail,A,Rajasthan,Jodhpur
+CUST-0028,Dilip Buildcon,logistics@dilipbuildcon.com,Infrastructure,Low,Annual,Rail,AA,Tamil Nadu,Madurai
+CUST-0029,PNC Infratech,materials@pncinfratech.com,Infrastructure,Medium,Quarterly,Rail,BBB,Chhattisgarh,Raipur
+CUST-0030,Ashoka Buildcon,freight@ashokabuildcon.com,Infrastructure,Medium,Quarterly,Rail,BBB,Rajasthan,Kota
+CUST-0031,Indian Railways (SCR),gm.scr@indianrailways.gov.in,Railways,High,Spot,Rail,AA,Jharkhand,Ranchi
+CUST-0032,Indian Railways (ECR),gm.ecr@indianrailways.gov.in,Railways,High,Annual,Rail,BBB,West Bengal,Howrah
+CUST-0033,Indian Railways (WR),gm.wr@indianrailways.gov.in,Railways,High,Annual,Road,A,Jharkhand,Dhanbad
+CUST-0034,DRDO Pune,logistics@drdo.gov.in,Defence,High,Long-Term,Rail,A,Jharkhand,Jamshedpur
+CUST-0035,HAL Bengaluru,materials@hal-india.co.in,Defence,High,Spot,Rail,BB,Chhattisgarh,Bhilai
+CUST-0036,BEL Hyderabad,procurement@bel-india.in,Defence,High,Annual,Road,AA,West Bengal,Durgapur
+CUST-0037,BEML Bengaluru,supply@beml.co.in,Defence,Low,Long-Term,Road,BBB,Odisha,Rourkela
+CUST-0038,Maruti Suzuki,supply.chain@maruti.co.in,Automotive,Low,Annual,Rail,AA,Uttar Pradesh,Allahabad
+CUST-0039,Tata Motors,vendor@tatamotors.com,Automotive,High,Spot,Rail,BBB,Uttar Pradesh,Varanasi
+CUST-0040,Mahindra & Mahindra,supply@mahindra.com,Automotive,Medium,Annual,Road,A,Jharkhand,Bokaro
+CUST-0041,Hero MotoCorp,procurement@heromotocorp.com,Automotive,High,Spot,Road,AA,Maharashtra,Mumbai
+CUST-0042,Bajaj Auto,vendor@bajajauto.com,Automotive,Low,Annual,Road,A,Delhi,Delhi
+CUST-0043,TVS Motor,supply@tvsmotor.com,Automotive,Low,Annual,Rail,AA,West Bengal,Kolkata
+CUST-0044,Ashok Leyland,materials@ashokleyland.com,Automotive,Medium,Annual,Rail,AAA,Tamil Nadu,Chennai
+CUST-0045,Kirloskar Brothers,purchase@kirloskarbros.com,Manufacturing,High,Quarterly,Road,AAA,Telangana,Hyderabad
+CUST-0046,Thermax Ltd,procurement@thermax.com,Manufacturing,Low,Annual,Rail,AA,Maharashtra,Pune
+CUST-0047,Cummins India,vendor@cummins.com,Manufacturing,Medium,Long-Term,Rail,AAA,Gujarat,Ahmedabad
+CUST-0048,ABB India,supply@abb.com,Manufacturing,Low,Spot,Rail,AA,Gujarat,Surat
+CUST-0049,Siemens India,logistics@siemens.com,Manufacturing,Low,Spot,Road,A,Rajasthan,Jaipur
+CUST-0050,Alstom India,procurement@alstom.com,Manufacturing,Low,Spot,Rail,A,Uttar Pradesh,Lucknow
+CUST-0051,Tata Steel Ltd Unit-2,procurement@tatasteel.com,Steel,High,Quarterly,Rail,A,Uttar Pradesh,Kanpur
+CUST-0052,JSW Steel Unit-2,logistics@jsw.in,Steel,High,Long-Term,Rail,AA,Maharashtra,Nagpur
+CUST-0053,RINL Vizag Unit-2,dispatch@rinl.co.in,Steel,High,Quarterly,Rail,BBB,Andhra Pradesh,Visakhapatnam
+CUST-0054,JSPL Raigarh Unit-2,supply@jspl.com,Steel,Medium,Long-Term,Road,A,Madhya Pradesh,Bhopal
+CUST-0055,Essar Steel Unit-2,freight@essar.com,Steel,Medium,Quarterly,Rail,AAA,Bihar,Patna
+CUST-0056,SAIL Durgapur Unit-2,logistics.dsp@sail.in,Steel,High,Spot,Road,AAA,Punjab,Ludhiana
+CUST-0057,Bhushan Steel Unit-2,purchase@bhushansteel.com,Steel,Medium,Spot,Rail,A,Uttar Pradesh,Agra
+CUST-0058,Uttam Galva Unit-2,supply@uttamgalva.com,Steel,High,Quarterly,Road,AA,Gujarat,Vadodara
+CUST-0059,Rashtriya Ispat Nigam Unit-2,logistics@rinl.co.in,Steel,Low,Quarterly,Rail,A,Maharashtra,Nashik
+CUST-0060,Kalyani Steels Unit-2,procurement@kalyanisteels.com,Steel,Low,Quarterly,Rail,BB,Haryana,Faridabad
+CUST-0061,Mahindra Steel Unit-2,steel.logistics@mahindra.com,Steel,Low,Spot,Road,AAA,Uttar Pradesh,Meerut
+CUST-0062,L&T Construction Unit-2,materials@larsentoubro.com,Construction,Low,Annual,Road,AAA,Gujarat,Rajkot
+CUST-0063,Adani Ports Unit-2,freight@adaniports.com,Infrastructure,Medium,Long-Term,Rail,BB,Tamil Nadu,Coimbatore
+CUST-0064,GMR Infrastructure Unit-2,logistics@gmrgroup.in,Infrastructure,Low,Annual,Road,A,Madhya Pradesh,Jabalpur
+CUST-0065,Hindustan Zinc Unit-2,purchase@hindzinc.com,Mining,Medium,Quarterly,Road,AAA,Madhya Pradesh,Gwalior
+CUST-0066,Vedanta Resources Unit-2,supply@vedanta.co.in,Mining,High,Annual,Rail,BBB,Andhra Pradesh,Vijayawada
+CUST-0067,NMDC Ltd Unit-2,logistics@nmdc.co.in,Mining,Medium,Annual,Road,BBB,Rajasthan,Jodhpur
+CUST-0068,Coal India Ltd Unit-2,material@coalindia.in,Mining,Medium,Annual,Rail,A,Tamil Nadu,Madurai
+CUST-0069,NTPC Ltd Unit-2,procurement@ntpc.co.in,Power,High,Spot,Rail,A,Chhattisgarh,Raipur
+CUST-0070,BHEL Trichy Unit-2,materials.trichy@bhel.in,Manufacturing,High,Spot,Rail,AA,Rajasthan,Kota
+CUST-0071,Larsen & Toubro Unit-2,procurement@lntecc.com,Construction,Medium,Quarterly,Road,AAA,Jharkhand,Ranchi
+CUST-0072,Shapoorji Pallonji Unit-2,logistics@shapoorji.com,Construction,High,Long-Term,Rail,A,West Bengal,Howrah
+CUST-0073,Gammon India Unit-2,supply@gammonindia.com,Construction,Medium,Long-Term,Road,AA,Jharkhand,Dhanbad
+CUST-0074,Afcons Infrastructure Unit-2,materials@afcons.com,Construction,High,Annual,Rail,A,Jharkhand,Jamshedpur
+CUST-0075,IRB Infrastructure Unit-2,logistics@irb.co.in,Infrastructure,Low,Annual,Rail,BBB,Chhattisgarh,Bhilai
+CUST-0076,HCC Ltd Unit-2,procurement@hccindia.com,Construction,Medium,Long-Term,Rail,AAA,West Bengal,Durgapur
+CUST-0077,NCC Ltd Unit-2,supply@nccltd.in,Construction,High,Quarterly,Road,A,Odisha,Rourkela
+CUST-0078,Dilip Buildcon Unit-2,logistics@dilipbuildcon.com,Infrastructure,High,Spot,Rail,AA,Uttar Pradesh,Allahabad
+CUST-0079,PNC Infratech Unit-2,materials@pncinfratech.com,Infrastructure,Medium,Quarterly,Rail,BBB,Uttar Pradesh,Varanasi
+CUST-0080,Ashoka Buildcon Unit-2,freight@ashokabuildcon.com,Infrastructure,Low,Annual,Road,AA,Jharkhand,Bokaro
+CUST-0081,Indian Railways (SCR) Unit-2,gm.scr@indianrailways.gov.in,Railways,High,Annual,Road,A,Maharashtra,Mumbai
+CUST-0082,Indian Railways (ECR) Unit-2,gm.ecr@indianrailways.gov.in,Railways,High,Quarterly,Road,A,Delhi,Delhi
+CUST-0083,Indian Railways (WR) Unit-2,gm.wr@indianrailways.gov.in,Railways,High,Annual,Road,AA,West Bengal,Kolkata
+CUST-0084,DRDO Pune Unit-2,logistics@drdo.gov.in,Defence,High,Annual,Rail,A,Tamil Nadu,Chennai
+CUST-0085,HAL Bengaluru Unit-2,materials@hal-india.co.in,Defence,High,Long-Term,Rail,A,Telangana,Hyderabad
+CUST-0086,BEL Hyderabad Unit-2,procurement@bel-india.in,Defence,Low,Quarterly,Road,A,Maharashtra,Pune
+CUST-0087,BEML Bengaluru Unit-2,supply@beml.co.in,Defence,High,Spot,Road,BBB,Gujarat,Ahmedabad
+CUST-0088,Maruti Suzuki Unit-2,supply.chain@maruti.co.in,Automotive,High,Annual,Road,BB,Gujarat,Surat
+CUST-0089,Tata Motors Unit-2,vendor@tatamotors.com,Automotive,Low,Quarterly,Rail,A,Rajasthan,Jaipur
+CUST-0090,Mahindra & Mahindra Unit-2,supply@mahindra.com,Automotive,Low,Quarterly,Rail,A,Uttar Pradesh,Lucknow
+CUST-0091,Hero MotoCorp Unit-2,procurement@heromotocorp.com,Automotive,Medium,Quarterly,Rail,AAA,Uttar Pradesh,Kanpur
+CUST-0092,Bajaj Auto Unit-2,vendor@bajajauto.com,Automotive,Low,Quarterly,Rail,BBB,Maharashtra,Nagpur
+CUST-0093,TVS Motor Unit-2,supply@tvsmotor.com,Automotive,Low,Annual,Road,A,Andhra Pradesh,Visakhapatnam
+CUST-0094,Ashok Leyland Unit-2,materials@ashokleyland.com,Automotive,Medium,Quarterly,Rail,A,Madhya Pradesh,Bhopal
+CUST-0095,Kirloskar Brothers Unit-2,purchase@kirloskarbros.com,Manufacturing,Low,Long-Term,Rail,AAA,Bihar,Patna
+CUST-0096,Thermax Ltd Unit-2,procurement@thermax.com,Manufacturing,High,Quarterly,Rail,BBB,Punjab,Ludhiana
+CUST-0097,Cummins India Unit-2,vendor@cummins.com,Manufacturing,High,Spot,Road,AA,Uttar Pradesh,Agra
+CUST-0098,ABB India Unit-2,supply@abb.com,Manufacturing,Low,Quarterly,Road,A,Gujarat,Vadodara
+CUST-0099,Siemens India Unit-2,logistics@siemens.com,Manufacturing,Medium,Spot,Rail,AAA,Maharashtra,Nashik
+CUST-0100,Alstom India Unit-2,procurement@alstom.com,Manufacturing,High,Spot,Rail,BB,Haryana,Faridabad
+CUST-0101,Tata Steel Ltd Unit-3,procurement@tatasteel.com,Steel,High,Spot,Rail,AA,Uttar Pradesh,Meerut
+CUST-0102,JSW Steel Unit-3,logistics@jsw.in,Steel,High,Quarterly,Rail,AA,Gujarat,Rajkot
+CUST-0103,RINL Vizag Unit-3,dispatch@rinl.co.in,Steel,High,Spot,Road,BBB,Tamil Nadu,Coimbatore
+CUST-0104,JSPL Raigarh Unit-3,supply@jspl.com,Steel,High,Annual,Rail,BBB,Madhya Pradesh,Jabalpur
+CUST-0105,Essar Steel Unit-3,freight@essar.com,Steel,Low,Quarterly,Rail,AA,Madhya Pradesh,Gwalior
+CUST-0106,SAIL Durgapur Unit-3,logistics.dsp@sail.in,Steel,Low,Spot,Rail,A,Andhra Pradesh,Vijayawada
+CUST-0107,Bhushan Steel Unit-3,purchase@bhushansteel.com,Steel,Low,Long-Term,Rail,A,Rajasthan,Jodhpur
+CUST-0108,Uttam Galva Unit-3,supply@uttamgalva.com,Steel,Medium,Spot,Road,BBB,Tamil Nadu,Madurai
+CUST-0109,Rashtriya Ispat Nigam Unit-3,logistics@rinl.co.in,Steel,Medium,Quarterly,Road,AA,Chhattisgarh,Raipur
+CUST-0110,Kalyani Steels Unit-3,procurement@kalyanisteels.com,Steel,Low,Quarterly,Rail,A,Rajasthan,Kota
+CUST-0111,Mahindra Steel Unit-3,steel.logistics@mahindra.com,Steel,High,Quarterly,Rail,A,Jharkhand,Ranchi
+CUST-0112,L&T Construction Unit-3,materials@larsentoubro.com,Construction,Low,Long-Term,Rail,A,West Bengal,Howrah
+CUST-0113,Adani Ports Unit-3,freight@adaniports.com,Infrastructure,Medium,Quarterly,Rail,BBB,Jharkhand,Dhanbad
+CUST-0114,GMR Infrastructure Unit-3,logistics@gmrgroup.in,Infrastructure,Medium,Long-Term,Rail,A,Jharkhand,Jamshedpur
+CUST-0115,Hindustan Zinc Unit-3,purchase@hindzinc.com,Mining,Medium,Spot,Rail,AAA,Chhattisgarh,Bhilai
+CUST-0116,Vedanta Resources Unit-3,supply@vedanta.co.in,Mining,Medium,Spot,Rail,BBB,West Bengal,Durgapur
+CUST-0117,NMDC Ltd Unit-3,logistics@nmdc.co.in,Mining,Medium,Annual,Road,BBB,Odisha,Rourkela
+CUST-0118,Coal India Ltd Unit-3,material@coalindia.in,Mining,Medium,Long-Term,Rail,BBB,Uttar Pradesh,Allahabad
+CUST-0119,NTPC Ltd Unit-3,procurement@ntpc.co.in,Power,High,Annual,Road,AAA,Uttar Pradesh,Varanasi
+CUST-0120,BHEL Trichy Unit-3,materials.trichy@bhel.in,Manufacturing,High,Annual,Rail,AA,Jharkhand,Bokaro
+CUST-0121,Larsen & Toubro Unit-3,procurement@lntecc.com,Construction,Medium,Long-Term,Rail,A,Maharashtra,Mumbai
+CUST-0122,Shapoorji Pallonji Unit-3,logistics@shapoorji.com,Construction,Low,Long-Term,Rail,AAA,Delhi,Delhi
+CUST-0123,Gammon India Unit-3,supply@gammonindia.com,Construction,Medium,Annual,Rail,BB,West Bengal,Kolkata
+CUST-0124,Afcons Infrastructure Unit-3,materials@afcons.com,Construction,Medium,Long-Term,Rail,AA,Tamil Nadu,Chennai
+CUST-0125,IRB Infrastructure Unit-3,logistics@irb.co.in,Infrastructure,Low,Spot,Road,A,Telangana,Hyderabad
+CUST-0126,HCC Ltd Unit-3,procurement@hccindia.com,Construction,Medium,Annual,Road,BBB,Maharashtra,Pune
+CUST-0127,NCC Ltd Unit-3,supply@nccltd.in,Construction,High,Long-Term,Road,AA,Gujarat,Ahmedabad
+CUST-0128,Dilip Buildcon Unit-3,logistics@dilipbuildcon.com,Infrastructure,Low,Long-Term,Rail,AA,Gujarat,Surat
+CUST-0129,PNC Infratech Unit-3,materials@pncinfratech.com,Infrastructure,Medium,Spot,Rail,A,Rajasthan,Jaipur
+CUST-0130,Ashoka Buildcon Unit-3,freight@ashokabuildcon.com,Infrastructure,Medium,Long-Term,Rail,A,Uttar Pradesh,Lucknow
+CUST-0131,Indian Railways (SCR) Unit-3,gm.scr@indianrailways.gov.in,Railways,High,Spot,Rail,A,Uttar Pradesh,Kanpur
+CUST-0132,Indian Railways (ECR) Unit-3,gm.ecr@indianrailways.gov.in,Railways,High,Long-Term,Road,A,Maharashtra,Nagpur
+CUST-0133,Indian Railways (WR) Unit-3,gm.wr@indianrailways.gov.in,Railways,High,Long-Term,Road,BBB,Andhra Pradesh,Visakhapatnam
+CUST-0134,DRDO Pune Unit-3,logistics@drdo.gov.in,Defence,High,Long-Term,Road,A,Madhya Pradesh,Bhopal
+CUST-0135,HAL Bengaluru Unit-3,materials@hal-india.co.in,Defence,High,Annual,Rail,AA,Bihar,Patna
+CUST-0136,BEL Hyderabad Unit-3,procurement@bel-india.in,Defence,High,Spot,Rail,AA,Punjab,Ludhiana
+CUST-0137,BEML Bengaluru Unit-3,supply@beml.co.in,Defence,Medium,Annual,Road,AA,Uttar Pradesh,Agra
+CUST-0138,Maruti Suzuki Unit-3,supply.chain@maruti.co.in,Automotive,High,Long-Term,Rail,AAA,Gujarat,Vadodara
+CUST-0139,Tata Motors Unit-3,vendor@tatamotors.com,Automotive,Medium,Quarterly,Road,AA,Maharashtra,Nashik
+CUST-0140,Mahindra & Mahindra Unit-3,supply@mahindra.com,Automotive,Medium,Quarterly,Rail,A,Haryana,Faridabad
+CUST-0141,Hero MotoCorp Unit-3,procurement@heromotocorp.com,Automotive,Low,Spot,Road,AA,Uttar Pradesh,Meerut
+CUST-0142,Bajaj Auto Unit-3,vendor@bajajauto.com,Automotive,High,Quarterly,Rail,BB,Gujarat,Rajkot
+CUST-0143,TVS Motor Unit-3,supply@tvsmotor.com,Automotive,High,Quarterly,Road,AA,Tamil Nadu,Coimbatore
+CUST-0144,Ashok Leyland Unit-3,materials@ashokleyland.com,Automotive,Medium,Long-Term,Road,AAA,Madhya Pradesh,Jabalpur
+CUST-0145,Kirloskar Brothers Unit-3,purchase@kirloskarbros.com,Manufacturing,Low,Quarterly,Rail,BBB,Madhya Pradesh,Gwalior
+CUST-0146,Thermax Ltd Unit-3,procurement@thermax.com,Manufacturing,Low,Long-Term,Rail,BBB,Andhra Pradesh,Vijayawada
+CUST-0147,Cummins India Unit-3,vendor@cummins.com,Manufacturing,High,Long-Term,Rail,AA,Rajasthan,Jodhpur
+CUST-0148,ABB India Unit-3,supply@abb.com,Manufacturing,High,Spot,Road,AA,Tamil Nadu,Madurai
+CUST-0149,Siemens India Unit-3,logistics@siemens.com,Manufacturing,Low,Quarterly,Road,AA,Chhattisgarh,Raipur
+CUST-0150,Alstom India Unit-3,procurement@alstom.com,Manufacturing,High,Quarterly,Road,A,Rajasthan,Kota
+CUST-0151,Tata Steel Ltd Unit-4,procurement@tatasteel.com,Steel,High,Long-Term,Rail,A,Jharkhand,Ranchi
+CUST-0152,JSW Steel Unit-4,logistics@jsw.in,Steel,High,Spot,Rail,AA,West Bengal,Howrah
+CUST-0153,RINL Vizag Unit-4,dispatch@rinl.co.in,Steel,High,Annual,Rail,AAA,Jharkhand,Dhanbad
+CUST-0154,JSPL Raigarh Unit-4,supply@jspl.com,Steel,High,Quarterly,Road,A,Jharkhand,Jamshedpur
+CUST-0155,Essar Steel Unit-4,freight@essar.com,Steel,Medium,Spot,Rail,BB,Chhattisgarh,Bhilai
+CUST-0156,SAIL Durgapur Unit-4,logistics.dsp@sail.in,Steel,Medium,Spot,Rail,A,West Bengal,Durgapur
+CUST-0157,Bhushan Steel Unit-4,purchase@bhushansteel.com,Steel,High,Quarterly,Rail,A,Odisha,Rourkela
+CUST-0158,Uttam Galva Unit-4,supply@uttamgalva.com,Steel,Medium,Spot,Road,AAA,Uttar Pradesh,Allahabad
+CUST-0159,Rashtriya Ispat Nigam Unit-4,logistics@rinl.co.in,Steel,Medium,Annual,Rail,AA,Uttar Pradesh,Varanasi
+CUST-0160,Kalyani Steels Unit-4,procurement@kalyanisteels.com,Steel,Low,Long-Term,Rail,AA,Jharkhand,Bokaro
+CUST-0161,Mahindra Steel Unit-4,steel.logistics@mahindra.com,Steel,Low,Annual,Rail,BBB,Maharashtra,Mumbai
+CUST-0162,L&T Construction Unit-4,materials@larsentoubro.com,Construction,Medium,Spot,Rail,BBB,Delhi,Delhi
+CUST-0163,Adani Ports Unit-4,freight@adaniports.com,Infrastructure,Medium,Annual,Road,BBB,West Bengal,Kolkata
+CUST-0164,GMR Infrastructure Unit-4,logistics@gmrgroup.in,Infrastructure,Medium,Annual,Rail,BB,Tamil Nadu,Chennai
+CUST-0165,Hindustan Zinc Unit-4,purchase@hindzinc.com,Mining,Medium,Spot,Rail,BB,Telangana,Hyderabad
+CUST-0166,Vedanta Resources Unit-4,supply@vedanta.co.in,Mining,Low,Spot,Rail,BB,Maharashtra,Pune
+CUST-0167,NMDC Ltd Unit-4,logistics@nmdc.co.in,Mining,Medium,Spot,Rail,AAA,Gujarat,Ahmedabad
+CUST-0168,Coal India Ltd Unit-4,material@coalindia.in,Mining,Medium,Quarterly,Rail,AAA,Gujarat,Surat
+CUST-0169,NTPC Ltd Unit-4,procurement@ntpc.co.in,Power,High,Quarterly,Road,AA,Rajasthan,Jaipur
+CUST-0170,BHEL Trichy Unit-4,materials.trichy@bhel.in,Manufacturing,High,Annual,Road,A,Uttar Pradesh,Lucknow
+CUST-0171,Larsen & Toubro Unit-4,procurement@lntecc.com,Construction,Medium,Quarterly,Rail,AAA,Uttar Pradesh,Kanpur
+CUST-0172,Shapoorji Pallonji Unit-4,logistics@shapoorji.com,Construction,High,Spot,Rail,BBB,Maharashtra,Nagpur
+CUST-0173,Gammon India Unit-4,supply@gammonindia.com,Construction,Low,Spot,Rail,A,Andhra Pradesh,Visakhapatnam
+CUST-0174,Afcons Infrastructure Unit-4,materials@afcons.com,Construction,Low,Annual,Rail,A,Madhya Pradesh,Bhopal
+CUST-0175,IRB Infrastructure Unit-4,logistics@irb.co.in,Infrastructure,Low,Spot,Rail,AA,Bihar,Patna
+CUST-0176,HCC Ltd Unit-4,procurement@hccindia.com,Construction,Medium,Spot,Rail,AA,Punjab,Ludhiana
+CUST-0177,NCC Ltd Unit-4,supply@nccltd.in,Construction,Low,Spot,Rail,AA,Uttar Pradesh,Agra
+CUST-0178,Dilip Buildcon Unit-4,logistics@dilipbuildcon.com,Infrastructure,High,Annual,Rail,BBB,Gujarat,Vadodara
+CUST-0179,PNC Infratech Unit-4,materials@pncinfratech.com,Infrastructure,Low,Spot,Rail,A,Maharashtra,Nashik
+CUST-0180,Ashoka Buildcon Unit-4,freight@ashokabuildcon.com,Infrastructure,Medium,Quarterly,Rail,A,Haryana,Faridabad
+CUST-0181,Indian Railways (SCR) Unit-4,gm.scr@indianrailways.gov.in,Railways,High,Spot,Rail,AA,Uttar Pradesh,Meerut
+CUST-0182,Indian Railways (ECR) Unit-4,gm.ecr@indianrailways.gov.in,Railways,High,Annual,Road,AA,Gujarat,Rajkot
+CUST-0183,Indian Railways (WR) Unit-4,gm.wr@indianrailways.gov.in,Railways,High,Quarterly,Road,A,Tamil Nadu,Coimbatore
+CUST-0184,DRDO Pune Unit-4,logistics@drdo.gov.in,Defence,High,Quarterly,Rail,BBB,Madhya Pradesh,Jabalpur
+CUST-0185,HAL Bengaluru Unit-4,materials@hal-india.co.in,Defence,High,Annual,Rail,BBB,Madhya Pradesh,Gwalior
+CUST-0186,BEL Hyderabad Unit-4,procurement@bel-india.in,Defence,Medium,Quarterly,Rail,AA,Andhra Pradesh,Vijayawada
+CUST-0187,BEML Bengaluru Unit-4,supply@beml.co.in,Defence,High,Long-Term,Rail,BBB,Rajasthan,Jodhpur
+CUST-0188,Maruti Suzuki Unit-4,supply.chain@maruti.co.in,Automotive,Medium,Spot,Rail,AAA,Tamil Nadu,Madurai
+CUST-0189,Tata Motors Unit-4,vendor@tatamotors.com,Automotive,High,Long-Term,Rail,BBB,Chhattisgarh,Raipur
+CUST-0190,Mahindra & Mahindra Unit-4,supply@mahindra.com,Automotive,High,Quarterly,Rail,AAA,Rajasthan,Kota
+CUST-0191,Hero MotoCorp Unit-4,procurement@heromotocorp.com,Automotive,Low,Quarterly,Rail,AA,Jharkhand,Ranchi
+CUST-0192,Bajaj Auto Unit-4,vendor@bajajauto.com,Automotive,Medium,Quarterly,Rail,BBB,West Bengal,Howrah
+CUST-0193,TVS Motor Unit-4,supply@tvsmotor.com,Automotive,Medium,Quarterly,Rail,AA,Jharkhand,Dhanbad
+CUST-0194,Ashok Leyland Unit-4,materials@ashokleyland.com,Automotive,Medium,Quarterly,Road,A,Jharkhand,Jamshedpur
+CUST-0195,Kirloskar Brothers Unit-4,purchase@kirloskarbros.com,Manufacturing,Low,Annual,Rail,A,Chhattisgarh,Bhilai
+CUST-0196,Thermax Ltd Unit-4,procurement@thermax.com,Manufacturing,High,Long-Term,Rail,AA,West Bengal,Durgapur
+CUST-0197,Cummins India Unit-4,vendor@cummins.com,Manufacturing,Medium,Spot,Road,A,Odisha,Rourkela
+CUST-0198,ABB India Unit-4,supply@abb.com,Manufacturing,High,Spot,Road,BBB,Uttar Pradesh,Allahabad
+CUST-0199,Siemens India Unit-4,logistics@siemens.com,Manufacturing,Medium,Annual,Road,BBB,Uttar Pradesh,Varanasi
+CUST-0200,Alstom India Unit-4,procurement@alstom.com,Manufacturing,Low,Annual,Rail,AA,Jharkhand,Bokaro
+CUST-0201,Tata Steel Ltd Unit-5,procurement@tatasteel.com,Steel,High,Spot,Road,A,Maharashtra,Mumbai
+CUST-0202,JSW Steel Unit-5,logistics@jsw.in,Steel,High,Spot,Rail,AA,Delhi,Delhi
+CUST-0203,RINL Vizag Unit-5,dispatch@rinl.co.in,Steel,High,Annual,Road,AA,West Bengal,Kolkata
+CUST-0204,JSPL Raigarh Unit-5,supply@jspl.com,Steel,Low,Annual,Road,AA,Tamil Nadu,Chennai
+CUST-0205,Essar Steel Unit-5,freight@essar.com,Steel,Medium,Annual,Rail,BBB,Telangana,Hyderabad
+CUST-0206,SAIL Durgapur Unit-5,logistics.dsp@sail.in,Steel,High,Spot,Road,BBB,Maharashtra,Pune
+CUST-0207,Bhushan Steel Unit-5,purchase@bhushansteel.com,Steel,Low,Annual,Rail,BBB,Gujarat,Ahmedabad
+CUST-0208,Uttam Galva Unit-5,supply@uttamgalva.com,Steel,Low,Spot,Road,A,Gujarat,Surat
+CUST-0209,Rashtriya Ispat Nigam Unit-5,logistics@rinl.co.in,Steel,High,Long-Term,Rail,A,Rajasthan,Jaipur
+CUST-0210,Kalyani Steels Unit-5,procurement@kalyanisteels.com,Steel,Low,Long-Term,Road,A,Uttar Pradesh,Lucknow
+CUST-0211,Mahindra Steel Unit-5,steel.logistics@mahindra.com,Steel,High,Spot,Rail,A,Uttar Pradesh,Kanpur
+CUST-0212,L&T Construction Unit-5,materials@larsentoubro.com,Construction,Low,Spot,Road,A,Maharashtra,Nagpur
+CUST-0213,Adani Ports Unit-5,freight@adaniports.com,Infrastructure,Low,Spot,Rail,AAA,Andhra Pradesh,Visakhapatnam
+CUST-0214,GMR Infrastructure Unit-5,logistics@gmrgroup.in,Infrastructure,Medium,Quarterly,Road,AAA,Madhya Pradesh,Bhopal
+CUST-0215,Hindustan Zinc Unit-5,purchase@hindzinc.com,Mining,Low,Quarterly,Rail,BB,Bihar,Patna
+CUST-0216,Vedanta Resources Unit-5,supply@vedanta.co.in,Mining,High,Quarterly,Rail,A,Punjab,Ludhiana
+CUST-0217,NMDC Ltd Unit-5,logistics@nmdc.co.in,Mining,Medium,Spot,Rail,BB,Uttar Pradesh,Agra
+CUST-0218,Coal India Ltd Unit-5,material@coalindia.in,Mining,Medium,Long-Term,Road,AA,Gujarat,Vadodara
+CUST-0219,NTPC Ltd Unit-5,procurement@ntpc.co.in,Power,High,Annual,Road,A,Maharashtra,Nashik
+CUST-0220,BHEL Trichy Unit-5,materials.trichy@bhel.in,Manufacturing,High,Spot,Rail,AA,Haryana,Faridabad
+CUST-0221,Larsen & Toubro Unit-5,procurement@lntecc.com,Construction,Medium,Annual,Rail,AA,Uttar Pradesh,Meerut
+CUST-0222,Shapoorji Pallonji Unit-5,logistics@shapoorji.com,Construction,Medium,Quarterly,Rail,AAA,Gujarat,Rajkot
+CUST-0223,Gammon India Unit-5,supply@gammonindia.com,Construction,Low,Quarterly,Road,AAA,Tamil Nadu,Coimbatore
+CUST-0224,Afcons Infrastructure Unit-5,materials@afcons.com,Construction,High,Annual,Rail,BBB,Madhya Pradesh,Jabalpur
+CUST-0225,IRB Infrastructure Unit-5,logistics@irb.co.in,Infrastructure,Low,Quarterly,Rail,AA,Madhya Pradesh,Gwalior
+CUST-0226,HCC Ltd Unit-5,procurement@hccindia.com,Construction,High,Annual,Road,A,Andhra Pradesh,Vijayawada
+CUST-0227,NCC Ltd Unit-5,supply@nccltd.in,Construction,Low,Spot,Rail,A,Rajasthan,Jodhpur
+CUST-0228,Dilip Buildcon Unit-5,logistics@dilipbuildcon.com,Infrastructure,Medium,Annual,Road,A,Tamil Nadu,Madurai
+CUST-0229,PNC Infratech Unit-5,materials@pncinfratech.com,Infrastructure,Medium,Long-Term,Rail,A,Chhattisgarh,Raipur
+CUST-0230,Ashoka Buildcon Unit-5,freight@ashokabuildcon.com,Infrastructure,High,Spot,Rail,AA,Rajasthan,Kota
+CUST-0231,Indian Railways (SCR) Unit-5,gm.scr@indianrailways.gov.in,Railways,High,Spot,Road,BB,Jharkhand,Ranchi
+CUST-0232,Indian Railways (ECR) Unit-5,gm.ecr@indianrailways.gov.in,Railways,High,Long-Term,Road,BBB,West Bengal,Howrah
+CUST-0233,Indian Railways (WR) Unit-5,gm.wr@indianrailways.gov.in,Railways,High,Quarterly,Road,A,Jharkhand,Dhanbad
+CUST-0234,DRDO Pune Unit-5,logistics@drdo.gov.in,Defence,High,Quarterly,Road,A,Jharkhand,Jamshedpur
+CUST-0235,HAL Bengaluru Unit-5,materials@hal-india.co.in,Defence,High,Annual,Rail,AA,Chhattisgarh,Bhilai
+CUST-0236,BEL Hyderabad Unit-5,procurement@bel-india.in,Defence,Low,Spot,Rail,BBB,West Bengal,Durgapur
+CUST-0237,BEML Bengaluru Unit-5,supply@beml.co.in,Defence,Medium,Spot,Rail,AA,Odisha,Rourkela
+CUST-0238,Maruti Suzuki Unit-5,supply.chain@maruti.co.in,Automotive,Medium,Long-Term,Rail,AAA,Uttar Pradesh,Allahabad
+CUST-0239,Tata Motors Unit-5,vendor@tatamotors.com,Automotive,High,Spot,Rail,AA,Uttar Pradesh,Varanasi
+CUST-0240,Mahindra & Mahindra Unit-5,supply@mahindra.com,Automotive,Medium,Quarterly,Rail,BBB,Jharkhand,Bokaro
+CUST-0241,Hero MotoCorp Unit-5,procurement@heromotocorp.com,Automotive,High,Quarterly,Rail,A,Maharashtra,Mumbai
+CUST-0242,Bajaj Auto Unit-5,vendor@bajajauto.com,Automotive,Medium,Quarterly,Road,BBB,Delhi,Delhi
+CUST-0243,TVS Motor Unit-5,supply@tvsmotor.com,Automotive,High,Spot,Road,BBB,West Bengal,Kolkata
+CUST-0244,Ashok Leyland Unit-5,materials@ashokleyland.com,Automotive,Medium,Long-Term,Rail,AA,Tamil Nadu,Chennai
+CUST-0245,Kirloskar Brothers Unit-5,purchase@kirloskarbros.com,Manufacturing,Medium,Quarterly,Road,BBB,Telangana,Hyderabad
+CUST-0246,Thermax Ltd Unit-5,procurement@thermax.com,Manufacturing,High,Long-Term,Road,A,Maharashtra,Pune
+CUST-0247,Cummins India Unit-5,vendor@cummins.com,Manufacturing,Low,Spot,Road,A,Gujarat,Ahmedabad
+CUST-0248,ABB India Unit-5,supply@abb.com,Manufacturing,Medium,Long-Term,Rail,AAA,Gujarat,Surat
+CUST-0249,Siemens India Unit-5,logistics@siemens.com,Manufacturing,Low,Long-Term,Rail,BB,Rajasthan,Jaipur
+CUST-0250,Alstom India Unit-5,procurement@alstom.com,Manufacturing,High,Annual,Road,AA,Uttar Pradesh,Lucknow
+CUST-0251,Tata Steel Ltd Unit-6,procurement@tatasteel.com,Steel,High,Quarterly,Rail,AAA,Uttar Pradesh,Kanpur
+CUST-0252,JSW Steel Unit-6,logistics@jsw.in,Steel,High,Annual,Rail,A,Maharashtra,Nagpur
+CUST-0253,RINL Vizag Unit-6,dispatch@rinl.co.in,Steel,High,Annual,Rail,AAA,Andhra Pradesh,Visakhapatnam
+CUST-0254,JSPL Raigarh Unit-6,supply@jspl.com,Steel,High,Quarterly,Road,AA,Madhya Pradesh,Bhopal
+CUST-0255,Essar Steel Unit-6,freight@essar.com,Steel,Medium,Spot,Rail,A,Bihar,Patna
+CUST-0256,SAIL Durgapur Unit-6,logistics.dsp@sail.in,Steel,High,Long-Term,Rail,AA,Punjab,Ludhiana
+CUST-0257,Bhushan Steel Unit-6,purchase@bhushansteel.com,Steel,Low,Spot,Rail,BBB,Uttar Pradesh,Agra
+CUST-0258,Uttam Galva Unit-6,supply@uttamgalva.com,Steel,High,Long-Term,Rail,AA,Gujarat,Vadodara
+CUST-0259,Rashtriya Ispat Nigam Unit-6,logistics@rinl.co.in,Steel,High,Annual,Rail,A,Maharashtra,Nashik
+CUST-0260,Kalyani Steels Unit-6,procurement@kalyanisteels.com,Steel,Medium,Spot,Road,A,Haryana,Faridabad
+CUST-0261,Mahindra Steel Unit-6,steel.logistics@mahindra.com,Steel,Low,Annual,Rail,A,Uttar Pradesh,Meerut
+CUST-0262,L&T Construction Unit-6,materials@larsentoubro.com,Construction,High,Spot,Road,A,Gujarat,Rajkot
+CUST-0263,Adani Ports Unit-6,freight@adaniports.com,Infrastructure,High,Quarterly,Rail,A,Tamil Nadu,Coimbatore
+CUST-0264,GMR Infrastructure Unit-6,logistics@gmrgroup.in,Infrastructure,Low,Quarterly,Road,BB,Madhya Pradesh,Jabalpur
+CUST-0265,Hindustan Zinc Unit-6,purchase@hindzinc.com,Mining,Low,Long-Term,Rail,AA,Madhya Pradesh,Gwalior
+CUST-0266,Vedanta Resources Unit-6,supply@vedanta.co.in,Mining,Medium,Quarterly,Rail,AA,Andhra Pradesh,Vijayawada
+CUST-0267,NMDC Ltd Unit-6,logistics@nmdc.co.in,Mining,Medium,Spot,Rail,A,Rajasthan,Jodhpur
+CUST-0268,Coal India Ltd Unit-6,material@coalindia.in,Mining,Medium,Long-Term,Rail,BBB,Tamil Nadu,Madurai
+CUST-0269,NTPC Ltd Unit-6,procurement@ntpc.co.in,Power,High,Annual,Road,AAA,Chhattisgarh,Raipur
+CUST-0270,BHEL Trichy Unit-6,materials.trichy@bhel.in,Manufacturing,High,Long-Term,Rail,A,Rajasthan,Kota
+CUST-0271,Larsen & Toubro Unit-6,procurement@lntecc.com,Construction,Medium,Spot,Rail,BBB,Jharkhand,Ranchi
+CUST-0272,Shapoorji Pallonji Unit-6,logistics@shapoorji.com,Construction,High,Quarterly,Rail,A,West Bengal,Howrah
+CUST-0273,Gammon India Unit-6,supply@gammonindia.com,Construction,High,Annual,Road,BB,Jharkhand,Dhanbad
+CUST-0274,Afcons Infrastructure Unit-6,materials@afcons.com,Construction,Low,Spot,Road,A,Jharkhand,Jamshedpur
+CUST-0275,IRB Infrastructure Unit-6,logistics@irb.co.in,Infrastructure,Medium,Quarterly,Road,A,Chhattisgarh,Bhilai
+CUST-0276,HCC Ltd Unit-6,procurement@hccindia.com,Construction,Medium,Quarterly,Road,AA,West Bengal,Durgapur
+CUST-0277,NCC Ltd Unit-6,supply@nccltd.in,Construction,Medium,Long-Term,Rail,BBB,Odisha,Rourkela
+CUST-0278,Dilip Buildcon Unit-6,logistics@dilipbuildcon.com,Infrastructure,Low,Annual,Road,AA,Uttar Pradesh,Allahabad
+CUST-0279,PNC Infratech Unit-6,materials@pncinfratech.com,Infrastructure,High,Long-Term,Rail,A,Uttar Pradesh,Varanasi
+CUST-0280,Ashoka Buildcon Unit-6,freight@ashokabuildcon.com,Infrastructure,High,Quarterly,Road,A,Jharkhand,Bokaro
+CUST-0281,Indian Railways (SCR) Unit-6,gm.scr@indianrailways.gov.in,Railways,High,Quarterly,Road,A,Maharashtra,Mumbai
+CUST-0282,Indian Railways (ECR) Unit-6,gm.ecr@indianrailways.gov.in,Railways,High,Spot,Road,A,Delhi,Delhi
+CUST-0283,Indian Railways (WR) Unit-6,gm.wr@indianrailways.gov.in,Railways,High,Annual,Rail,A,West Bengal,Kolkata
+CUST-0284,DRDO Pune Unit-6,logistics@drdo.gov.in,Defence,High,Annual,Road,BBB,Tamil Nadu,Chennai
+CUST-0285,HAL Bengaluru Unit-6,materials@hal-india.co.in,Defence,High,Long-Term,Rail,A,Telangana,Hyderabad
+CUST-0286,BEL Hyderabad Unit-6,procurement@bel-india.in,Defence,Low,Spot,Rail,A,Maharashtra,Pune
+CUST-0287,BEML Bengaluru Unit-6,supply@beml.co.in,Defence,High,Annual,Road,AA,Gujarat,Ahmedabad
+CUST-0288,Maruti Suzuki Unit-6,supply.chain@maruti.co.in,Automotive,Medium,Spot,Rail,A,Gujarat,Surat
+CUST-0289,Tata Motors Unit-6,vendor@tatamotors.com,Automotive,Medium,Spot,Rail,A,Rajasthan,Jaipur
+CUST-0290,Mahindra & Mahindra Unit-6,supply@mahindra.com,Automotive,Medium,Annual,Rail,AAA,Uttar Pradesh,Lucknow
+CUST-0291,Hero MotoCorp Unit-6,procurement@heromotocorp.com,Automotive,Low,Annual,Rail,AAA,Uttar Pradesh,Kanpur
+CUST-0292,Bajaj Auto Unit-6,vendor@bajajauto.com,Automotive,High,Long-Term,Road,A,Maharashtra,Nagpur
+CUST-0293,TVS Motor Unit-6,supply@tvsmotor.com,Automotive,Low,Spot,Rail,A,Andhra Pradesh,Visakhapatnam
+CUST-0294,Ashok Leyland Unit-6,materials@ashokleyland.com,Automotive,High,Quarterly,Rail,A,Madhya Pradesh,Bhopal
+CUST-0295,Kirloskar Brothers Unit-6,purchase@kirloskarbros.com,Manufacturing,Medium,Long-Term,Road,AAA,Bihar,Patna
+CUST-0296,Thermax Ltd Unit-6,procurement@thermax.com,Manufacturing,Medium,Long-Term,Rail,AA,Punjab,Ludhiana
+CUST-0297,Cummins India Unit-6,vendor@cummins.com,Manufacturing,Low,Quarterly,Rail,AA,Uttar Pradesh,Agra
+CUST-0298,ABB India Unit-6,supply@abb.com,Manufacturing,Medium,Long-Term,Road,BBB,Gujarat,Vadodara
+CUST-0299,Siemens India Unit-6,logistics@siemens.com,Manufacturing,High,Long-Term,Rail,BBB,Maharashtra,Nashik
+CUST-0300,Alstom India Unit-6,procurement@alstom.com,Manufacturing,High,Long-Term,Rail,AA,Haryana,Faridabad
+CUST-0301,Tata Steel Ltd Unit-7,procurement@tatasteel.com,Steel,High,Annual,Road,A,Uttar Pradesh,Meerut
+CUST-0302,JSW Steel Unit-7,logistics@jsw.in,Steel,High,Long-Term,Rail,AAA,Gujarat,Rajkot
+CUST-0303,RINL Vizag Unit-7,dispatch@rinl.co.in,Steel,High,Spot,Road,AA,Tamil Nadu,Coimbatore
+CUST-0304,JSPL Raigarh Unit-7,supply@jspl.com,Steel,Low,Quarterly,Road,AAA,Madhya Pradesh,Jabalpur
+CUST-0305,Essar Steel Unit-7,freight@essar.com,Steel,Medium,Spot,Rail,AA,Madhya Pradesh,Gwalior
+CUST-0306,SAIL Durgapur Unit-7,logistics.dsp@sail.in,Steel,High,Quarterly,Road,A,Andhra Pradesh,Vijayawada
+CUST-0307,Bhushan Steel Unit-7,purchase@bhushansteel.com,Steel,High,Spot,Rail,BBB,Rajasthan,Jodhpur
+CUST-0308,Uttam Galva Unit-7,supply@uttamgalva.com,Steel,Medium,Annual,Rail,AA,Tamil Nadu,Madurai
+CUST-0309,Rashtriya Ispat Nigam Unit-7,logistics@rinl.co.in,Steel,High,Long-Term,Rail,A,Chhattisgarh,Raipur
+CUST-0310,Kalyani Steels Unit-7,procurement@kalyanisteels.com,Steel,High,Quarterly,Road,A,Rajasthan,Kota
+CUST-0311,Mahindra Steel Unit-7,steel.logistics@mahindra.com,Steel,Medium,Annual,Rail,BB,Jharkhand,Ranchi
+CUST-0312,L&T Construction Unit-7,materials@larsentoubro.com,Construction,Low,Quarterly,Rail,A,West Bengal,Howrah
+CUST-0313,Adani Ports Unit-7,freight@adaniports.com,Infrastructure,High,Spot,Road,AA,Jharkhand,Dhanbad
+CUST-0314,GMR Infrastructure Unit-7,logistics@gmrgroup.in,Infrastructure,High,Long-Term,Road,A,Jharkhand,Jamshedpur
+CUST-0315,Hindustan Zinc Unit-7,purchase@hindzinc.com,Mining,High,Quarterly,Road,AA,Chhattisgarh,Bhilai
+CUST-0316,Vedanta Resources Unit-7,supply@vedanta.co.in,Mining,Medium,Quarterly,Rail,BB,West Bengal,Durgapur
+CUST-0317,NMDC Ltd Unit-7,logistics@nmdc.co.in,Mining,Medium,Annual,Road,AA,Odisha,Rourkela
+CUST-0318,Coal India Ltd Unit-7,material@coalindia.in,Mining,Medium,Annual,Rail,A,Uttar Pradesh,Allahabad
+CUST-0319,NTPC Ltd Unit-7,procurement@ntpc.co.in,Power,High,Spot,Rail,AAA,Uttar Pradesh,Varanasi
+CUST-0320,BHEL Trichy Unit-7,materials.trichy@bhel.in,Manufacturing,High,Quarterly,Rail,A,Jharkhand,Bokaro
+CUST-0321,Larsen & Toubro Unit-7,procurement@lntecc.com,Construction,Medium,Annual,Rail,BBB,Maharashtra,Mumbai
+CUST-0322,Shapoorji Pallonji Unit-7,logistics@shapoorji.com,Construction,High,Spot,Rail,A,Delhi,Delhi
+CUST-0323,Gammon India Unit-7,supply@gammonindia.com,Construction,Medium,Annual,Rail,A,West Bengal,Kolkata
+CUST-0324,Afcons Infrastructure Unit-7,materials@afcons.com,Construction,Low,Spot,Road,BBB,Tamil Nadu,Chennai
+CUST-0325,IRB Infrastructure Unit-7,logistics@irb.co.in,Infrastructure,Low,Spot,Road,BBB,Telangana,Hyderabad
+CUST-0326,HCC Ltd Unit-7,procurement@hccindia.com,Construction,High,Annual,Rail,AA,Maharashtra,Pune
+CUST-0327,NCC Ltd Unit-7,supply@nccltd.in,Construction,High,Spot,Road,A,Gujarat,Ahmedabad
+CUST-0328,Dilip Buildcon Unit-7,logistics@dilipbuildcon.com,Infrastructure,High,Quarterly,Rail,A,Gujarat,Surat
+CUST-0329,PNC Infratech Unit-7,materials@pncinfratech.com,Infrastructure,High,Quarterly,Road,A,Rajasthan,Jaipur
+CUST-0330,Ashoka Buildcon Unit-7,freight@ashokabuildcon.com,Infrastructure,Medium,Annual,Rail,AA,Uttar Pradesh,Lucknow
+CUST-0331,Indian Railways (SCR) Unit-7,gm.scr@indianrailways.gov.in,Railways,High,Annual,Rail,AA,Uttar Pradesh,Kanpur
+CUST-0332,Indian Railways (ECR) Unit-7,gm.ecr@indianrailways.gov.in,Railways,High,Annual,Road,BBB,Maharashtra,Nagpur
+CUST-0333,Indian Railways (WR) Unit-7,gm.wr@indianrailways.gov.in,Railways,High,Long-Term,Rail,BBB,Andhra Pradesh,Visakhapatnam
+CUST-0334,DRDO Pune Unit-7,logistics@drdo.gov.in,Defence,High,Annual,Road,BBB,Madhya Pradesh,Bhopal
+CUST-0335,HAL Bengaluru Unit-7,materials@hal-india.co.in,Defence,High,Quarterly,Rail,BB,Bihar,Patna
+CUST-0336,BEL Hyderabad Unit-7,procurement@bel-india.in,Defence,Low,Quarterly,Road,A,Punjab,Ludhiana
+CUST-0337,BEML Bengaluru Unit-7,supply@beml.co.in,Defence,Low,Quarterly,Rail,BBB,Uttar Pradesh,Agra
+CUST-0338,Maruti Suzuki Unit-7,supply.chain@maruti.co.in,Automotive,High,Annual,Rail,BBB,Gujarat,Vadodara
+CUST-0339,Tata Motors Unit-7,vendor@tatamotors.com,Automotive,High,Annual,Road,A,Maharashtra,Nashik
+CUST-0340,Mahindra & Mahindra Unit-7,supply@mahindra.com,Automotive,Low,Quarterly,Rail,A,Haryana,Faridabad
+CUST-0341,Hero MotoCorp Unit-7,procurement@heromotocorp.com,Automotive,Medium,Long-Term,Rail,AA,Uttar Pradesh,Meerut
+CUST-0342,Bajaj Auto Unit-7,vendor@bajajauto.com,Automotive,High,Spot,Rail,A,Gujarat,Rajkot
+CUST-0343,TVS Motor Unit-7,supply@tvsmotor.com,Automotive,Medium,Quarterly,Rail,AA,Tamil Nadu,Coimbatore
+CUST-0344,Ashok Leyland Unit-7,materials@ashokleyland.com,Automotive,Medium,Annual,Rail,AA,Madhya Pradesh,Jabalpur
+CUST-0345,Kirloskar Brothers Unit-7,purchase@kirloskarbros.com,Manufacturing,Low,Annual,Rail,A,Madhya Pradesh,Gwalior
+CUST-0346,Thermax Ltd Unit-7,procurement@thermax.com,Manufacturing,High,Annual,Road,A,Andhra Pradesh,Vijayawada
+CUST-0347,Cummins India Unit-7,vendor@cummins.com,Manufacturing,Low,Annual,Road,AA,Rajasthan,Jodhpur
+CUST-0348,ABB India Unit-7,supply@abb.com,Manufacturing,Low,Annual,Road,BBB,Tamil Nadu,Madurai
+CUST-0349,Siemens India Unit-7,logistics@siemens.com,Manufacturing,High,Quarterly,Road,BBB,Chhattisgarh,Raipur
+CUST-0350,Alstom India Unit-7,procurement@alstom.com,Manufacturing,High,Spot,Rail,AA,Rajasthan,Kota
+CUST-0351,Tata Steel Ltd Unit-8,procurement@tatasteel.com,Steel,High,Quarterly,Rail,AAA,Jharkhand,Ranchi
+CUST-0352,JSW Steel Unit-8,logistics@jsw.in,Steel,High,Quarterly,Rail,AA,West Bengal,Howrah
+CUST-0353,RINL Vizag Unit-8,dispatch@rinl.co.in,Steel,High,Quarterly,Rail,BBB,Jharkhand,Dhanbad
+CUST-0354,JSPL Raigarh Unit-8,supply@jspl.com,Steel,Medium,Annual,Road,BBB,Jharkhand,Jamshedpur
+CUST-0355,Essar Steel Unit-8,freight@essar.com,Steel,Low,Long-Term,Rail,AAA,Chhattisgarh,Bhilai
+CUST-0356,SAIL Durgapur Unit-8,logistics.dsp@sail.in,Steel,Low,Quarterly,Rail,BBB,West Bengal,Durgapur
+CUST-0357,Bhushan Steel Unit-8,purchase@bhushansteel.com,Steel,High,Annual,Rail,AAA,Odisha,Rourkela
+CUST-0358,Uttam Galva Unit-8,supply@uttamgalva.com,Steel,Low,Annual,Rail,AA,Uttar Pradesh,Allahabad
+CUST-0359,Rashtriya Ispat Nigam Unit-8,logistics@rinl.co.in,Steel,High,Spot,Rail,BB,Uttar Pradesh,Varanasi
+CUST-0360,Kalyani Steels Unit-8,procurement@kalyanisteels.com,Steel,Low,Quarterly,Rail,AA,Jharkhand,Bokaro
+CUST-0361,Mahindra Steel Unit-8,steel.logistics@mahindra.com,Steel,Low,Quarterly,Rail,AA,Maharashtra,Mumbai
+CUST-0362,L&T Construction Unit-8,materials@larsentoubro.com,Construction,Low,Quarterly,Rail,A,Delhi,Delhi
+CUST-0363,Adani Ports Unit-8,freight@adaniports.com,Infrastructure,High,Annual,Rail,A,West Bengal,Kolkata
+CUST-0364,GMR Infrastructure Unit-8,logistics@gmrgroup.in,Infrastructure,Low,Quarterly,Rail,BBB,Tamil Nadu,Chennai
+CUST-0365,Hindustan Zinc Unit-8,purchase@hindzinc.com,Mining,High,Quarterly,Rail,BB,Telangana,Hyderabad
+CUST-0366,Vedanta Resources Unit-8,supply@vedanta.co.in,Mining,Medium,Spot,Rail,AAA,Maharashtra,Pune
+CUST-0367,NMDC Ltd Unit-8,logistics@nmdc.co.in,Mining,Medium,Quarterly,Rail,AAA,Gujarat,Ahmedabad
+CUST-0368,Coal India Ltd Unit-8,material@coalindia.in,Mining,Medium,Quarterly,Rail,BBB,Gujarat,Surat
+CUST-0369,NTPC Ltd Unit-8,procurement@ntpc.co.in,Power,High,Long-Term,Road,AA,Rajasthan,Jaipur
+CUST-0370,BHEL Trichy Unit-8,materials.trichy@bhel.in,Manufacturing,High,Annual,Rail,BBB,Uttar Pradesh,Lucknow
+CUST-0371,Larsen & Toubro Unit-8,procurement@lntecc.com,Construction,Medium,Long-Term,Road,A,Uttar Pradesh,Kanpur
+CUST-0372,Shapoorji Pallonji Unit-8,logistics@shapoorji.com,Construction,Medium,Annual,Rail,AAA,Maharashtra,Nagpur
+CUST-0373,Gammon India Unit-8,supply@gammonindia.com,Construction,Medium,Annual,Rail,BBB,Andhra Pradesh,Visakhapatnam
+CUST-0374,Afcons Infrastructure Unit-8,materials@afcons.com,Construction,Medium,Annual,Rail,AA,Madhya Pradesh,Bhopal
+CUST-0375,IRB Infrastructure Unit-8,logistics@irb.co.in,Infrastructure,Low,Spot,Road,A,Bihar,Patna
+CUST-0376,HCC Ltd Unit-8,procurement@hccindia.com,Construction,High,Spot,Road,A,Punjab,Ludhiana
+CUST-0377,NCC Ltd Unit-8,supply@nccltd.in,Construction,Low,Spot,Road,A,Uttar Pradesh,Agra
+CUST-0378,Dilip Buildcon Unit-8,logistics@dilipbuildcon.com,Infrastructure,Low,Spot,Road,A,Gujarat,Vadodara
+CUST-0379,PNC Infratech Unit-8,materials@pncinfratech.com,Infrastructure,Medium,Spot,Rail,A,Maharashtra,Nashik
+CUST-0380,Ashoka Buildcon Unit-8,freight@ashokabuildcon.com,Infrastructure,High,Spot,Rail,BB,Haryana,Faridabad
+CUST-0381,Indian Railways (SCR) Unit-8,gm.scr@indianrailways.gov.in,Railways,High,Annual,Road,BB,Uttar Pradesh,Meerut
+CUST-0382,Indian Railways (ECR) Unit-8,gm.ecr@indianrailways.gov.in,Railways,High,Quarterly,Rail,A,Gujarat,Rajkot
+CUST-0383,Indian Railways (WR) Unit-8,gm.wr@indianrailways.gov.in,Railways,High,Long-Term,Rail,AAA,Tamil Nadu,Coimbatore
+CUST-0384,DRDO Pune Unit-8,logistics@drdo.gov.in,Defence,High,Annual,Road,A,Madhya Pradesh,Jabalpur
+CUST-0385,HAL Bengaluru Unit-8,materials@hal-india.co.in,Defence,High,Quarterly,Rail,BB,Madhya Pradesh,Gwalior
+CUST-0386,BEL Hyderabad Unit-8,procurement@bel-india.in,Defence,High,Spot,Rail,AA,Andhra Pradesh,Vijayawada
+CUST-0387,BEML Bengaluru Unit-8,supply@beml.co.in,Defence,High,Annual,Rail,A,Rajasthan,Jodhpur
+CUST-0388,Maruti Suzuki Unit-8,supply.chain@maruti.co.in,Automotive,Low,Annual,Rail,A,Tamil Nadu,Madurai
+CUST-0389,Tata Motors Unit-8,vendor@tatamotors.com,Automotive,Low,Annual,Road,AAA,Chhattisgarh,Raipur
+CUST-0390,Mahindra & Mahindra Unit-8,supply@mahindra.com,Automotive,High,Long-Term,Road,A,Rajasthan,Kota
+CUST-0391,Hero MotoCorp Unit-8,procurement@heromotocorp.com,Automotive,Low,Annual,Rail,AA,Jharkhand,Ranchi
+CUST-0392,Bajaj Auto Unit-8,vendor@bajajauto.com,Automotive,High,Spot,Rail,BBB,West Bengal,Howrah
+CUST-0393,TVS Motor Unit-8,supply@tvsmotor.com,Automotive,Medium,Spot,Road,BBB,Jharkhand,Dhanbad
+CUST-0394,Ashok Leyland Unit-8,materials@ashokleyland.com,Automotive,Medium,Quarterly,Road,BBB,Jharkhand,Jamshedpur
+CUST-0395,Kirloskar Brothers Unit-8,purchase@kirloskarbros.com,Manufacturing,Low,Spot,Rail,A,Chhattisgarh,Bhilai
+CUST-0396,Thermax Ltd Unit-8,procurement@thermax.com,Manufacturing,Low,Spot,Rail,AA,West Bengal,Durgapur
+CUST-0397,Cummins India Unit-8,vendor@cummins.com,Manufacturing,High,Spot,Rail,A,Odisha,Rourkela
+CUST-0398,ABB India Unit-8,supply@abb.com,Manufacturing,High,Annual,Rail,BBB,Uttar Pradesh,Allahabad
+CUST-0399,Siemens India Unit-8,logistics@siemens.com,Manufacturing,High,Annual,Rail,A,Uttar Pradesh,Varanasi
+CUST-0400,Alstom India Unit-8,procurement@alstom.com,Manufacturing,High,Spot,Rail,BBB,Jharkhand,Bokaro
+CUST-0401,Tata Steel Ltd Unit-9,procurement@tatasteel.com,Steel,High,Annual,Road,AAA,Maharashtra,Mumbai
+CUST-0402,JSW Steel Unit-9,logistics@jsw.in,Steel,High,Annual,Rail,BBB,Delhi,Delhi
+CUST-0403,RINL Vizag Unit-9,dispatch@rinl.co.in,Steel,High,Annual,Rail,AAA,West Bengal,Kolkata
+CUST-0404,JSPL Raigarh Unit-9,supply@jspl.com,Steel,Low,Quarterly,Rail,AA,Tamil Nadu,Chennai
+CUST-0405,Essar Steel Unit-9,freight@essar.com,Steel,Medium,Long-Term,Rail,A,Telangana,Hyderabad
+CUST-0406,SAIL Durgapur Unit-9,logistics.dsp@sail.in,Steel,Medium,Spot,Rail,AAA,Maharashtra,Pune
+CUST-0407,Bhushan Steel Unit-9,purchase@bhushansteel.com,Steel,Medium,Long-Term,Rail,AAA,Gujarat,Ahmedabad
+CUST-0408,Uttam Galva Unit-9,supply@uttamgalva.com,Steel,High,Annual,Road,AAA,Gujarat,Surat
+CUST-0409,Rashtriya Ispat Nigam Unit-9,logistics@rinl.co.in,Steel,Low,Long-Term,Rail,A,Rajasthan,Jaipur
+CUST-0410,Kalyani Steels Unit-9,procurement@kalyanisteels.com,Steel,High,Annual,Rail,BBB,Uttar Pradesh,Lucknow
+CUST-0411,Mahindra Steel Unit-9,steel.logistics@mahindra.com,Steel,High,Quarterly,Rail,AAA,Uttar Pradesh,Kanpur
+CUST-0412,L&T Construction Unit-9,materials@larsentoubro.com,Construction,High,Annual,Rail,A,Maharashtra,Nagpur
+CUST-0413,Adani Ports Unit-9,freight@adaniports.com,Infrastructure,High,Long-Term,Rail,BBB,Andhra Pradesh,Visakhapatnam
+CUST-0414,GMR Infrastructure Unit-9,logistics@gmrgroup.in,Infrastructure,High,Quarterly,Road,AA,Madhya Pradesh,Bhopal
+CUST-0415,Hindustan Zinc Unit-9,purchase@hindzinc.com,Mining,High,Spot,Rail,AAA,Bihar,Patna
+CUST-0416,Vedanta Resources Unit-9,supply@vedanta.co.in,Mining,Low,Long-Term,Road,BBB,Punjab,Ludhiana
+CUST-0417,NMDC Ltd Unit-9,logistics@nmdc.co.in,Mining,Medium,Spot,Rail,BBB,Uttar Pradesh,Agra
+CUST-0418,Coal India Ltd Unit-9,material@coalindia.in,Mining,Medium,Quarterly,Rail,A,Gujarat,Vadodara
+CUST-0419,NTPC Ltd Unit-9,procurement@ntpc.co.in,Power,High,Long-Term,Road,BBB,Maharashtra,Nashik
+CUST-0420,BHEL Trichy Unit-9,materials.trichy@bhel.in,Manufacturing,High,Spot,Rail,AAA,Haryana,Faridabad
+CUST-0421,Larsen & Toubro Unit-9,procurement@lntecc.com,Construction,Medium,Quarterly,Road,AA,Uttar Pradesh,Meerut
+CUST-0422,Shapoorji Pallonji Unit-9,logistics@shapoorji.com,Construction,Low,Spot,Road,A,Gujarat,Rajkot
+CUST-0423,Gammon India Unit-9,supply@gammonindia.com,Construction,Low,Long-Term,Rail,AA,Tamil Nadu,Coimbatore
+CUST-0424,Afcons Infrastructure Unit-9,materials@afcons.com,Construction,Medium,Annual,Road,BBB,Madhya Pradesh,Jabalpur
+CUST-0425,IRB Infrastructure Unit-9,logistics@irb.co.in,Infrastructure,Medium,Annual,Rail,A,Madhya Pradesh,Gwalior
+CUST-0426,HCC Ltd Unit-9,procurement@hccindia.com,Construction,High,Quarterly,Road,BBB,Andhra Pradesh,Vijayawada
+CUST-0427,NCC Ltd Unit-9,supply@nccltd.in,Construction,Low,Spot,Road,A,Rajasthan,Jodhpur
+CUST-0428,Dilip Buildcon Unit-9,logistics@dilipbuildcon.com,Infrastructure,Low,Long-Term,Road,AA,Tamil Nadu,Madurai
+CUST-0429,PNC Infratech Unit-9,materials@pncinfratech.com,Infrastructure,High,Long-Term,Rail,AA,Chhattisgarh,Raipur
+CUST-0430,Ashoka Buildcon Unit-9,freight@ashokabuildcon.com,Infrastructure,Low,Spot,Road,AA,Rajasthan,Kota
+CUST-0431,Indian Railways (SCR) Unit-9,gm.scr@indianrailways.gov.in,Railways,High,Spot,Rail,BBB,Jharkhand,Ranchi
+CUST-0432,Indian Railways (ECR) Unit-9,gm.ecr@indianrailways.gov.in,Railways,High,Spot,Rail,AAA,West Bengal,Howrah
+CUST-0433,Indian Railways (WR) Unit-9,gm.wr@indianrailways.gov.in,Railways,High,Long-Term,Rail,AAA,Jharkhand,Dhanbad
+CUST-0434,DRDO Pune Unit-9,logistics@drdo.gov.in,Defence,High,Spot,Rail,AA,Jharkhand,Jamshedpur
+CUST-0435,HAL Bengaluru Unit-9,materials@hal-india.co.in,Defence,High,Long-Term,Rail,AA,Chhattisgarh,Bhilai
+CUST-0436,BEL Hyderabad Unit-9,procurement@bel-india.in,Defence,High,Quarterly,Rail,BBB,West Bengal,Durgapur
+CUST-0437,BEML Bengaluru Unit-9,supply@beml.co.in,Defence,Medium,Annual,Rail,AA,Odisha,Rourkela
+CUST-0438,Maruti Suzuki Unit-9,supply.chain@maruti.co.in,Automotive,Low,Annual,Rail,BB,Uttar Pradesh,Allahabad
+CUST-0439,Tata Motors Unit-9,vendor@tatamotors.com,Automotive,High,Long-Term,Rail,AAA,Uttar Pradesh,Varanasi
+CUST-0440,Mahindra & Mahindra Unit-9,supply@mahindra.com,Automotive,Medium,Spot,Road,A,Jharkhand,Bokaro
+CUST-0441,Hero MotoCorp Unit-9,procurement@heromotocorp.com,Automotive,Low,Spot,Road,A,Maharashtra,Mumbai
+CUST-0442,Bajaj Auto Unit-9,vendor@bajajauto.com,Automotive,High,Long-Term,Rail,AA,Delhi,Delhi
+CUST-0443,TVS Motor Unit-9,supply@tvsmotor.com,Automotive,High,Quarterly,Road,BBB,West Bengal,Kolkata
+CUST-0444,Ashok Leyland Unit-9,materials@ashokleyland.com,Automotive,Medium,Long-Term,Rail,BB,Tamil Nadu,Chennai
+CUST-0445,Kirloskar Brothers Unit-9,purchase@kirloskarbros.com,Manufacturing,Medium,Annual,Rail,BBB,Telangana,Hyderabad
+CUST-0446,Thermax Ltd Unit-9,procurement@thermax.com,Manufacturing,Medium,Annual,Rail,AA,Maharashtra,Pune
+CUST-0447,Cummins India Unit-9,vendor@cummins.com,Manufacturing,High,Quarterly,Road,AA,Gujarat,Ahmedabad
+CUST-0448,ABB India Unit-9,supply@abb.com,Manufacturing,Low,Annual,Road,A,Gujarat,Surat
+CUST-0449,Siemens India Unit-9,logistics@siemens.com,Manufacturing,Medium,Quarterly,Road,AA,Rajasthan,Jaipur
+CUST-0450,Alstom India Unit-9,procurement@alstom.com,Manufacturing,High,Long-Term,Rail,A,Uttar Pradesh,Lucknow
+CUST-0451,Tata Steel Ltd Unit-10,procurement@tatasteel.com,Steel,High,Annual,Rail,A,Uttar Pradesh,Kanpur
+CUST-0452,JSW Steel Unit-10,logistics@jsw.in,Steel,High,Long-Term,Rail,A,Maharashtra,Nagpur
+CUST-0453,RINL Vizag Unit-10,dispatch@rinl.co.in,Steel,High,Spot,Rail,BBB,Andhra Pradesh,Visakhapatnam
+CUST-0454,JSPL Raigarh Unit-10,supply@jspl.com,Steel,High,Long-Term,Rail,A,Madhya Pradesh,Bhopal
+CUST-0455,Essar Steel Unit-10,freight@essar.com,Steel,Medium,Quarterly,Rail,AAA,Bihar,Patna
+CUST-0456,SAIL Durgapur Unit-10,logistics.dsp@sail.in,Steel,Medium,Spot,Rail,AAA,Punjab,Ludhiana
+CUST-0457,Bhushan Steel Unit-10,purchase@bhushansteel.com,Steel,High,Long-Term,Road,A,Uttar Pradesh,Agra
+CUST-0458,Uttam Galva Unit-10,supply@uttamgalva.com,Steel,Medium,Spot,Rail,A,Gujarat,Vadodara
+CUST-0459,Rashtriya Ispat Nigam Unit-10,logistics@rinl.co.in,Steel,Low,Quarterly,Rail,AA,Maharashtra,Nashik
+CUST-0460,Kalyani Steels Unit-10,procurement@kalyanisteels.com,Steel,High,Long-Term,Rail,A,Haryana,Faridabad
+CUST-0461,Mahindra Steel Unit-10,steel.logistics@mahindra.com,Steel,Low,Annual,Road,BBB,Uttar Pradesh,Meerut
+CUST-0462,L&T Construction Unit-10,materials@larsentoubro.com,Construction,High,Long-Term,Rail,BBB,Gujarat,Rajkot
+CUST-0463,Adani Ports Unit-10,freight@adaniports.com,Infrastructure,Low,Quarterly,Rail,A,Tamil Nadu,Coimbatore
+CUST-0464,GMR Infrastructure Unit-10,logistics@gmrgroup.in,Infrastructure,Medium,Annual,Rail,AA,Madhya Pradesh,Jabalpur
+CUST-0465,Hindustan Zinc Unit-10,purchase@hindzinc.com,Mining,High,Quarterly,Road,AA,Madhya Pradesh,Gwalior
+CUST-0466,Vedanta Resources Unit-10,supply@vedanta.co.in,Mining,Low,Spot,Rail,A,Andhra Pradesh,Vijayawada
+CUST-0467,NMDC Ltd Unit-10,logistics@nmdc.co.in,Mining,Medium,Spot,Rail,AA,Rajasthan,Jodhpur
+CUST-0468,Coal India Ltd Unit-10,material@coalindia.in,Mining,Medium,Long-Term,Rail,A,Tamil Nadu,Madurai
+CUST-0469,NTPC Ltd Unit-10,procurement@ntpc.co.in,Power,High,Quarterly,Road,A,Chhattisgarh,Raipur
+CUST-0470,BHEL Trichy Unit-10,materials.trichy@bhel.in,Manufacturing,High,Annual,Rail,AAA,Rajasthan,Kota
+CUST-0471,Larsen & Toubro Unit-10,procurement@lntecc.com,Construction,Medium,Long-Term,Road,AAA,Jharkhand,Ranchi
+CUST-0472,Shapoorji Pallonji Unit-10,logistics@shapoorji.com,Construction,Low,Long-Term,Road,AA,West Bengal,Howrah
+CUST-0473,Gammon India Unit-10,supply@gammonindia.com,Construction,Medium,Long-Term,Rail,BBB,Jharkhand,Dhanbad
+CUST-0474,Afcons Infrastructure Unit-10,materials@afcons.com,Construction,Medium,Long-Term,Rail,A,Jharkhand,Jamshedpur
+CUST-0475,IRB Infrastructure Unit-10,logistics@irb.co.in,Infrastructure,Medium,Annual,Road,AA,Chhattisgarh,Bhilai
+CUST-0476,HCC Ltd Unit-10,procurement@hccindia.com,Construction,Low,Annual,Rail,BBB,West Bengal,Durgapur
+CUST-0477,NCC Ltd Unit-10,supply@nccltd.in,Construction,Low,Annual,Rail,A,Odisha,Rourkela
+CUST-0478,Dilip Buildcon Unit-10,logistics@dilipbuildcon.com,Infrastructure,High,Spot,Rail,A,Uttar Pradesh,Allahabad
+CUST-0479,PNC Infratech Unit-10,materials@pncinfratech.com,Infrastructure,Medium,Long-Term,Rail,BBB,Uttar Pradesh,Varanasi
+CUST-0480,Ashoka Buildcon Unit-10,freight@ashokabuildcon.com,Infrastructure,High,Spot,Rail,AAA,Jharkhand,Bokaro
+CUST-0481,Indian Railways (SCR) Unit-10,gm.scr@indianrailways.gov.in,Railways,High,Spot,Rail,AA,Maharashtra,Mumbai
+CUST-0482,Indian Railways (ECR) Unit-10,gm.ecr@indianrailways.gov.in,Railways,High,Spot,Rail,A,Delhi,Delhi
+CUST-0483,Indian Railways (WR) Unit-10,gm.wr@indianrailways.gov.in,Railways,High,Spot,Rail,AA,West Bengal,Kolkata
+CUST-0484,DRDO Pune Unit-10,logistics@drdo.gov.in,Defence,High,Spot,Rail,A,Tamil Nadu,Chennai
+CUST-0485,HAL Bengaluru Unit-10,materials@hal-india.co.in,Defence,High,Spot,Rail,AA,Telangana,Hyderabad
+CUST-0486,BEL Hyderabad Unit-10,procurement@bel-india.in,Defence,High,Spot,Road,AAA,Maharashtra,Pune
+CUST-0487,BEML Bengaluru Unit-10,supply@beml.co.in,Defence,Medium,Spot,Rail,AA,Gujarat,Ahmedabad
+CUST-0488,Maruti Suzuki Unit-10,supply.chain@maruti.co.in,Automotive,Medium,Long-Term,Rail,A,Gujarat,Surat
+CUST-0489,Tata Motors Unit-10,vendor@tatamotors.com,Automotive,Low,Annual,Rail,AA,Rajasthan,Jaipur
+CUST-0490,Mahindra & Mahindra Unit-10,supply@mahindra.com,Automotive,Medium,Quarterly,Rail,AAA,Uttar Pradesh,Lucknow
+CUST-0491,Hero MotoCorp Unit-10,procurement@heromotocorp.com,Automotive,Low,Long-Term,Rail,BBB,Uttar Pradesh,Kanpur
+CUST-0492,Bajaj Auto Unit-10,vendor@bajajauto.com,Automotive,Low,Spot,Rail,AA,Maharashtra,Nagpur
+CUST-0493,TVS Motor Unit-10,supply@tvsmotor.com,Automotive,Low,Annual,Rail,AA,Andhra Pradesh,Visakhapatnam
+CUST-0494,Ashok Leyland Unit-10,materials@ashokleyland.com,Automotive,Medium,Long-Term,Rail,AAA,Madhya Pradesh,Bhopal
+CUST-0495,Kirloskar Brothers Unit-10,purchase@kirloskarbros.com,Manufacturing,High,Spot,Rail,AA,Bihar,Patna
+CUST-0496,Thermax Ltd Unit-10,procurement@thermax.com,Manufacturing,Medium,Spot,Rail,AA,Punjab,Ludhiana
+CUST-0497,Cummins India Unit-10,vendor@cummins.com,Manufacturing,High,Spot,Rail,A,Uttar Pradesh,Agra
+CUST-0498,ABB India Unit-10,supply@abb.com,Manufacturing,Medium,Long-Term,Road,AA,Gujarat,Vadodara
+CUST-0499,Siemens India Unit-10,logistics@siemens.com,Manufacturing,Low,Quarterly,Rail,BBB,Maharashtra,Nashik
+CUST-0500,Alstom India Unit-10,procurement@alstom.com,Manufacturing,Medium,Spot,Road,BBB,Haryana,Faridabad

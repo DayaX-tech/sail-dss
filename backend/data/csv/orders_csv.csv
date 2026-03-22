@@ -1,0 +1,501 @@
+order_id,sales_order_number,customer_id,customer_name,customer_priority_class,product_code,product_category,order_quantity_tons,destination_city,destination_state,order_date,requested_delivery_date,delivery_due_days,penalty_applicable_flag,penalty_cost_per_day,transport_mode_requested,order_status,special_instructions
+1,SO-BSP-2026-00001,CUST-0001,Tata Steel Ltd,High,HR-COIL,Flat,1245.2,Mumbai,Maharashtra,2026-03-01,2026-04-02,13,True,223436,Rail,In Process,
+2,SO-BSP-2026-00002,CUST-0002,JSW Steel,High,CR-SHEET,Flat,959.7,Delhi,Delhi,2026-03-08,2026-03-24,4,True,108596,Rail,In Process,
+3,SO-BSP-2026-00003,CUST-0003,RINL Vizag,High,PLATE-H,Flat,862.1,Kolkata,West Bengal,2026-03-10,2026-04-03,14,True,258912,Rail,In Process,
+4,SO-BSP-2026-00004,CUST-0004,JSPL Raigarh,Medium,PLATE-M,Flat,772.2,Chennai,Tamil Nadu,2026-03-01,2026-03-31,11,True,193587,Rail,Pending,
+5,SO-BSP-2026-00005,CUST-0005,Essar Steel,Medium,SLAB-A,Semi-Finished,435.9,Hyderabad,Telangana,2026-03-17,2026-03-30,10,True,33101,Rail,In Process,
+6,SO-BSP-2026-00006,CUST-0006,SAIL Durgapur,Low,SLAB-B,Semi-Finished,927.4,Pune,Maharashtra,2026-03-10,2026-03-28,8,True,312266,Rail,Dispatched,
+7,SO-BSP-2026-00007,CUST-0007,Bhushan Steel,High,BILLET-S,Semi-Finished,1277.1,Ahmedabad,Gujarat,2026-02-21,2026-04-03,14,True,218298,Rail,Pending,
+8,SO-BSP-2026-00008,CUST-0008,Uttam Galva,Low,BILLET-H,Semi-Finished,1299.1,Surat,Gujarat,2026-03-03,2026-03-25,5,True,228359,Rail,Dispatched,
+9,SO-BSP-2026-00009,CUST-0009,Rashtriya Ispat Nigam,High,TMT-12,Long,719.0,Jaipur,Rajasthan,2026-03-09,2026-03-28,8,True,38620,Rail,Dispatched,
+10,SO-BSP-2026-00010,CUST-0010,Kalyani Steels,High,TMT-16,Long,1003.2,Lucknow,Uttar Pradesh,2026-03-15,2026-04-01,12,True,111861,Rail,Pending,
+11,SO-BSP-2026-00011,CUST-0011,Mahindra Steel,Medium,TMT-20,Long,933.0,Kanpur,Uttar Pradesh,2026-03-11,2026-03-24,4,True,90259,Rail,Pending,Priority delivery
+12,SO-BSP-2026-00012,CUST-0012,L&T Construction,Low,WIRE-ROD,Long,1375.4,Nagpur,Maharashtra,2026-02-25,2026-04-01,12,True,289389,Rail,Pending,
+13,SO-BSP-2026-00013,CUST-0013,Adani Ports,Low,STRUCT-A,Long,742.4,Visakhapatnam,Andhra Pradesh,2026-03-18,2026-03-28,8,True,174000,Rail,In Process,
+14,SO-BSP-2026-00014,CUST-0014,GMR Infrastructure,Low,PIG-IRON,Raw,1331.4,Bhopal,Madhya Pradesh,2026-02-21,2026-03-25,5,True,243585,Rail,Pending,
+15,SO-BSP-2026-00015,CUST-0015,Hindustan Zinc,Low,HR-COIL,Flat,963.5,Patna,Bihar,2026-03-15,2026-03-26,6,True,109883,Rail,Pending,
+16,SO-BSP-2026-00016,CUST-0016,Vedanta Resources,Low,CR-SHEET,Flat,779.4,Ludhiana,Punjab,2026-02-23,2026-03-26,6,True,57118,Rail,In Process,
+17,SO-BSP-2026-00017,CUST-0017,NMDC Ltd,Medium,PLATE-H,Flat,692.6,Agra,Uttar Pradesh,2026-03-11,2026-03-31,11,True,143634,Rail,Dispatched,Night loading OK
+18,SO-BSP-2026-00018,CUST-0018,Coal India Ltd,High,PLATE-M,Flat,418.9,Vadodara,Gujarat,2026-03-10,2026-03-24,4,True,28524,Rail,In Process,
+19,SO-BSP-2026-00019,CUST-0019,NTPC Ltd,High,SLAB-A,Semi-Finished,844.8,Nashik,Maharashtra,2026-03-08,2026-03-25,5,True,245639,Rail,In Process,
+20,SO-BSP-2026-00020,CUST-0020,BHEL Trichy,High,SLAB-B,Semi-Finished,735.6,Faridabad,Haryana,2026-03-19,2026-03-24,4,True,169677,Rail,Pending,Day shift only
+21,SO-BSP-2026-00021,CUST-0021,Larsen & Toubro,Medium,BILLET-S,Semi-Finished,1274.4,Meerut,Uttar Pradesh,2026-03-07,2026-03-22,2,True,217078,Rail,Pending,
+22,SO-BSP-2026-00022,CUST-0022,Shapoorji Pallonji,Medium,BILLET-H,Semi-Finished,918.7,Rajkot,Gujarat,2026-02-20,2026-03-21,1,True,86124,Rail,In Process,
+23,SO-BSP-2026-00023,CUST-0023,Gammon India,High,TMT-12,Long,1461.9,Coimbatore,Tamil Nadu,2026-03-14,2026-03-31,11,True,309920,Rail,Pending,
+24,SO-BSP-2026-00024,CUST-0024,Afcons Infrastructure,Low,TMT-16,Long,1393.5,Jabalpur,Madhya Pradesh,2026-03-12,2026-03-29,9,True,274141,Rail,Pending,Night loading OK
+25,SO-BSP-2026-00025,CUST-0025,IRB Infrastructure,Low,TMT-20,Long,1292.3,Gwalior,Madhya Pradesh,2026-03-19,2026-04-03,14,True,225228,Rail,Dispatched,
+26,SO-BSP-2026-00026,CUST-0026,HCC Ltd,Medium,WIRE-ROD,Long,751.6,Vijayawada,Andhra Pradesh,2026-02-23,2026-04-01,12,True,50641,Rail,Pending,
+27,SO-BSP-2026-00027,CUST-0027,NCC Ltd,Medium,STRUCT-A,Long,643.6,Jodhpur,Rajasthan,2026-03-02,2026-03-31,11,True,116584,Rail,In Process,
+28,SO-BSP-2026-00028,CUST-0028,Dilip Buildcon,Low,PIG-IRON,Raw,644.7,Madurai,Tamil Nadu,2026-02-24,2026-03-28,8,True,25692,Rail,In Process,
+29,SO-BSP-2026-00029,CUST-0029,PNC Infratech,Medium,HR-COIL,Flat,717.2,Raipur,Chhattisgarh,2026-02-22,2026-03-23,3,True,43156,Rail,In Process,Night loading OK
+30,SO-BSP-2026-00030,CUST-0030,Ashoka Buildcon,Medium,CR-SHEET,Flat,1167.7,Kota,Rajasthan,2026-03-03,2026-04-03,14,True,188250,Rail,Pending,
+31,SO-BSP-2026-00031,CUST-0031,Indian Railways (SCR),High,PLATE-H,Flat,798.6,Ranchi,Jharkhand,2026-02-27,2026-03-26,6,True,211816,Rail,Pending,
+32,SO-BSP-2026-00032,CUST-0032,Indian Railways (ECR),High,PLATE-M,Flat,922.8,Howrah,West Bengal,2026-03-05,2026-03-31,11,True,308399,Rail,Pending,
+33,SO-BSP-2026-00033,CUST-0033,Indian Railways (WR),High,SLAB-A,Semi-Finished,565.0,Dhanbad,Jharkhand,2026-03-12,2026-03-26,6,True,79076,Rail,In Process,Handle with care
+34,SO-BSP-2026-00034,CUST-0034,DRDO Pune,High,SLAB-B,Semi-Finished,589.9,Jamshedpur,Jharkhand,2026-03-11,2026-03-27,7,True,90170,Rail,Pending,
+35,SO-BSP-2026-00035,CUST-0035,HAL Bengaluru,High,BILLET-S,Semi-Finished,1020.1,Bhilai,Chhattisgarh,2026-03-15,2026-03-28,8,True,117416,Rail,Pending,
+36,SO-BSP-2026-00036,CUST-0036,BEL Hyderabad,High,BILLET-H,Semi-Finished,773.1,Durgapur,West Bengal,2026-03-03,2026-04-03,14,True,49652,Rail,In Process,
+37,SO-BSP-2026-00037,CUST-0037,BEML Bengaluru,Low,TMT-12,Long,720.6,Rourkela,Odisha,2026-02-25,2026-03-21,1,True,38923,Rail,Pending,
+38,SO-BSP-2026-00038,CUST-0038,Maruti Suzuki,Low,TMT-16,Long,1025.5,Bokaro,Jharkhand,2026-02-22,2026-03-30,10,True,119223,Rail,Pending,Night loading OK
+39,SO-BSP-2026-00039,CUST-0039,Tata Motors,High,TMT-20,Long,806.1,Allahabad,Uttar Pradesh,2026-02-28,2026-03-28,8,True,57056,Rail,Pending,Night loading OK
+40,SO-BSP-2026-00040,CUST-0040,Mahindra & Mahindra,Medium,WIRE-ROD,Long,1156.4,Varanasi,Uttar Pradesh,2026-02-22,2026-03-21,1,True,183366,Rail,Pending,
+41,SO-BSP-2026-00041,CUST-0041,Hero MotoCorp,High,STRUCT-A,Long,627.1,Mumbai,Maharashtra,2026-03-17,2026-03-23,3,True,108112,Rail,Pending,
+42,SO-BSP-2026-00042,CUST-0042,Bajaj Auto,Low,PIG-IRON,Raw,1340.2,Delhi,Delhi,2026-02-23,2026-03-31,11,True,247769,Rail,Pending,
+43,SO-BSP-2026-00043,CUST-0043,TVS Motor,Low,HR-COIL,Flat,1182.4,Kolkata,West Bengal,2026-03-14,2026-03-23,3,True,194684,Rail,Dispatched,Day shift only
+44,SO-BSP-2026-00044,CUST-0044,Ashok Leyland,Medium,CR-SHEET,Flat,851.9,Chennai,Tamil Nadu,2026-03-02,2026-04-01,12,True,75866,Rail,Dispatched,
+45,SO-BSP-2026-00045,CUST-0045,Kirloskar Brothers,High,PLATE-H,Flat,847.4,Hyderabad,Telangana,2026-03-05,2026-04-02,13,True,247605,Rail,In Process,
+46,SO-BSP-2026-00046,CUST-0046,Thermax Ltd,Low,PLATE-M,Flat,832.1,Pune,Maharashtra,2026-03-01,2026-03-27,7,True,236057,Rail,In Process,
+47,SO-BSP-2026-00047,CUST-0047,Cummins India,Medium,SLAB-A,Semi-Finished,599.4,Ahmedabad,Gujarat,2026-03-11,2026-03-24,4,True,94601,Rail,In Process,Priority delivery
+48,SO-BSP-2026-00048,CUST-0048,ABB India,Low,SLAB-B,Semi-Finished,544.1,Surat,Gujarat,2026-02-19,2026-03-23,3,True,70310,Rail,Dispatched,Night loading OK
+49,SO-BSP-2026-00049,CUST-0049,Siemens India,Low,BILLET-S,Semi-Finished,1207.8,Jaipur,Rajasthan,2026-03-01,2026-03-26,6,True,188041,Rail,Pending,
+50,SO-BSP-2026-00050,CUST-0050,Alstom India,Low,BILLET-H,Semi-Finished,729.3,Lucknow,Uttar Pradesh,2026-03-13,2026-04-02,13,True,40608,Rail,Pending,Handle with care
+51,SO-BSP-2026-00051,CUST-0051,Tata Steel Ltd Unit-2,High,TMT-12,Long,782.3,Kanpur,Uttar Pradesh,2026-03-03,2026-03-25,5,True,51664,Rail,In Process,Night loading OK
+52,SO-BSP-2026-00052,CUST-0052,JSW Steel Unit-2,High,TMT-16,Long,612.6,Nagpur,Maharashtra,2026-03-10,2026-03-26,6,True,20908,Rail,Dispatched,
+53,SO-BSP-2026-00053,CUST-0053,RINL Vizag Unit-2,High,TMT-20,Long,1299.9,Visakhapatnam,Andhra Pradesh,2026-02-28,2026-04-02,13,True,228709,Rail,Pending,
+54,SO-BSP-2026-00054,CUST-0054,JSPL Raigarh Unit-2,Medium,WIRE-ROD,Long,1152.2,Bhopal,Madhya Pradesh,2026-03-02,2026-03-22,2,True,181562,Rail,Pending,Handle with care
+55,SO-BSP-2026-00055,CUST-0055,Essar Steel Unit-2,Medium,STRUCT-A,Long,776.6,Patna,Bihar,2026-02-25,2026-04-03,14,True,196527,Rail,Pending,
+56,SO-BSP-2026-00056,CUST-0056,SAIL Durgapur Unit-2,High,PIG-IRON,Raw,1294.4,Ludhiana,Punjab,2026-03-08,2026-03-30,10,True,226182,Rail,Pending,
+57,SO-BSP-2026-00057,CUST-0057,Bhushan Steel Unit-2,Medium,HR-COIL,Flat,976.7,Agra,Uttar Pradesh,2026-03-16,2026-03-29,9,True,114320,Rail,In Process,Night loading OK
+58,SO-BSP-2026-00058,CUST-0058,Uttam Galva Unit-2,High,CR-SHEET,Flat,1070.3,Vadodara,Gujarat,2026-02-25,2026-03-23,3,True,148253,Rail,Pending,Priority delivery
+59,SO-BSP-2026-00059,CUST-0059,Rashtriya Ispat Nigam Unit-2,Low,PLATE-H,Flat,461.3,Nashik,Maharashtra,2026-02-25,2026-03-28,8,True,40611,Rail,Dispatched,Handle with care
+60,SO-BSP-2026-00060,CUST-0060,Kalyani Steels Unit-2,Low,PLATE-M,Flat,447.2,Faridabad,Haryana,2026-03-13,2026-03-27,7,True,36357,Rail,In Process,
+61,SO-BSP-2026-00061,CUST-0061,Mahindra Steel Unit-2,Low,SLAB-A,Semi-Finished,756.1,Meerut,Uttar Pradesh,2026-03-10,2026-03-22,2,True,182861,Rail,Pending,
+62,SO-BSP-2026-00062,CUST-0062,L&T Construction Unit-2,Low,SLAB-B,Semi-Finished,646.0,Rajkot,Gujarat,2026-03-02,2026-03-29,9,True,117861,Rail,In Process,
+63,SO-BSP-2026-00063,CUST-0063,Adani Ports Unit-2,Medium,BILLET-S,Semi-Finished,1104.4,Coimbatore,Tamil Nadu,2026-02-25,2026-03-21,1,True,147103,Rail,In Process,Priority delivery
+64,SO-BSP-2026-00064,CUST-0064,GMR Infrastructure Unit-2,Low,BILLET-H,Semi-Finished,1280.5,Jabalpur,Madhya Pradesh,2026-03-03,2026-03-30,10,True,219841,Rail,Pending,Priority delivery
+65,SO-BSP-2026-00065,CUST-0065,Hindustan Zinc Unit-2,Medium,TMT-12,Long,1165.7,Gwalior,Madhya Pradesh,2026-03-05,2026-03-21,1,True,170757,Rail,Pending,
+66,SO-BSP-2026-00066,CUST-0066,Vedanta Resources Unit-2,High,TMT-16,Long,1094.1,Vijayawada,Andhra Pradesh,2026-02-22,2026-03-30,10,True,143309,Rail,In Process,Handle with care
+67,SO-BSP-2026-00067,CUST-0067,NMDC Ltd Unit-2,Low,TMT-20,Long,1099.1,Jodhpur,Rajasthan,2026-03-13,2026-04-03,14,True,145138,Rail,Pending,Day shift only
+68,SO-BSP-2026-00068,CUST-0068,Coal India Ltd Unit-2,Medium,WIRE-ROD,Long,844.7,Madurai,Tamil Nadu,2026-03-17,2026-03-31,11,True,73893,Rail,Pending,Day shift only
+69,SO-BSP-2026-00069,CUST-0069,NTPC Ltd Unit-2,High,STRUCT-A,Long,400.5,Raipur,Chhattisgarh,2026-03-01,2026-03-24,4,True,23930,Rail,Pending,
+70,SO-BSP-2026-00070,CUST-0070,BHEL Trichy Unit-2,High,PIG-IRON,Raw,991.1,Kota,Rajasthan,2026-02-23,2026-03-30,10,True,107990,Rail,Pending,
+71,SO-BSP-2026-00071,CUST-0071,Larsen & Toubro Unit-2,Low,HR-COIL,Flat,768.6,Ranchi,Jharkhand,2026-02-25,2026-03-28,8,True,54558,Rail,In Process,
+72,SO-BSP-2026-00072,CUST-0072,Shapoorji Pallonji Unit-2,High,CR-SHEET,Flat,933.8,Howrah,West Bengal,2026-03-13,2026-03-27,7,True,100211,Rail,Pending,Night loading OK
+73,SO-BSP-2026-00073,CUST-0073,Gammon India Unit-2,Medium,PLATE-H,Flat,859.2,Dhanbad,Jharkhand,2026-03-15,2026-04-01,12,True,256671,Rail,In Process,Handle with care
+74,SO-BSP-2026-00074,CUST-0074,Afcons Infrastructure Unit-2,High,PLATE-M,Flat,513.8,Jamshedpur,Jharkhand,2026-02-24,2026-04-02,13,True,58500,Rail,Pending,Day shift only
+75,SO-BSP-2026-00075,CUST-0075,IRB Infrastructure Unit-2,Low,SLAB-A,Semi-Finished,415.9,Bhilai,Chhattisgarh,2026-02-24,2026-03-24,4,True,27730,Rail,In Process,
+76,SO-BSP-2026-00076,CUST-0076,HCC Ltd Unit-2,Medium,SLAB-B,Semi-Finished,540.2,Durgapur,West Bengal,2026-03-12,2026-03-29,9,True,68736,Rail,Pending,
+77,SO-BSP-2026-00077,CUST-0077,NCC Ltd Unit-2,High,BILLET-S,Semi-Finished,864.9,Rourkela,Odisha,2026-03-14,2026-04-03,14,True,71504,Rail,Dispatched,
+78,SO-BSP-2026-00078,CUST-0078,Dilip Buildcon Unit-2,High,BILLET-H,Semi-Finished,1189.6,Bokaro,Jharkhand,2026-03-11,2026-03-25,5,True,180496,Rail,Dispatched,
+79,SO-BSP-2026-00079,CUST-0079,PNC Infratech Unit-2,Medium,TMT-12,Long,1097.2,Allahabad,Uttar Pradesh,2026-02-26,2026-03-29,9,True,144424,Rail,Pending,
+80,SO-BSP-2026-00080,CUST-0080,Ashoka Buildcon Unit-2,Low,TMT-16,Long,1297.2,Varanasi,Uttar Pradesh,2026-02-22,2026-03-22,2,True,227480,Rail,In Process,
+81,SO-BSP-2026-00081,CUST-0081,Indian Railways (SCR) Unit-2,High,TMT-20,Long,1191.8,Mumbai,Maharashtra,2026-02-26,2026-04-01,12,True,181360,Rail,Pending,
+82,SO-BSP-2026-00082,CUST-0082,Indian Railways (ECR) Unit-2,High,WIRE-ROD,Long,932.0,Delhi,Delhi,2026-03-10,2026-03-27,7,True,99632,Rail,In Process,Handle with care
+83,SO-BSP-2026-00083,CUST-0083,Indian Railways (WR) Unit-2,High,STRUCT-A,Long,837.2,Kolkata,West Bengal,2026-03-16,2026-03-22,2,True,239905,Rail,In Process,
+84,SO-BSP-2026-00084,CUST-0084,DRDO Pune Unit-2,High,PIG-IRON,Raw,753.3,Chennai,Tamil Nadu,2026-03-19,2026-03-23,3,True,45448,Rail,Pending,
+85,SO-BSP-2026-00085,CUST-0085,HAL Bengaluru Unit-2,High,HR-COIL,Flat,605.1,Hyderabad,Telangana,2026-02-19,2026-04-01,12,True,22865,Rail,Pending,
+86,SO-BSP-2026-00086,CUST-0086,BEL Hyderabad Unit-2,Low,CR-SHEET,Flat,662.5,Pune,Maharashtra,2026-03-04,2026-03-29,9,True,32464,Rail,Pending,
+87,SO-BSP-2026-00087,CUST-0087,BEML Bengaluru Unit-2,High,PLATE-H,Flat,786.1,Ahmedabad,Gujarat,2026-03-08,2026-04-02,13,True,203096,Rail,In Process,
+88,SO-BSP-2026-00088,CUST-0088,Maruti Suzuki Unit-2,High,PLATE-M,Flat,640.9,Surat,Gujarat,2026-03-02,2026-03-31,11,True,115172,Rail,In Process,
+89,SO-BSP-2026-00089,CUST-0089,Tata Motors Unit-2,Low,SLAB-A,Semi-Finished,473.3,Jaipur,Rajasthan,2026-02-20,2026-04-02,13,True,44410,Rail,Pending,
+90,SO-BSP-2026-00090,CUST-0090,Mahindra & Mahindra Unit-2,Low,SLAB-B,Semi-Finished,662.7,Lucknow,Uttar Pradesh,2026-02-23,2026-03-28,8,True,126822,Rail,Pending,
+91,SO-BSP-2026-00091,CUST-0091,Hero MotoCorp Unit-2,Medium,BILLET-S,Semi-Finished,740.4,Kanpur,Uttar Pradesh,2026-03-14,2026-03-26,6,True,42802,Rail,Pending,Handle with care
+92,SO-BSP-2026-00092,CUST-0092,Bajaj Auto Unit-2,Low,BILLET-H,Semi-Finished,1220.0,Nagpur,Maharashtra,2026-02-21,2026-03-26,6,True,193189,Rail,Pending,
+93,SO-BSP-2026-00093,CUST-0093,TVS Motor Unit-2,Low,TMT-12,Long,999.4,Visakhapatnam,Andhra Pradesh,2026-03-02,2026-03-29,9,True,110657,Rail,Pending,
+94,SO-BSP-2026-00094,CUST-0094,Ashok Leyland Unit-2,Medium,TMT-16,Long,942.0,Bhopal,Madhya Pradesh,2026-03-12,2026-03-24,4,True,92904,Rail,Pending,
+95,SO-BSP-2026-00095,CUST-0095,Kirloskar Brothers Unit-2,Low,TMT-20,Long,871.9,Patna,Bihar,2026-02-22,2026-03-22,2,True,73329,Rail,Dispatched,Night loading OK
+96,SO-BSP-2026-00096,CUST-0096,Thermax Ltd Unit-2,High,WIRE-ROD,Long,1122.8,Ludhiana,Punjab,2026-02-25,2026-03-25,5,True,169196,Rail,Pending,
+97,SO-BSP-2026-00097,CUST-0097,Cummins India Unit-2,High,STRUCT-A,Long,585.1,Agra,Uttar Pradesh,2026-03-06,2026-03-26,6,True,87963,Rail,In Process,
+98,SO-BSP-2026-00098,CUST-0098,ABB India Unit-2,Low,PIG-IRON,Raw,683.4,Vadodara,Gujarat,2026-02-25,2026-03-27,7,True,32091,Rail,Pending,Priority delivery
+99,SO-BSP-2026-00099,CUST-0099,Siemens India Unit-2,Medium,HR-COIL,Flat,686.3,Nashik,Maharashtra,2026-03-19,2026-03-28,8,True,36931,Rail,Pending,
+100,SO-BSP-2026-00100,CUST-0100,Alstom India Unit-2,High,CR-SHEET,Flat,1405.3,Faridabad,Haryana,2026-03-10,2026-03-21,1,True,305754,Rail,In Process,
+101,SO-BSP-2026-00101,CUST-0101,Tata Steel Ltd Unit-3,High,PLATE-H,Flat,890.0,Meerut,Uttar Pradesh,2026-03-19,2026-03-27,7,True,281089,Rail,Pending,Handle with care
+102,SO-BSP-2026-00102,CUST-0102,JSW Steel Unit-3,High,PLATE-M,Flat,773.5,Rajkot,Gujarat,2026-02-23,2026-03-30,10,True,194471,Rail,Pending,
+103,SO-BSP-2026-00103,CUST-0103,RINL Vizag Unit-3,High,SLAB-A,Semi-Finished,531.6,Coimbatore,Tamil Nadu,2026-02-26,2026-03-31,11,True,65300,Rail,Dispatched,Day shift only
+104,SO-BSP-2026-00104,CUST-0104,JSPL Raigarh Unit-3,Medium,SLAB-B,Semi-Finished,923.8,Jabalpur,Madhya Pradesh,2026-03-03,2026-03-28,8,True,309184,Rail,Dispatched,Handle with care
+105,SO-BSP-2026-00105,CUST-0105,Essar Steel Unit-3,Low,BILLET-S,Semi-Finished,1292.6,Gwalior,Madhya Pradesh,2026-02-21,2026-03-25,5,True,225389,Rail,In Process,Day shift only
+106,SO-BSP-2026-00106,CUST-0106,SAIL Durgapur Unit-3,Low,BILLET-H,Semi-Finished,1238.1,Vijayawada,Andhra Pradesh,2026-02-21,2026-03-25,5,True,200990,Rail,Pending,
+107,SO-BSP-2026-00107,CUST-0107,Bhushan Steel Unit-3,Low,TMT-12,Long,1002.3,Jodhpur,Rajasthan,2026-03-09,2026-03-26,6,True,111572,Rail,Pending,
+108,SO-BSP-2026-00108,CUST-0108,Uttam Galva Unit-3,Medium,TMT-16,Long,846.1,Madurai,Tamil Nadu,2026-02-19,2026-03-31,11,True,66699,Rail,Pending,Night loading OK
+109,SO-BSP-2026-00109,CUST-0109,Rashtriya Ispat Nigam Unit-3,Medium,TMT-20,Long,691.1,Raipur,Chhattisgarh,2026-02-26,2026-03-24,4,True,33448,Rail,Dispatched,
+110,SO-BSP-2026-00110,CUST-0110,Kalyani Steels Unit-3,Low,WIRE-ROD,Long,1354.8,Kota,Rajasthan,2026-02-28,2026-03-24,4,True,278384,Rail,In Process,
+111,SO-BSP-2026-00111,CUST-0111,Mahindra Steel Unit-3,High,STRUCT-A,Long,637.5,Ranchi,Jharkhand,2026-03-08,2026-03-27,7,True,113413,Rail,Pending,
+112,SO-BSP-2026-00112,CUST-0112,L&T Construction Unit-3,Low,PIG-IRON,Raw,784.5,Howrah,West Bengal,2026-03-04,2026-04-01,12,True,52141,Rail,Dispatched,
+113,SO-BSP-2026-00113,CUST-0113,Adani Ports Unit-3,Medium,HR-COIL,Flat,846.4,Dhanbad,Jharkhand,2026-03-19,2026-04-03,14,True,74360,Rail,Pending,
+114,SO-BSP-2026-00114,CUST-0114,GMR Infrastructure Unit-3,Medium,CR-SHEET,Flat,1079.2,Jamshedpur,Jharkhand,2026-03-11,2026-03-30,10,True,151724,Rail,Pending,
+115,SO-BSP-2026-00115,CUST-0115,Hindustan Zinc Unit-3,Medium,PLATE-H,Flat,481.9,Bhilai,Chhattisgarh,2026-03-18,2026-03-21,1,True,47255,Rail,Pending,
+116,SO-BSP-2026-00116,CUST-0116,Vedanta Resources Unit-3,Medium,PLATE-M,Flat,861.0,Durgapur,West Bengal,2026-03-19,2026-03-27,7,True,258063,Rail,Pending,
+117,SO-BSP-2026-00117,CUST-0117,NMDC Ltd Unit-3,High,SLAB-A,Semi-Finished,806.3,Rourkela,Odisha,2026-03-09,2026-03-28,8,True,217249,Rail,Dispatched,
+118,SO-BSP-2026-00118,CUST-0118,Coal India Ltd Unit-3,High,SLAB-B,Semi-Finished,784.5,Bokaro,Jharkhand,2026-03-08,2026-03-28,8,True,201976,Rail,Dispatched,
+119,SO-BSP-2026-00119,CUST-0119,NTPC Ltd Unit-3,High,BILLET-S,Semi-Finished,987.0,Allahabad,Uttar Pradesh,2026-03-09,2026-03-24,4,True,106692,Rail,Pending,
+120,SO-BSP-2026-00120,CUST-0120,BHEL Trichy Unit-3,High,BILLET-H,Semi-Finished,1159.1,Varanasi,Uttar Pradesh,2026-02-25,2026-03-26,6,True,168147,Rail,Pending,Day shift only
+121,SO-BSP-2026-00121,CUST-0121,Larsen & Toubro Unit-3,Medium,TMT-12,Long,1121.0,Mumbai,Maharashtra,2026-03-18,2026-03-28,8,True,153348,Rail,Pending,Priority delivery
+122,SO-BSP-2026-00122,CUST-0122,Shapoorji Pallonji Unit-3,Low,TMT-16,Long,1179.0,Delhi,Delhi,2026-02-27,2026-03-22,2,True,176142,Rail,Pending,
+123,SO-BSP-2026-00123,CUST-0123,Gammon India Unit-3,Medium,TMT-20,Long,680.5,Kolkata,West Bengal,2026-03-01,2026-03-31,11,True,31599,Rail,Pending,
+124,SO-BSP-2026-00124,CUST-0124,Afcons Infrastructure Unit-3,Medium,WIRE-ROD,Long,940.0,Chennai,Tamil Nadu,2026-02-21,2026-04-03,14,True,102192,Rail,Pending,Day shift only
+125,SO-BSP-2026-00125,CUST-0125,IRB Infrastructure Unit-3,Low,STRUCT-A,Long,406.6,Hyderabad,Telangana,2026-03-14,2026-04-03,14,True,25394,Rail,Pending,Day shift only
+126,SO-BSP-2026-00126,CUST-0126,HCC Ltd Unit-3,Medium,PIG-IRON,Raw,1041.6,Pune,Maharashtra,2026-03-16,2026-03-21,1,True,124681,Rail,Pending,
+127,SO-BSP-2026-00127,CUST-0127,NCC Ltd Unit-3,High,HR-COIL,Flat,866.8,Ahmedabad,Gujarat,2026-02-22,2026-04-01,12,True,80046,Rail,Pending,
+128,SO-BSP-2026-00128,CUST-0128,Dilip Buildcon Unit-3,Low,CR-SHEET,Flat,708.9,Surat,Gujarat,2026-02-25,2026-03-27,7,True,41431,Rail,Dispatched,
+129,SO-BSP-2026-00129,CUST-0129,PNC Infratech Unit-3,Medium,PLATE-H,Flat,441.0,Jaipur,Rajasthan,2026-03-19,2026-03-30,10,True,34563,Rail,Pending,
+130,SO-BSP-2026-00130,CUST-0130,Ashoka Buildcon Unit-3,Medium,PLATE-M,Flat,711.0,Lucknow,Uttar Pradesh,2026-03-13,2026-03-22,2,True,154542,Rail,Pending,
+131,SO-BSP-2026-00131,CUST-0131,Indian Railways (SCR) Unit-3,High,SLAB-A,Semi-Finished,478.5,Kanpur,Uttar Pradesh,2026-02-27,2026-04-03,14,True,46107,Rail,Pending,Day shift only
+132,SO-BSP-2026-00132,CUST-0132,Indian Railways (ECR) Unit-3,High,SLAB-B,Semi-Finished,899.2,Nagpur,Maharashtra,2026-03-07,2026-03-24,4,True,288634,Rail,In Process,
+133,SO-BSP-2026-00133,CUST-0133,Indian Railways (WR) Unit-3,High,BILLET-S,Semi-Finished,1118.4,Visakhapatnam,Andhra Pradesh,2026-02-24,2026-03-27,7,True,152340,Rail,Pending,Priority delivery
+134,SO-BSP-2026-00134,CUST-0134,DRDO Pune Unit-3,High,BILLET-H,Semi-Finished,911.9,Bhopal,Madhya Pradesh,2026-03-06,2026-03-26,6,True,84214,Rail,Pending,
+135,SO-BSP-2026-00135,CUST-0135,HAL Bengaluru Unit-3,High,TMT-12,Long,1127.1,Patna,Bihar,2026-02-21,2026-03-26,6,True,155645,Rail,In Process,Day shift only
+136,SO-BSP-2026-00136,CUST-0136,BEL Hyderabad Unit-3,High,TMT-16,Long,626.2,Ludhiana,Punjab,2026-03-13,2026-03-25,5,True,22875,Rail,In Process,
+137,SO-BSP-2026-00137,CUST-0137,BEML Bengaluru Unit-3,Medium,TMT-20,Long,1451.2,Agra,Uttar Pradesh,2026-03-18,2026-03-22,2,True,304175,Rail,Pending,
+138,SO-BSP-2026-00138,CUST-0138,Maruti Suzuki Unit-3,High,WIRE-ROD,Long,996.7,Vadodara,Gujarat,2026-03-06,2026-03-27,7,True,121174,Rail,Pending,
+139,SO-BSP-2026-00139,CUST-0139,Tata Motors Unit-3,Medium,STRUCT-A,Long,819.8,Nashik,Maharashtra,2026-02-23,2026-03-22,2,True,226996,Rail,Dispatched,
+140,SO-BSP-2026-00140,CUST-0140,Mahindra & Mahindra Unit-3,Medium,PIG-IRON,Raw,679.0,Faridabad,Haryana,2026-03-07,2026-03-23,3,True,31337,Rail,Pending,
+141,SO-BSP-2026-00141,CUST-0141,Hero MotoCorp Unit-3,Low,HR-COIL,Flat,1000.4,Meerut,Uttar Pradesh,2026-02-25,2026-04-01,12,True,122474,Rail,Pending,
+142,SO-BSP-2026-00142,CUST-0142,Bajaj Auto Unit-3,High,CR-SHEET,Flat,1003.8,Rajkot,Gujarat,2026-02-27,2026-03-24,4,True,123692,Rail,Pending,Night loading OK
+143,SO-BSP-2026-00143,CUST-0143,TVS Motor Unit-3,High,PLATE-H,Flat,906.3,Coimbatore,Tamil Nadu,2026-02-28,2026-03-30,10,True,294495,Rail,Pending,
+144,SO-BSP-2026-00144,CUST-0144,Ashok Leyland Unit-3,Medium,PLATE-M,Flat,702.1,Jabalpur,Madhya Pradesh,2026-03-07,2026-03-28,8,True,149239,Rail,In Process,Day shift only
+145,SO-BSP-2026-00145,CUST-0145,Kirloskar Brothers Unit-3,Low,SLAB-A,Semi-Finished,647.4,Gwalior,Madhya Pradesh,2026-03-09,2026-03-30,10,True,118570,Rail,In Process,Night loading OK
+146,SO-BSP-2026-00146,CUST-0146,Thermax Ltd Unit-3,Low,SLAB-B,Semi-Finished,532.2,Vijayawada,Andhra Pradesh,2026-03-04,2026-04-02,13,True,65546,Rail,Pending,
+147,SO-BSP-2026-00147,CUST-0147,Cummins India Unit-3,High,BILLET-S,Semi-Finished,898.4,Jodhpur,Rajasthan,2026-02-28,2026-03-24,4,True,80460,Rail,In Process,Handle with care
+148,SO-BSP-2026-00148,CUST-0148,ABB India Unit-3,High,BILLET-H,Semi-Finished,1065.1,Madurai,Tamil Nadu,2026-02-24,2026-04-03,14,True,132857,Rail,Pending,Day shift only
+149,SO-BSP-2026-00149,CUST-0149,Siemens India Unit-3,Low,TMT-12,Long,993.0,Raipur,Chhattisgarh,2026-02-19,2026-03-29,9,True,108611,Rail,In Process,
+150,SO-BSP-2026-00150,CUST-0150,Alstom India Unit-3,High,TMT-16,Long,625.2,Kota,Rajasthan,2026-03-03,2026-03-23,3,True,22724,Rail,Pending,Night loading OK
+151,SO-BSP-2026-00151,CUST-0151,Tata Steel Ltd Unit-4,High,TMT-20,Long,1334.6,Ranchi,Jharkhand,2026-02-24,2026-03-31,11,True,245068,Rail,Pending,
+152,SO-BSP-2026-00152,CUST-0152,JSW Steel Unit-4,High,WIRE-ROD,Long,1349.3,Howrah,West Bengal,2026-02-25,2026-03-21,1,True,275492,Rail,In Process,
+153,SO-BSP-2026-00153,CUST-0153,RINL Vizag Unit-4,High,STRUCT-A,Long,461.6,Dhanbad,Jharkhand,2026-03-03,2026-03-27,7,True,40687,Rail,Pending,
+154,SO-BSP-2026-00154,CUST-0154,JSPL Raigarh Unit-4,Medium,PIG-IRON,Raw,1094.5,Jamshedpur,Jharkhand,2026-02-25,2026-03-29,9,True,143464,Rail,Pending,
+155,SO-BSP-2026-00155,CUST-0155,Essar Steel Unit-4,Medium,HR-COIL,Flat,678.3,Bhilai,Chhattisgarh,2026-03-12,2026-04-02,13,True,35391,Rail,Pending,Night loading OK
+156,SO-BSP-2026-00156,CUST-0156,SAIL Durgapur Unit-4,Medium,CR-SHEET,Flat,1158.5,Durgapur,West Bengal,2026-03-18,2026-03-23,3,True,184255,Rail,In Process,
+157,SO-BSP-2026-00157,CUST-0157,Bhushan Steel Unit-4,High,PLATE-H,Flat,540.2,Rourkela,Odisha,2026-02-27,2026-03-31,11,True,68703,Rail,Pending,
+158,SO-BSP-2026-00158,CUST-0158,Uttam Galva Unit-4,Medium,PLATE-M,Flat,751.0,Bokaro,Jharkhand,2026-03-02,2026-03-31,11,True,179591,Rail,In Process,Night loading OK
+159,SO-BSP-2026-00159,CUST-0159,Rashtriya Ispat Nigam Unit-4,Medium,SLAB-A,Semi-Finished,788.7,Allahabad,Uttar Pradesh,2026-03-18,2026-03-27,7,True,204885,Rail,In Process,Night loading OK
+160,SO-BSP-2026-00160,CUST-0160,Kalyani Steels Unit-4,Low,SLAB-B,Semi-Finished,811.9,Varanasi,Uttar Pradesh,2026-03-13,2026-03-24,4,True,221303,Rail,In Process,Day shift only
+161,SO-BSP-2026-00161,CUST-0161,Mahindra Steel Unit-4,Low,BILLET-S,Semi-Finished,701.1,Mumbai,Maharashtra,2026-02-19,2026-03-22,2,True,35255,Rail,Pending,
+162,SO-BSP-2026-00162,CUST-0162,L&T Construction Unit-4,Medium,BILLET-H,Semi-Finished,1413.7,Delhi,Delhi,2026-03-11,2026-03-31,11,True,284463,Rail,In Process,Day shift only
+163,SO-BSP-2026-00163,CUST-0163,Adani Ports Unit-4,Medium,TMT-12,Long,809.1,Kolkata,West Bengal,2026-02-28,2026-03-24,4,True,57732,Rail,Pending,
+164,SO-BSP-2026-00164,CUST-0164,GMR Infrastructure Unit-4,Medium,TMT-16,Long,639.1,Chennai,Tamil Nadu,2026-03-07,2026-03-23,3,True,24820,Rail,Dispatched,Day shift only
+165,SO-BSP-2026-00165,CUST-0165,Hindustan Zinc Unit-4,Medium,TMT-20,Long,1095.3,Hyderabad,Telangana,2026-02-28,2026-03-22,2,True,143724,Rail,In Process,Handle with care
+166,SO-BSP-2026-00166,CUST-0166,Vedanta Resources Unit-4,Low,WIRE-ROD,Long,901.8,Pune,Maharashtra,2026-03-16,2026-03-26,6,True,90294,Rail,Pending,
+167,SO-BSP-2026-00167,CUST-0167,NMDC Ltd Unit-4,High,STRUCT-A,Long,846.0,Ahmedabad,Gujarat,2026-03-07,2026-03-27,7,True,246550,Rail,In Process,
+168,SO-BSP-2026-00168,CUST-0168,Coal India Ltd Unit-4,High,PIG-IRON,Raw,1318.7,Surat,Gujarat,2026-03-16,2026-03-31,11,True,237509,Rail,Pending,
+169,SO-BSP-2026-00169,CUST-0169,NTPC Ltd Unit-4,High,HR-COIL,Flat,856.0,Jaipur,Rajasthan,2026-02-28,2026-04-03,14,True,76996,Rail,Pending,Night loading OK
+170,SO-BSP-2026-00170,CUST-0170,BHEL Trichy Unit-4,High,CR-SHEET,Flat,1397.6,Lucknow,Uttar Pradesh,2026-02-27,2026-04-03,14,True,301520,Rail,Pending,
+171,SO-BSP-2026-00171,CUST-0171,Larsen & Toubro Unit-4,High,PLATE-H,Flat,545.6,Kanpur,Uttar Pradesh,2026-03-11,2026-03-27,7,True,70897,Rail,In Process,Handle with care
+172,SO-BSP-2026-00172,CUST-0172,Shapoorji Pallonji Unit-4,High,PLATE-M,Flat,670.5,Nagpur,Maharashtra,2026-03-11,2026-03-28,8,True,131121,Rail,In Process,
+173,SO-BSP-2026-00173,CUST-0173,Gammon India Unit-4,Low,SLAB-A,Semi-Finished,526.1,Visakhapatnam,Andhra Pradesh,2026-03-07,2026-03-25,5,True,63156,Rail,Dispatched,
+174,SO-BSP-2026-00174,CUST-0174,Afcons Infrastructure Unit-4,Low,SLAB-B,Semi-Finished,905.3,Bhopal,Madhya Pradesh,2026-02-27,2026-03-21,1,True,293668,Rail,Pending,Priority delivery
+175,SO-BSP-2026-00175,CUST-0175,IRB Infrastructure Unit-4,Low,BILLET-S,Semi-Finished,751.2,Patna,Bihar,2026-02-19,2026-03-22,2,True,45017,Rail,In Process,
+176,SO-BSP-2026-00176,CUST-0176,HCC Ltd Unit-4,Medium,BILLET-H,Semi-Finished,645.7,Ludhiana,Punjab,2026-02-22,2026-03-31,11,True,25848,Rail,In Process,
+177,SO-BSP-2026-00177,CUST-0177,NCC Ltd Unit-4,Low,TMT-12,Long,989.7,Agra,Uttar Pradesh,2026-02-24,2026-03-25,5,True,107532,Rail,In Process,
+178,SO-BSP-2026-00178,CUST-0178,Dilip Buildcon Unit-4,High,TMT-16,Long,1481.0,Vadodara,Gujarat,2026-02-21,2026-04-01,12,True,320300,Rail,Pending,
+179,SO-BSP-2026-00179,CUST-0179,PNC Infratech Unit-4,Low,TMT-20,Long,1392.2,Nashik,Maharashtra,2026-03-16,2026-03-21,1,True,273483,Rail,Pending,Day shift only
+180,SO-BSP-2026-00180,CUST-0180,Ashoka Buildcon Unit-4,Medium,WIRE-ROD,Long,1223.6,Faridabad,Haryana,2026-02-28,2026-03-24,4,True,213333,Rail,In Process,
+181,SO-BSP-2026-00181,CUST-0181,Indian Railways (SCR) Unit-4,High,STRUCT-A,Long,880.1,Meerut,Uttar Pradesh,2026-03-12,2026-04-03,14,True,273094,Rail,Pending,
+182,SO-BSP-2026-00182,CUST-0182,Indian Railways (ECR) Unit-4,High,PIG-IRON,Raw,1393.8,Rajkot,Gujarat,2026-03-08,2026-03-27,7,True,274277,Rail,Pending,Night loading OK
+183,SO-BSP-2026-00183,CUST-0183,Indian Railways (WR) Unit-4,High,HR-COIL,Flat,1027.8,Coimbatore,Tamil Nadu,2026-02-27,2026-03-29,9,True,132297,Rail,Pending,
+184,SO-BSP-2026-00184,CUST-0184,DRDO Pune Unit-4,High,CR-SHEET,Flat,854.9,Jabalpur,Madhya Pradesh,2026-03-14,2026-03-23,3,True,76709,Rail,Pending,
+185,SO-BSP-2026-00185,CUST-0185,HAL Bengaluru Unit-4,High,PLATE-H,Flat,813.8,Gwalior,Madhya Pradesh,2026-03-16,2026-04-02,13,True,222655,Rail,Pending,
+186,SO-BSP-2026-00186,CUST-0186,BEL Hyderabad Unit-4,Medium,PLATE-M,Flat,752.3,Vijayawada,Andhra Pradesh,2026-03-13,2026-03-26,6,True,180398,Rail,Pending,
+187,SO-BSP-2026-00187,CUST-0187,BEML Bengaluru Unit-4,High,SLAB-A,Semi-Finished,591.7,Jodhpur,Rajasthan,2026-03-18,2026-03-27,7,True,90995,Rail,In Process,
+188,SO-BSP-2026-00188,CUST-0188,Maruti Suzuki Unit-4,Medium,SLAB-B,Semi-Finished,436.0,Madurai,Tamil Nadu,2026-03-19,2026-03-22,2,True,33152,Rail,Dispatched,Priority delivery
+189,SO-BSP-2026-00189,CUST-0189,Tata Motors Unit-4,High,BILLET-S,Semi-Finished,1264.5,Raipur,Chhattisgarh,2026-02-21,2026-03-21,1,True,212608,Rail,Pending,
+190,SO-BSP-2026-00190,CUST-0190,Mahindra & Mahindra Unit-4,High,BILLET-H,Semi-Finished,837.5,Kota,Rajasthan,2026-03-14,2026-03-27,7,True,64554,Rail,Pending,
+191,SO-BSP-2026-00191,CUST-0191,Hero MotoCorp Unit-4,Low,TMT-12,Long,1432.0,Ranchi,Jharkhand,2026-03-08,2026-03-27,7,True,294011,Rail,In Process,
+192,SO-BSP-2026-00192,CUST-0192,Bajaj Auto Unit-4,Medium,TMT-16,Long,818.5,Howrah,West Bengal,2026-03-17,2026-03-22,2,True,59970,Rail,Pending,Day shift only
+193,SO-BSP-2026-00193,CUST-0193,TVS Motor Unit-4,Medium,TMT-20,Long,714.3,Dhanbad,Jharkhand,2026-02-20,2026-03-22,2,True,37722,Rail,Dispatched,Priority delivery
+194,SO-BSP-2026-00194,CUST-0194,Ashok Leyland Unit-4,Medium,WIRE-ROD,Long,1293.9,Jamshedpur,Jharkhand,2026-03-16,2026-03-25,5,True,247119,Rail,Pending,Priority delivery
+195,SO-BSP-2026-00195,CUST-0195,Kirloskar Brothers Unit-4,Low,STRUCT-A,Long,468.8,Bhilai,Chhattisgarh,2026-02-23,2026-03-24,4,True,42977,Rail,Pending,Day shift only
+196,SO-BSP-2026-00196,CUST-0196,Thermax Ltd Unit-4,High,PIG-IRON,Raw,764.1,Durgapur,West Bengal,2026-02-28,2026-04-02,13,True,47721,Rail,Pending,
+197,SO-BSP-2026-00197,CUST-0197,Cummins India Unit-4,Medium,HR-COIL,Flat,1096.4,Rourkela,Odisha,2026-02-20,2026-03-28,8,True,158505,Rail,Pending,Day shift only
+198,SO-BSP-2026-00198,CUST-0198,ABB India Unit-4,High,CR-SHEET,Flat,1330.9,Bokaro,Jharkhand,2026-03-16,2026-04-03,14,True,265903,Rail,In Process,Handle with care
+199,SO-BSP-2026-00199,CUST-0199,Siemens India Unit-4,Medium,PLATE-H,Flat,492.9,Allahabad,Uttar Pradesh,2026-03-06,2026-03-31,11,True,50987,Rail,Pending,
+200,SO-BSP-2026-00200,CUST-0200,Alstom India Unit-4,Low,PLATE-M,Flat,556.4,Varanasi,Uttar Pradesh,2026-02-22,2026-04-03,14,True,75390,Rail,Dispatched,Priority delivery
+201,SO-BSP-2026-00201,CUST-0201,Tata Steel Ltd Unit-5,High,SLAB-A,Semi-Finished,816.8,Mumbai,Maharashtra,2026-03-02,2026-03-29,9,True,224842,Rail,In Process,
+202,SO-BSP-2026-00202,CUST-0202,JSW Steel Unit-5,High,SLAB-B,Semi-Finished,925.2,Delhi,Delhi,2026-03-19,2026-03-26,6,True,310460,Rail,Dispatched,Priority delivery
+203,SO-BSP-2026-00203,CUST-0203,RINL Vizag Unit-5,High,BILLET-S,Semi-Finished,1047.6,Kolkata,West Bengal,2026-02-23,2026-03-29,9,True,126721,Rail,Dispatched,
+204,SO-BSP-2026-00204,CUST-0204,JSPL Raigarh Unit-5,Medium,BILLET-H,Semi-Finished,733.0,Chennai,Tamil Nadu,2026-03-11,2026-03-21,1,True,41327,Rail,Pending,Priority delivery
+205,SO-BSP-2026-00205,CUST-0205,Essar Steel Unit-5,Medium,TMT-12,Long,618.4,Hyderabad,Telangana,2026-03-05,2026-04-01,12,True,21735,Rail,Pending,
+206,SO-BSP-2026-00206,CUST-0206,SAIL Durgapur Unit-5,High,TMT-16,Long,808.6,Pune,Maharashtra,2026-02-25,2026-03-24,4,True,57616,Rail,In Process,
+207,SO-BSP-2026-00207,CUST-0207,Bhushan Steel Unit-5,Low,TMT-20,Long,722.3,Ahmedabad,Gujarat,2026-03-11,2026-04-03,14,True,39248,Rail,Pending,
+208,SO-BSP-2026-00208,CUST-0208,Uttam Galva Unit-5,Low,WIRE-ROD,Long,1163.1,Surat,Gujarat,2026-03-18,2026-03-28,8,True,186250,Rail,Pending,
+209,SO-BSP-2026-00209,CUST-0209,Rashtriya Ispat Nigam Unit-5,High,STRUCT-A,Long,451.3,Jaipur,Rajasthan,2026-02-25,2026-03-24,4,True,37567,Rail,Pending,Priority delivery
+210,SO-BSP-2026-00210,CUST-0210,Kalyani Steels Unit-5,Low,PIG-IRON,Raw,1052.5,Lucknow,Uttar Pradesh,2026-03-04,2026-03-22,2,True,128436,Rail,Pending,
+211,SO-BSP-2026-00211,CUST-0211,Mahindra Steel Unit-5,High,HR-COIL,Flat,1177.3,Kanpur,Uttar Pradesh,2026-03-10,2026-03-29,9,True,192429,Rail,Dispatched,
+212,SO-BSP-2026-00212,CUST-0212,L&T Construction Unit-5,Low,CR-SHEET,Flat,1080.9,Nagpur,Maharashtra,2026-03-06,2026-03-26,6,True,152362,Rail,Pending,
+213,SO-BSP-2026-00213,CUST-0213,Adani Ports Unit-5,Low,PLATE-H,Flat,494.7,Visakhapatnam,Andhra Pradesh,2026-02-24,2026-04-02,13,True,51637,Rail,In Process,Priority delivery
+214,SO-BSP-2026-00214,CUST-0214,GMR Infrastructure Unit-5,Medium,PLATE-M,Flat,831.7,Bhopal,Madhya Pradesh,2026-03-12,2026-03-25,5,True,235791,Rail,Dispatched,
+215,SO-BSP-2026-00215,CUST-0215,Hindustan Zinc Unit-5,Low,SLAB-A,Semi-Finished,782.3,Patna,Bihar,2026-03-03,2026-03-28,8,True,200433,Rail,Pending,
+216,SO-BSP-2026-00216,CUST-0216,Vedanta Resources Unit-5,High,SLAB-B,Semi-Finished,795.4,Ludhiana,Punjab,2026-03-01,2026-04-03,14,True,209549,Rail,In Process,
+217,SO-BSP-2026-00217,CUST-0217,NMDC Ltd Unit-5,High,BILLET-S,Semi-Finished,721.6,Agra,Uttar Pradesh,2026-03-02,2026-03-30,10,True,39116,Rail,Pending,Handle with care
+218,SO-BSP-2026-00218,CUST-0218,Coal India Ltd Unit-5,High,BILLET-H,Semi-Finished,715.2,Vadodara,Gujarat,2026-02-28,2026-03-26,6,True,37888,Rail,Pending,Night loading OK
+219,SO-BSP-2026-00219,CUST-0219,NTPC Ltd Unit-5,High,TMT-12,Long,1423.8,Nashik,Maharashtra,2026-02-23,2026-03-25,5,True,289753,Rail,Pending,
+220,SO-BSP-2026-00220,CUST-0220,BHEL Trichy Unit-5,High,TMT-16,Long,956.6,Faridabad,Haryana,2026-03-07,2026-03-27,7,True,97272,Rail,Pending,Priority delivery
+221,SO-BSP-2026-00221,CUST-0221,Larsen & Toubro Unit-5,High,TMT-20,Long,871.4,Meerut,Uttar Pradesh,2026-03-14,2026-04-03,14,True,73197,Rail,Pending,
+222,SO-BSP-2026-00222,CUST-0222,Shapoorji Pallonji Unit-5,Medium,WIRE-ROD,Long,1002.0,Rajkot,Gujarat,2026-03-12,2026-03-28,8,True,123051,Rail,Pending,
+223,SO-BSP-2026-00223,CUST-0223,Gammon India Unit-5,Low,STRUCT-A,Long,753.0,Coimbatore,Tamil Nadu,2026-03-03,2026-03-30,10,True,180837,Rail,Pending,
+224,SO-BSP-2026-00224,CUST-0224,Afcons Infrastructure Unit-5,High,PIG-IRON,Raw,1448.6,Jabalpur,Madhya Pradesh,2026-03-04,2026-03-23,3,True,302796,Rail,Pending,Handle with care
+225,SO-BSP-2026-00225,CUST-0225,IRB Infrastructure Unit-5,Low,HR-COIL,Flat,829.8,Gwalior,Madhya Pradesh,2026-02-20,2026-03-31,11,True,69878,Rail,In Process,Night loading OK
+226,SO-BSP-2026-00226,CUST-0226,HCC Ltd Unit-5,High,CR-SHEET,Flat,1373.7,Vijayawada,Andhra Pradesh,2026-03-15,2026-03-27,7,True,288480,Rail,Pending,Night loading OK
+227,SO-BSP-2026-00227,CUST-0227,NCC Ltd Unit-5,Low,PLATE-H,Flat,397.2,Jodhpur,Rajasthan,2026-02-20,2026-03-28,8,True,23145,Rail,In Process,
+228,SO-BSP-2026-00228,CUST-0228,Dilip Buildcon Unit-5,Medium,PLATE-M,Flat,692.9,Madurai,Tamil Nadu,2026-03-18,2026-03-27,7,True,143838,Rail,Dispatched,Handle with care
+229,SO-BSP-2026-00229,CUST-0229,PNC Infratech Unit-5,Medium,SLAB-A,Semi-Finished,736.9,Raipur,Chhattisgarh,2026-02-19,2026-03-22,2,True,170500,Rail,In Process,Priority delivery
+230,SO-BSP-2026-00230,CUST-0230,Ashoka Buildcon Unit-5,High,SLAB-B,Semi-Finished,442.4,Kota,Rajasthan,2026-03-08,2026-03-22,2,True,34963,Rail,Pending,Night loading OK
+231,SO-BSP-2026-00231,CUST-0231,Indian Railways (SCR) Unit-5,High,BILLET-S,Semi-Finished,729.8,Ranchi,Jharkhand,2026-03-03,2026-04-03,14,True,40708,Rail,In Process,
+232,SO-BSP-2026-00232,CUST-0232,Indian Railways (ECR) Unit-5,High,BILLET-H,Semi-Finished,975.6,Howrah,West Bengal,2026-02-25,2026-04-03,14,True,103106,Rail,In Process,
+233,SO-BSP-2026-00233,CUST-0233,Indian Railways (WR) Unit-5,High,TMT-12,Long,1457.9,Dhanbad,Jharkhand,2026-02-26,2026-03-22,2,True,307792,Rail,Dispatched,
+234,SO-BSP-2026-00234,CUST-0234,DRDO Pune Unit-5,High,TMT-16,Long,1131.6,Jamshedpur,Jharkhand,2026-02-20,2026-04-03,14,True,157381,Rail,Dispatched,
+235,SO-BSP-2026-00235,CUST-0235,HAL Bengaluru Unit-5,High,TMT-20,Long,1428.7,Bhilai,Chhattisgarh,2026-03-01,2026-04-03,14,True,292260,Rail,Pending,
+236,SO-BSP-2026-00236,CUST-0236,BEL Hyderabad Unit-5,Low,WIRE-ROD,Long,1271.1,Durgapur,West Bengal,2026-03-07,2026-03-31,11,True,235885,Rail,In Process,
+237,SO-BSP-2026-00237,CUST-0237,BEML Bengaluru Unit-5,Medium,STRUCT-A,Long,644.0,Rourkela,Odisha,2026-03-15,2026-04-03,14,True,116774,Rail,In Process,Handle with care
+238,SO-BSP-2026-00238,CUST-0238,Maruti Suzuki Unit-5,Medium,PIG-IRON,Raw,1297.9,Bokaro,Jharkhand,2026-03-07,2026-03-31,11,True,227831,Rail,Pending,
+239,SO-BSP-2026-00239,CUST-0239,Tata Motors Unit-5,High,HR-COIL,Flat,600.9,Allahabad,Uttar Pradesh,2026-03-03,2026-03-30,10,True,22235,Rail,Pending,
+240,SO-BSP-2026-00240,CUST-0240,Mahindra & Mahindra Unit-5,Medium,CR-SHEET,Flat,678.7,Varanasi,Uttar Pradesh,2026-03-17,2026-03-30,10,True,35484,Rail,In Process,
+241,SO-BSP-2026-00241,CUST-0241,Hero MotoCorp Unit-5,High,PLATE-H,Flat,845.8,Mumbai,Maharashtra,2026-02-24,2026-03-22,2,True,246398,Rail,In Process,
+242,SO-BSP-2026-00242,CUST-0242,Bajaj Auto Unit-5,Medium,PLATE-M,Flat,827.7,Delhi,Delhi,2026-03-10,2026-04-01,12,True,232760,Rail,Pending,
+243,SO-BSP-2026-00243,CUST-0243,TVS Motor Unit-5,High,SLAB-A,Semi-Finished,513.1,Kolkata,West Bengal,2026-03-19,2026-03-25,5,True,58233,Rail,Pending,Priority delivery
+244,SO-BSP-2026-00244,CUST-0244,Ashok Leyland Unit-5,Medium,SLAB-B,Semi-Finished,679.3,Chennai,Tamil Nadu,2026-03-18,2026-04-03,14,True,136029,Rail,Pending,Night loading OK
+245,SO-BSP-2026-00245,CUST-0245,Kirloskar Brothers Unit-5,Medium,BILLET-S,Semi-Finished,1140.4,Hyderabad,Telangana,2026-03-01,2026-03-22,2,True,160772,Rail,Pending,
+246,SO-BSP-2026-00246,CUST-0246,Thermax Ltd Unit-5,High,BILLET-H,Semi-Finished,1371.1,Pune,Maharashtra,2026-03-06,2026-03-22,2,True,262899,Rail,Dispatched,
+247,SO-BSP-2026-00247,CUST-0247,Cummins India Unit-5,Low,TMT-12,Long,1137.8,Ahmedabad,Gujarat,2026-02-19,2026-04-02,13,True,159786,Rail,Dispatched,
+248,SO-BSP-2026-00248,CUST-0248,ABB India Unit-5,Medium,TMT-16,Long,969.8,Surat,Gujarat,2026-03-18,2026-03-27,7,True,101313,Rail,Pending,
+249,SO-BSP-2026-00249,CUST-0249,Siemens India Unit-5,Low,TMT-20,Long,936.0,Jaipur,Rajasthan,2026-03-15,2026-03-24,4,True,91137,Rail,Pending,Handle with care
+250,SO-BSP-2026-00250,CUST-0250,Alstom India Unit-5,High,WIRE-ROD,Long,948.6,Lucknow,Uttar Pradesh,2026-03-01,2026-03-23,3,True,104964,Rail,In Process,Day shift only
+251,SO-BSP-2026-00251,CUST-0251,Tata Steel Ltd Unit-6,High,STRUCT-A,Long,746.9,Kanpur,Uttar Pradesh,2026-03-04,2026-03-23,3,True,176888,Rail,In Process,
+252,SO-BSP-2026-00252,CUST-0252,JSW Steel Unit-6,High,PIG-IRON,Raw,1370.9,Nagpur,Maharashtra,2026-03-06,2026-03-23,3,True,262798,Rail,Pending,
+253,SO-BSP-2026-00253,CUST-0253,RINL Vizag Unit-6,High,HR-COIL,Flat,972.5,Visakhapatnam,Andhra Pradesh,2026-02-24,2026-03-29,9,True,112876,Rail,Pending,
+254,SO-BSP-2026-00254,CUST-0254,JSPL Raigarh Unit-6,Medium,CR-SHEET,Flat,796.9,Bhopal,Madhya Pradesh,2026-03-08,2026-03-30,10,True,61418,Rail,Pending,Priority delivery
+255,SO-BSP-2026-00255,CUST-0255,Essar Steel Unit-6,Medium,PLATE-H,Flat,515.3,Patna,Bihar,2026-03-15,2026-03-26,6,True,59064,Rail,In Process,Handle with care
+256,SO-BSP-2026-00256,CUST-0256,SAIL Durgapur Unit-6,High,PLATE-M,Flat,799.3,Ludhiana,Punjab,2026-03-13,2026-03-29,9,True,212301,Rail,In Process,
+257,SO-BSP-2026-00257,CUST-0257,Bhushan Steel Unit-6,Low,SLAB-A,Semi-Finished,838.7,Agra,Uttar Pradesh,2026-02-23,2026-03-21,1,True,240977,Rail,Pending,
+258,SO-BSP-2026-00258,CUST-0258,Uttam Galva Unit-6,High,SLAB-B,Semi-Finished,442.1,Vadodara,Gujarat,2026-02-26,2026-04-02,13,True,34862,Rail,Dispatched,
+259,SO-BSP-2026-00259,CUST-0259,Rashtriya Ispat Nigam Unit-6,High,BILLET-S,Semi-Finished,664.8,Nashik,Maharashtra,2026-03-05,2026-03-31,11,True,28927,Rail,In Process,Handle with care
+260,SO-BSP-2026-00260,CUST-0260,Kalyani Steels Unit-6,Medium,BILLET-H,Semi-Finished,1130.2,Faridabad,Haryana,2026-03-04,2026-04-01,12,True,156830,Rail,Dispatched,Handle with care
+261,SO-BSP-2026-00261,CUST-0261,Mahindra Steel Unit-6,Low,TMT-12,Long,735.0,Meerut,Uttar Pradesh,2026-03-08,2026-03-28,8,True,41719,Rail,Pending,
+262,SO-BSP-2026-00262,CUST-0262,L&T Construction Unit-6,High,TMT-16,Long,1333.1,Rajkot,Gujarat,2026-03-03,2026-03-27,7,True,244377,Rail,Pending,
+263,SO-BSP-2026-00263,CUST-0263,Adani Ports Unit-6,High,TMT-20,Long,879.7,Coimbatore,Tamil Nadu,2026-03-01,2026-04-03,14,True,75392,Rail,Dispatched,Priority delivery
+264,SO-BSP-2026-00264,CUST-0264,GMR Infrastructure Unit-6,Low,WIRE-ROD,Long,708.3,Jabalpur,Madhya Pradesh,2026-02-27,2026-03-23,3,True,41318,Rail,Dispatched,
+265,SO-BSP-2026-00265,CUST-0265,Hindustan Zinc Unit-6,Low,STRUCT-A,Long,896.9,Gwalior,Madhya Pradesh,2026-02-26,2026-03-21,1,True,286735,Rail,Dispatched,
+266,SO-BSP-2026-00266,CUST-0266,Vedanta Resources Unit-6,Medium,PIG-IRON,Raw,752.0,Vijayawada,Andhra Pradesh,2026-02-20,2026-03-31,11,True,45179,Rail,In Process,
+267,SO-BSP-2026-00267,CUST-0267,NMDC Ltd Unit-6,Medium,HR-COIL,Flat,828.3,Jodhpur,Rajasthan,2026-02-25,2026-03-24,4,True,69489,Rail,Pending,Night loading OK
+268,SO-BSP-2026-00268,CUST-0268,Coal India Ltd Unit-6,Medium,CR-SHEET,Flat,716.6,Madurai,Tamil Nadu,2026-03-10,2026-03-31,11,True,43038,Rail,Pending,
+269,SO-BSP-2026-00269,CUST-0269,NTPC Ltd Unit-6,High,PLATE-H,Flat,447.7,Raipur,Chhattisgarh,2026-03-11,2026-03-21,1,True,36518,Rail,Pending,Handle with care
+270,SO-BSP-2026-00270,CUST-0270,BHEL Trichy Unit-6,High,PLATE-M,Flat,395.1,Kota,Rajasthan,2026-02-22,2026-04-02,13,True,22661,Rail,Dispatched,
+271,SO-BSP-2026-00271,CUST-0271,Larsen & Toubro Unit-6,High,SLAB-A,Semi-Finished,414.2,Ranchi,Jharkhand,2026-03-14,2026-04-02,13,True,27319,Rail,Pending,
+272,SO-BSP-2026-00272,CUST-0272,Shapoorji Pallonji Unit-6,High,SLAB-B,Semi-Finished,480.7,Howrah,West Bengal,2026-03-05,2026-04-02,13,True,46857,Rail,In Process,
+273,SO-BSP-2026-00273,CUST-0273,Gammon India Unit-6,High,BILLET-S,Semi-Finished,653.2,Dhanbad,Jharkhand,2026-03-18,2026-03-30,10,True,27029,Rail,Dispatched,Day shift only
+274,SO-BSP-2026-00274,CUST-0274,Afcons Infrastructure Unit-6,Low,BILLET-H,Semi-Finished,1127.3,Jamshedpur,Jharkhand,2026-03-02,2026-03-29,9,True,155719,Rail,Dispatched,Priority delivery
+275,SO-BSP-2026-00275,CUST-0275,IRB Infrastructure Unit-6,Medium,TMT-12,Long,1206.2,Bhilai,Chhattisgarh,2026-02-19,2026-03-24,4,True,187381,Rail,Dispatched,
+276,SO-BSP-2026-00276,CUST-0276,HCC Ltd Unit-6,Medium,TMT-16,Long,953.1,Durgapur,West Bengal,2026-03-13,2026-04-01,12,True,96225,Rail,Pending,
+277,SO-BSP-2026-00277,CUST-0277,NCC Ltd Unit-6,Medium,TMT-20,Long,886.4,Rourkela,Odisha,2026-03-16,2026-04-03,14,True,77200,Rail,Pending,
+278,SO-BSP-2026-00278,CUST-0278,Dilip Buildcon Unit-6,Low,WIRE-ROD,Long,1015.6,Bokaro,Jharkhand,2026-03-04,2026-03-27,7,True,127875,Rail,Dispatched,
+279,SO-BSP-2026-00279,CUST-0279,PNC Infratech Unit-6,High,STRUCT-A,Long,871.3,Allahabad,Uttar Pradesh,2026-03-15,2026-03-29,9,True,266095,Rail,Pending,
+280,SO-BSP-2026-00280,CUST-0280,Ashoka Buildcon Unit-6,High,PIG-IRON,Raw,1356.5,Varanasi,Uttar Pradesh,2026-03-19,2026-03-31,11,True,255686,Rail,Pending,Handle with care
+281,SO-BSP-2026-00281,CUST-0281,Indian Railways (SCR) Unit-6,High,HR-COIL,Flat,622.8,Mumbai,Maharashtra,2026-03-18,2026-03-23,3,True,25650,Rail,Dispatched,Day shift only
+282,SO-BSP-2026-00282,CUST-0282,Indian Railways (ECR) Unit-6,High,CR-SHEET,Flat,740.4,Delhi,Delhi,2026-03-18,2026-04-01,12,True,48138,Rail,In Process,Priority delivery
+283,SO-BSP-2026-00283,CUST-0283,Indian Railways (WR) Unit-6,High,PLATE-H,Flat,515.4,Kolkata,West Bengal,2026-02-19,2026-03-23,3,True,59080,Rail,Pending,Day shift only
+284,SO-BSP-2026-00284,CUST-0284,DRDO Pune Unit-6,High,PLATE-M,Flat,522.4,Chennai,Tamil Nadu,2026-03-02,2026-03-25,5,True,61741,Rail,Pending,
+285,SO-BSP-2026-00285,CUST-0285,HAL Bengaluru Unit-6,High,SLAB-A,Semi-Finished,701.9,Hyderabad,Telangana,2026-03-08,2026-04-02,13,True,149075,Rail,Pending,
+286,SO-BSP-2026-00286,CUST-0286,BEL Hyderabad Unit-6,Low,SLAB-B,Semi-Finished,615.5,Pune,Maharashtra,2026-03-13,2026-03-30,10,True,102323,Rail,Dispatched,
+287,SO-BSP-2026-00287,CUST-0287,BEML Bengaluru Unit-6,High,BILLET-S,Semi-Finished,649.5,Ahmedabad,Gujarat,2026-02-26,2026-03-24,4,True,26453,Rail,In Process,
+288,SO-BSP-2026-00288,CUST-0288,Maruti Suzuki Unit-6,Medium,BILLET-H,Semi-Finished,935.5,Surat,Gujarat,2026-02-21,2026-03-21,1,True,90990,Rail,Pending,Night loading OK
+289,SO-BSP-2026-00289,CUST-0289,Tata Motors Unit-6,Medium,TMT-12,Long,1067.8,Jaipur,Rajasthan,2026-02-20,2026-04-01,12,True,133829,Rail,Pending,Day shift only
+290,SO-BSP-2026-00290,CUST-0290,Mahindra & Mahindra Unit-6,Medium,TMT-16,Long,695.7,Lucknow,Uttar Pradesh,2026-03-19,2026-04-01,12,True,34283,Rail,Dispatched,Priority delivery
+291,SO-BSP-2026-00291,CUST-0291,Hero MotoCorp Unit-6,Low,TMT-20,Long,1340.9,Kanpur,Uttar Pradesh,2026-03-01,2026-03-22,2,True,248102,Rail,Dispatched,
+292,SO-BSP-2026-00292,CUST-0292,Bajaj Auto Unit-6,High,WIRE-ROD,Long,630.0,Nagpur,Maharashtra,2026-02-19,2026-03-27,7,True,26828,Rail,Pending,
+293,SO-BSP-2026-00293,CUST-0293,TVS Motor Unit-6,Low,STRUCT-A,Long,899.0,Visakhapatnam,Andhra Pradesh,2026-02-22,2026-03-30,10,True,288505,Rail,In Process,Handle with care
+294,SO-BSP-2026-00294,CUST-0294,Ashok Leyland Unit-6,High,PIG-IRON,Raw,693.5,Bhopal,Madhya Pradesh,2026-03-08,2026-03-24,4,True,33882,Rail,Pending,
+295,SO-BSP-2026-00295,CUST-0295,Kirloskar Brothers Unit-6,Medium,HR-COIL,Flat,1304.5,Patna,Bihar,2026-02-26,2026-03-25,5,True,252430,Rail,Pending,Priority delivery
+296,SO-BSP-2026-00296,CUST-0296,Thermax Ltd Unit-6,Medium,CR-SHEET,Flat,1354.8,Ludhiana,Punjab,2026-03-05,2026-03-31,11,True,278412,Rail,Pending,Night loading OK
+297,SO-BSP-2026-00297,CUST-0297,Cummins India Unit-6,Low,PLATE-H,Flat,929.6,Agra,Uttar Pradesh,2026-03-04,2026-03-21,1,True,314147,Rail,Pending,
+298,SO-BSP-2026-00298,CUST-0298,ABB India Unit-6,Medium,PLATE-M,Flat,830.6,Vadodara,Gujarat,2026-02-22,2026-03-26,6,True,234912,Rail,Pending,
+299,SO-BSP-2026-00299,CUST-0299,Siemens India Unit-6,High,SLAB-A,Semi-Finished,818.0,Nashik,Maharashtra,2026-02-25,2026-03-26,6,True,225682,Rail,Pending,Handle with care
+300,SO-BSP-2026-00300,CUST-0300,Alstom India Unit-6,High,SLAB-B,Semi-Finished,741.6,Faridabad,Haryana,2026-03-10,2026-03-24,4,True,173513,Rail,Pending,
+301,SO-BSP-2026-00301,CUST-0301,Tata Steel Ltd Unit-7,High,BILLET-S,Semi-Finished,1292.9,Meerut,Uttar Pradesh,2026-03-13,2026-04-01,12,True,225482,Rail,Pending,
+302,SO-BSP-2026-00302,CUST-0302,JSW Steel Unit-7,High,BILLET-H,Semi-Finished,724.7,Rajkot,Gujarat,2026-03-08,2026-03-27,7,True,39712,Rail,Pending,Night loading OK
+303,SO-BSP-2026-00303,CUST-0303,RINL Vizag Unit-7,High,TMT-12,Long,1078.7,Coimbatore,Tamil Nadu,2026-03-18,2026-03-24,4,True,137702,Rail,In Process,Handle with care
+304,SO-BSP-2026-00304,CUST-0304,JSPL Raigarh Unit-7,Medium,TMT-16,Long,1059.4,Jabalpur,Madhya Pradesh,2026-03-15,2026-03-23,3,True,130859,Rail,Pending,
+305,SO-BSP-2026-00305,CUST-0305,Essar Steel Unit-7,Medium,TMT-20,Long,1362.1,Gwalior,Madhya Pradesh,2026-03-02,2026-03-25,5,True,258472,Rail,Pending,
+306,SO-BSP-2026-00306,CUST-0306,SAIL Durgapur Unit-7,High,WIRE-ROD,Long,980.1,Vijayawada,Andhra Pradesh,2026-03-05,2026-03-24,4,True,115441,Rail,Dispatched,
+307,SO-BSP-2026-00307,CUST-0307,Bhushan Steel Unit-7,High,STRUCT-A,Long,598.1,Jodhpur,Rajasthan,2026-03-10,2026-03-30,10,True,93968,Rail,Pending,
+308,SO-BSP-2026-00308,CUST-0308,Uttam Galva Unit-7,Medium,PIG-IRON,Raw,1169.9,Madurai,Tamil Nadu,2026-03-10,2026-03-30,10,True,172474,Rail,Dispatched,Priority delivery
+309,SO-BSP-2026-00309,CUST-0309,Rashtriya Ispat Nigam Unit-7,High,HR-COIL,Flat,812.8,Raipur,Chhattisgarh,2026-02-22,2026-03-23,3,True,65427,Rail,In Process,
+310,SO-BSP-2026-00310,CUST-0310,Kalyani Steels Unit-7,High,CR-SHEET,Flat,704.8,Kota,Rajasthan,2026-03-14,2026-03-30,10,True,40609,Rail,In Process,
+311,SO-BSP-2026-00311,CUST-0311,Mahindra Steel Unit-7,Medium,PLATE-H,Flat,649.8,Ranchi,Jharkhand,2026-03-06,2026-03-26,6,True,119861,Rail,Pending,
+312,SO-BSP-2026-00312,CUST-0312,L&T Construction Unit-7,Low,PLATE-M,Flat,615.8,Howrah,West Bengal,2026-02-20,2026-03-23,3,True,102487,Rail,Pending,Priority delivery
+313,SO-BSP-2026-00313,CUST-0313,Adani Ports Unit-7,High,SLAB-A,Semi-Finished,513.0,Dhanbad,Jharkhand,2026-03-06,2026-03-30,10,True,58218,Rail,In Process,
+314,SO-BSP-2026-00314,CUST-0314,GMR Infrastructure Unit-7,High,SLAB-B,Semi-Finished,588.3,Jamshedpur,Jharkhand,2026-02-21,2026-03-27,7,True,89417,Rail,In Process,Night loading OK
+315,SO-BSP-2026-00315,CUST-0315,Hindustan Zinc Unit-7,High,BILLET-S,Semi-Finished,929.1,Bhilai,Chhattisgarh,2026-02-23,2026-03-23,3,True,89127,Rail,Pending,Day shift only
+316,SO-BSP-2026-00316,CUST-0316,Vedanta Resources Unit-7,Medium,BILLET-H,Semi-Finished,894.8,Durgapur,West Bengal,2026-03-08,2026-03-21,1,True,79475,Rail,In Process,Handle with care
+317,SO-BSP-2026-00317,CUST-0317,NMDC Ltd Unit-7,Low,TMT-12,Long,940.6,Rourkela,Odisha,2026-03-17,2026-03-30,10,True,92496,Rail,Pending,
+318,SO-BSP-2026-00318,CUST-0318,Coal India Ltd Unit-7,Low,TMT-16,Long,1210.7,Bokaro,Jharkhand,2026-03-16,2026-03-25,5,True,189239,Rail,Dispatched,Priority delivery
+319,SO-BSP-2026-00319,CUST-0319,NTPC Ltd Unit-7,High,TMT-20,Long,867.8,Allahabad,Uttar Pradesh,2026-03-18,2026-03-23,3,True,72257,Rail,In Process,Priority delivery
+320,SO-BSP-2026-00320,CUST-0320,BHEL Trichy Unit-7,High,WIRE-ROD,Long,1394.2,Varanasi,Uttar Pradesh,2026-03-17,2026-03-25,5,True,299621,Rail,Pending,
+321,SO-BSP-2026-00321,CUST-0321,Larsen & Toubro Unit-7,High,STRUCT-A,Long,894.3,Mumbai,Maharashtra,2026-03-12,2026-04-02,13,True,284621,Rail,Dispatched,Day shift only
+322,SO-BSP-2026-00322,CUST-0322,Shapoorji Pallonji Unit-7,High,PIG-IRON,Raw,1030.1,Delhi,Delhi,2026-03-04,2026-03-23,3,True,120766,Rail,Dispatched,Night loading OK
+323,SO-BSP-2026-00323,CUST-0323,Gammon India Unit-7,Medium,HR-COIL,Flat,865.5,Kolkata,West Bengal,2026-03-01,2026-03-23,3,True,79683,Rail,In Process,Night loading OK
+324,SO-BSP-2026-00324,CUST-0324,Afcons Infrastructure Unit-7,Low,CR-SHEET,Flat,1041.9,Chennai,Tamil Nadu,2026-03-03,2026-03-29,9,True,137500,Rail,Pending,
+325,SO-BSP-2026-00325,CUST-0325,IRB Infrastructure Unit-7,Low,PLATE-H,Flat,856.5,Hyderabad,Telangana,2026-03-05,2026-03-31,11,True,254577,Rail,In Process,
+326,SO-BSP-2026-00326,CUST-0326,HCC Ltd Unit-7,High,PLATE-M,Flat,747.2,Pune,Maharashtra,2026-03-04,2026-03-25,5,True,177121,Rail,In Process,
+327,SO-BSP-2026-00327,CUST-0327,NCC Ltd Unit-7,High,SLAB-A,Semi-Finished,831.9,Ahmedabad,Gujarat,2026-03-13,2026-03-30,10,True,235891,Rail,Pending,
+328,SO-BSP-2026-00328,CUST-0328,Dilip Buildcon Unit-7,High,SLAB-B,Semi-Finished,680.4,Surat,Gujarat,2026-03-19,2026-04-02,13,True,136641,Rail,Dispatched,
+329,SO-BSP-2026-00329,CUST-0329,PNC Infratech Unit-7,High,BILLET-S,Semi-Finished,1164.1,Jaipur,Rajasthan,2026-02-23,2026-03-30,10,True,170124,Rail,Pending,
+330,SO-BSP-2026-00330,CUST-0330,Ashoka Buildcon Unit-7,Medium,BILLET-H,Semi-Finished,860.1,Lucknow,Uttar Pradesh,2026-02-19,2026-04-03,14,True,70266,Rail,Dispatched,
+331,SO-BSP-2026-00331,CUST-0331,Indian Railways (SCR) Unit-7,High,TMT-12,Long,1254.0,Kanpur,Uttar Pradesh,2026-03-16,2026-03-25,5,True,207957,Rail,In Process,Night loading OK
+332,SO-BSP-2026-00332,CUST-0332,Indian Railways (ECR) Unit-7,High,TMT-16,Long,784.5,Nagpur,Maharashtra,2026-02-27,2026-03-30,10,True,52152,Rail,Pending,
+333,SO-BSP-2026-00333,CUST-0333,Indian Railways (WR) Unit-7,High,TMT-20,Long,1218.6,Visakhapatnam,Andhra Pradesh,2026-03-19,2026-03-21,1,True,192622,Rail,Dispatched,
+334,SO-BSP-2026-00334,CUST-0334,DRDO Pune Unit-7,High,WIRE-ROD,Long,1319.1,Bhopal,Madhya Pradesh,2026-03-08,2026-03-31,11,True,259839,Rail,Pending,
+335,SO-BSP-2026-00335,CUST-0335,HAL Bengaluru Unit-7,High,STRUCT-A,Long,457.0,Patna,Bihar,2026-03-11,2026-03-27,7,True,39290,Rail,Pending,
+336,SO-BSP-2026-00336,CUST-0336,BEL Hyderabad Unit-7,Low,PIG-IRON,Raw,1147.7,Ludhiana,Punjab,2026-02-24,2026-03-26,6,True,163648,Rail,Pending,
+337,SO-BSP-2026-00337,CUST-0337,BEML Bengaluru Unit-7,Low,HR-COIL,Flat,666.8,Agra,Uttar Pradesh,2026-03-18,2026-03-24,4,True,33245,Rail,Pending,Night loading OK
+338,SO-BSP-2026-00338,CUST-0338,Maruti Suzuki Unit-7,High,CR-SHEET,Flat,1204.1,Vadodara,Gujarat,2026-02-19,2026-03-21,1,True,204390,Rail,In Process,
+339,SO-BSP-2026-00339,CUST-0339,Tata Motors Unit-7,High,PLATE-H,Flat,430.5,Nashik,Maharashtra,2026-02-28,2026-03-21,1,True,31608,Rail,Pending,
+340,SO-BSP-2026-00340,CUST-0340,Mahindra & Mahindra Unit-7,Low,PLATE-M,Flat,905.2,Faridabad,Haryana,2026-03-16,2026-03-23,3,True,293611,Rail,Dispatched,
+341,SO-BSP-2026-00341,CUST-0341,Hero MotoCorp Unit-7,Medium,SLAB-A,Semi-Finished,460.0,Meerut,Uttar Pradesh,2026-02-19,2026-03-25,5,True,40202,Rail,Dispatched,Priority delivery
+342,SO-BSP-2026-00342,CUST-0342,Bajaj Auto Unit-7,High,SLAB-B,Semi-Finished,918.0,Rajkot,Gujarat,2026-02-25,2026-03-22,2,True,304318,Rail,In Process,
+343,SO-BSP-2026-00343,CUST-0343,TVS Motor Unit-7,Medium,BILLET-S,Semi-Finished,1312.2,Coimbatore,Tamil Nadu,2026-02-19,2026-03-23,3,True,234440,Rail,Pending,
+344,SO-BSP-2026-00344,CUST-0344,Ashok Leyland Unit-7,Medium,BILLET-H,Semi-Finished,1129.5,Jabalpur,Madhya Pradesh,2026-03-09,2026-04-03,14,True,156582,Rail,In Process,Handle with care
+345,SO-BSP-2026-00345,CUST-0345,Kirloskar Brothers Unit-7,Low,TMT-12,Long,1296.1,Gwalior,Madhya Pradesh,2026-03-19,2026-04-01,12,True,226959,Rail,Pending,
+346,SO-BSP-2026-00346,CUST-0346,Thermax Ltd Unit-7,High,TMT-16,Long,1307.1,Vijayawada,Andhra Pradesh,2026-03-02,2026-04-03,14,True,232072,Rail,In Process,Day shift only
+347,SO-BSP-2026-00347,CUST-0347,Cummins India Unit-7,Low,TMT-20,Long,1440.1,Jodhpur,Rajasthan,2026-03-11,2026-04-01,12,True,298293,Rail,Pending,Day shift only
+348,SO-BSP-2026-00348,CUST-0348,ABB India Unit-7,Low,WIRE-ROD,Long,801.6,Madurai,Tamil Nadu,2026-02-20,2026-03-27,7,True,62595,Rail,Dispatched,Handle with care
+349,SO-BSP-2026-00349,CUST-0349,Siemens India Unit-7,High,STRUCT-A,Long,712.4,Raipur,Chhattisgarh,2026-03-06,2026-03-27,7,True,155359,Rail,Pending,
+350,SO-BSP-2026-00350,CUST-0350,Alstom India Unit-7,High,PIG-IRON,Raw,689.9,Kota,Rajasthan,2026-02-27,2026-03-28,8,True,33242,Rail,Pending,Day shift only
+351,SO-BSP-2026-00351,CUST-0351,Tata Steel Ltd Unit-8,High,HR-COIL,Flat,1110.7,Ranchi,Jharkhand,2026-03-14,2026-03-25,5,True,164266,Rail,Dispatched,
+352,SO-BSP-2026-00352,CUST-0352,JSW Steel Unit-8,High,CR-SHEET,Flat,731.7,Howrah,West Bengal,2026-03-17,2026-03-22,2,True,46237,Rail,Pending,Handle with care
+353,SO-BSP-2026-00353,CUST-0353,RINL Vizag Unit-8,High,PLATE-H,Flat,698.4,Dhanbad,Jharkhand,2026-02-25,2026-03-23,3,True,147009,Rail,Dispatched,
+354,SO-BSP-2026-00354,CUST-0354,JSPL Raigarh Unit-8,Medium,PLATE-M,Flat,702.5,Jamshedpur,Jharkhand,2026-02-24,2026-03-30,10,True,149473,Rail,Dispatched,Night loading OK
+355,SO-BSP-2026-00355,CUST-0355,Essar Steel Unit-8,Low,SLAB-A,Semi-Finished,643.2,Bhilai,Chhattisgarh,2026-02-21,2026-03-25,5,True,116372,Rail,Pending,
+356,SO-BSP-2026-00356,CUST-0356,SAIL Durgapur Unit-8,Low,SLAB-B,Semi-Finished,674.8,Durgapur,West Bengal,2026-03-10,2026-03-23,3,True,133475,Rail,Pending,Handle with care
+357,SO-BSP-2026-00357,CUST-0357,Bhushan Steel Unit-8,High,BILLET-S,Semi-Finished,1279.6,Rourkela,Odisha,2026-02-20,2026-03-31,11,True,219411,Rail,Pending,
+358,SO-BSP-2026-00358,CUST-0358,Uttam Galva Unit-8,Low,BILLET-H,Semi-Finished,1310.7,Bokaro,Jharkhand,2026-02-20,2026-03-30,10,True,233761,Rail,In Process,
+359,SO-BSP-2026-00359,CUST-0359,Rashtriya Ispat Nigam Unit-8,High,TMT-12,Long,1040.0,Allahabad,Uttar Pradesh,2026-03-10,2026-03-21,1,True,124124,Rail,Dispatched,
+360,SO-BSP-2026-00360,CUST-0360,Kalyani Steels Unit-8,Low,TMT-16,Long,1134.7,Varanasi,Uttar Pradesh,2026-03-18,2026-03-25,5,True,158578,Rail,Pending,Priority delivery
+361,SO-BSP-2026-00361,CUST-0361,Mahindra Steel Unit-8,Low,TMT-20,Long,1427.1,Mumbai,Maharashtra,2026-03-08,2026-03-30,10,True,291436,Rail,In Process,Handle with care
+362,SO-BSP-2026-00362,CUST-0362,L&T Construction Unit-8,Low,WIRE-ROD,Long,687.8,Delhi,Delhi,2026-02-25,2026-03-30,10,True,37215,Rail,Pending,
+363,SO-BSP-2026-00363,CUST-0363,Adani Ports Unit-8,High,STRUCT-A,Long,448.6,Kolkata,West Bengal,2026-02-24,2026-03-31,11,True,36780,Rail,In Process,
+364,SO-BSP-2026-00364,CUST-0364,GMR Infrastructure Unit-8,Low,PIG-IRON,Raw,683.4,Chennai,Tamil Nadu,2026-03-12,2026-03-29,9,True,32101,Rail,In Process,Handle with care
+365,SO-BSP-2026-00365,CUST-0365,Hindustan Zinc Unit-8,High,HR-COIL,Flat,1146.2,Hyderabad,Telangana,2026-02-21,2026-04-03,14,True,179025,Rail,Dispatched,
+366,SO-BSP-2026-00366,CUST-0366,Vedanta Resources Unit-8,Medium,CR-SHEET,Flat,942.4,Pune,Maharashtra,2026-03-12,2026-03-28,8,True,102968,Rail,Pending,
+367,SO-BSP-2026-00367,CUST-0367,NMDC Ltd Unit-8,Medium,PLATE-H,Flat,815.1,Ahmedabad,Gujarat,2026-03-05,2026-03-28,8,True,223582,Rail,Pending,Handle with care
+368,SO-BSP-2026-00368,CUST-0368,Coal India Ltd Unit-8,High,PLATE-M,Flat,757.6,Surat,Gujarat,2026-03-05,2026-03-21,1,True,183887,Rail,Pending,
+369,SO-BSP-2026-00369,CUST-0369,NTPC Ltd Unit-8,High,SLAB-A,Semi-Finished,569.4,Jaipur,Rajasthan,2026-03-05,2026-04-01,12,True,80964,Rail,Pending,Handle with care
+370,SO-BSP-2026-00370,CUST-0370,BHEL Trichy Unit-8,High,SLAB-B,Semi-Finished,884.3,Lucknow,Uttar Pradesh,2026-03-16,2026-03-23,3,True,276484,Rail,Pending,Priority delivery
+371,SO-BSP-2026-00371,CUST-0371,Larsen & Toubro Unit-8,Medium,BILLET-S,Semi-Finished,1278.3,Kanpur,Uttar Pradesh,2026-03-15,2026-04-02,13,True,218847,Rail,Dispatched,
+372,SO-BSP-2026-00372,CUST-0372,Shapoorji Pallonji Unit-8,Medium,BILLET-H,Semi-Finished,844.6,Nagpur,Maharashtra,2026-02-21,2026-03-31,11,True,66322,Rail,Pending,Night loading OK
+373,SO-BSP-2026-00373,CUST-0373,Gammon India Unit-8,Medium,TMT-12,Long,927.2,Visakhapatnam,Andhra Pradesh,2026-02-20,2026-04-01,12,True,88574,Rail,Pending,Day shift only
+374,SO-BSP-2026-00374,CUST-0374,Afcons Infrastructure Unit-8,Medium,TMT-16,Long,883.3,Bhopal,Madhya Pradesh,2026-02-24,2026-03-25,5,True,76355,Rail,In Process,Priority delivery
+375,SO-BSP-2026-00375,CUST-0375,IRB Infrastructure Unit-8,Low,TMT-20,Long,745.1,Patna,Bihar,2026-02-20,2026-03-25,5,True,43753,Rail,Pending,
+376,SO-BSP-2026-00376,CUST-0376,HCC Ltd Unit-8,High,WIRE-ROD,Long,711.7,Ludhiana,Punjab,2026-03-04,2026-03-27,7,True,42005,Rail,Pending,Handle with care
+377,SO-BSP-2026-00377,CUST-0377,NCC Ltd Unit-8,Low,STRUCT-A,Long,905.3,Agra,Uttar Pradesh,2026-03-11,2026-03-24,4,True,293704,Rail,Dispatched,
+378,SO-BSP-2026-00378,CUST-0378,Dilip Buildcon Unit-8,Low,PIG-IRON,Raw,992.2,Vadodara,Gujarat,2026-02-21,2026-03-30,10,True,108328,Rail,Pending,
+379,SO-BSP-2026-00379,CUST-0379,PNC Infratech Unit-8,Medium,HR-COIL,Flat,912.3,Nashik,Maharashtra,2026-03-03,2026-04-02,13,True,93502,Rail,Pending,
+380,SO-BSP-2026-00380,CUST-0380,Ashoka Buildcon Unit-8,High,CR-SHEET,Flat,1207.4,Faridabad,Haryana,2026-02-20,2026-03-27,7,True,205932,Rail,Pending,
+381,SO-BSP-2026-00381,CUST-0381,Indian Railways (SCR) Unit-8,High,PLATE-H,Flat,691.7,Meerut,Uttar Pradesh,2026-03-16,2026-03-21,1,True,143122,Rail,Pending,
+382,SO-BSP-2026-00382,CUST-0382,Indian Railways (ECR) Unit-8,High,PLATE-M,Flat,905.3,Rajkot,Gujarat,2026-03-07,2026-03-31,11,True,293707,Rail,Pending,
+383,SO-BSP-2026-00383,CUST-0383,Indian Railways (WR) Unit-8,High,SLAB-A,Semi-Finished,818.4,Coimbatore,Tamil Nadu,2026-03-18,2026-03-26,6,True,226008,Rail,Pending,Day shift only
+384,SO-BSP-2026-00384,CUST-0384,DRDO Pune Unit-8,High,SLAB-B,Semi-Finished,650.6,Jabalpur,Madhya Pradesh,2026-03-17,2026-03-22,2,True,120304,Rail,Pending,
+385,SO-BSP-2026-00385,CUST-0385,HAL Bengaluru Unit-8,High,BILLET-S,Semi-Finished,937.9,Gwalior,Madhya Pradesh,2026-03-03,2026-04-01,12,True,91695,Rail,Dispatched,
+386,SO-BSP-2026-00386,CUST-0386,BEL Hyderabad Unit-8,High,BILLET-H,Semi-Finished,1475.9,Vijayawada,Andhra Pradesh,2026-02-23,2026-03-21,1,True,317538,Rail,Pending,
+387,SO-BSP-2026-00387,CUST-0387,BEML Bengaluru Unit-8,High,TMT-12,Long,1238.9,Jodhpur,Rajasthan,2026-03-05,2026-04-02,13,True,201335,Rail,Pending,
+388,SO-BSP-2026-00388,CUST-0388,Maruti Suzuki Unit-8,Low,TMT-16,Long,1444.7,Madurai,Tamil Nadu,2026-02-26,2026-04-03,14,True,300719,Rail,Pending,
+389,SO-BSP-2026-00389,CUST-0389,Tata Motors Unit-8,Low,TMT-20,Long,710.6,Raipur,Chhattisgarh,2026-02-28,2026-03-30,10,True,37011,Rail,Dispatched,
+390,SO-BSP-2026-00390,CUST-0390,Mahindra & Mahindra Unit-8,High,WIRE-ROD,Long,1310.4,Kota,Rajasthan,2026-03-09,2026-04-01,12,True,255418,Rail,Pending,
+391,SO-BSP-2026-00391,CUST-0391,Hero MotoCorp Unit-8,Low,STRUCT-A,Long,738.6,Ranchi,Jharkhand,2026-03-12,2026-03-21,1,True,171590,Rail,Dispatched,
+392,SO-BSP-2026-00392,CUST-0392,Bajaj Auto Unit-8,High,PIG-IRON,Raw,713.6,Howrah,West Bengal,2026-03-14,2026-03-30,10,True,37580,Rail,Pending,
+393,SO-BSP-2026-00393,CUST-0393,TVS Motor Unit-8,Medium,HR-COIL,Flat,1086.9,Dhanbad,Jharkhand,2026-02-28,2026-03-27,7,True,154753,Rail,Dispatched,
+394,SO-BSP-2026-00394,CUST-0394,Ashok Leyland Unit-8,Medium,CR-SHEET,Flat,1170.3,Jamshedpur,Jharkhand,2026-03-13,2026-03-31,11,True,189371,Rail,Pending,
+395,SO-BSP-2026-00395,CUST-0395,Kirloskar Brothers Unit-8,Low,PLATE-H,Flat,390.2,Bhilai,Chhattisgarh,2026-03-05,2026-03-26,6,True,21527,Rail,Pending,Night loading OK
+396,SO-BSP-2026-00396,CUST-0396,Thermax Ltd Unit-8,Low,PLATE-M,Flat,636.7,Durgapur,West Bengal,2026-03-05,2026-03-21,1,True,112988,Rail,Pending,
+397,SO-BSP-2026-00397,CUST-0397,Cummins India Unit-8,High,SLAB-A,Semi-Finished,843.6,Rourkela,Odisha,2026-03-03,2026-03-26,6,True,244699,Rail,Pending,Priority delivery
+398,SO-BSP-2026-00398,CUST-0398,ABB India Unit-8,High,SLAB-B,Semi-Finished,548.0,Bokaro,Jharkhand,2026-03-07,2026-03-24,4,True,71911,Rail,In Process,
+399,SO-BSP-2026-00399,CUST-0399,Siemens India Unit-8,High,BILLET-S,Semi-Finished,1010.4,Allahabad,Uttar Pradesh,2026-02-26,2026-04-01,12,True,114215,Rail,In Process,
+400,SO-BSP-2026-00400,CUST-0400,Alstom India Unit-8,High,BILLET-H,Semi-Finished,996.0,Varanasi,Uttar Pradesh,2026-03-16,2026-03-29,9,True,109565,Rail,In Process,
+401,SO-BSP-2026-00401,CUST-0401,Tata Steel Ltd Unit-9,High,TMT-12,Long,872.3,Mumbai,Maharashtra,2026-03-12,2026-03-26,6,True,73426,Rail,Pending,Night loading OK
+402,SO-BSP-2026-00402,CUST-0402,JSW Steel Unit-9,High,TMT-16,Long,1415.8,Delhi,Delhi,2026-03-05,2026-03-29,9,True,285570,Rail,In Process,Night loading OK
+403,SO-BSP-2026-00403,CUST-0403,RINL Vizag Unit-9,High,TMT-20,Long,1294.9,Kolkata,West Bengal,2026-03-13,2026-03-26,6,True,226413,Rail,Pending,Day shift only
+404,SO-BSP-2026-00404,CUST-0404,JSPL Raigarh Unit-9,Medium,WIRE-ROD,Long,680.0,Chennai,Tamil Nadu,2026-02-23,2026-03-28,8,True,35716,Rail,Dispatched,
+405,SO-BSP-2026-00405,CUST-0405,Essar Steel Unit-9,Medium,STRUCT-A,Long,939.3,Hyderabad,Telangana,2026-02-19,2026-03-26,6,True,322552,Rail,In Process,Day shift only
+406,SO-BSP-2026-00406,CUST-0406,SAIL Durgapur Unit-9,Medium,PIG-IRON,Raw,1381.2,Pune,Maharashtra,2026-03-17,2026-03-26,6,True,267950,Rail,Pending,Day shift only
+407,SO-BSP-2026-00407,CUST-0407,Bhushan Steel Unit-9,Medium,HR-COIL,Flat,827.6,Ahmedabad,Gujarat,2026-02-23,2026-04-02,13,True,69309,Rail,Dispatched,Priority delivery
+408,SO-BSP-2026-00408,CUST-0408,Uttam Galva Unit-9,High,CR-SHEET,Flat,1298.8,Surat,Gujarat,2026-02-25,2026-03-21,1,True,249581,Rail,Pending,Night loading OK
+409,SO-BSP-2026-00409,CUST-0409,Rashtriya Ispat Nigam Unit-9,Low,PLATE-H,Flat,442.7,Jaipur,Rajasthan,2026-03-13,2026-03-26,6,True,35045,Rail,Pending,
+410,SO-BSP-2026-00410,CUST-0410,Kalyani Steels Unit-9,High,PLATE-M,Flat,940.5,Lucknow,Uttar Pradesh,2026-03-07,2026-04-01,12,True,323557,Rail,Pending,
+411,SO-BSP-2026-00411,CUST-0411,Mahindra Steel Unit-9,High,SLAB-A,Semi-Finished,754.5,Kanpur,Uttar Pradesh,2026-03-18,2026-03-23,3,True,181870,Rail,In Process,
+412,SO-BSP-2026-00412,CUST-0412,L&T Construction Unit-9,High,SLAB-B,Semi-Finished,745.9,Nagpur,Maharashtra,2026-02-27,2026-03-24,4,True,176243,Rail,Pending,Handle with care
+413,SO-BSP-2026-00413,CUST-0413,Adani Ports Unit-9,High,BILLET-S,Semi-Finished,685.8,Visakhapatnam,Andhra Pradesh,2026-02-22,2026-04-03,14,True,32521,Rail,Pending,Handle with care
+414,SO-BSP-2026-00414,CUST-0414,GMR Infrastructure Unit-9,High,BILLET-H,Semi-Finished,1396.9,Bhopal,Madhya Pradesh,2026-03-04,2026-03-23,3,True,275880,Rail,In Process,Priority delivery
+415,SO-BSP-2026-00415,CUST-0415,Hindustan Zinc Unit-9,High,TMT-12,Long,631.7,Patna,Bihar,2026-02-26,2026-04-01,12,True,23691,Rail,Pending,
+416,SO-BSP-2026-00416,CUST-0416,Vedanta Resources Unit-9,Low,TMT-16,Long,818.4,Ludhiana,Punjab,2026-03-14,2026-04-02,13,True,59940,Rail,In Process,
+417,SO-BSP-2026-00417,CUST-0417,NMDC Ltd Unit-9,Low,TMT-20,Long,732.2,Agra,Uttar Pradesh,2026-03-02,2026-03-29,9,True,41169,Rail,Pending,Handle with care
+418,SO-BSP-2026-00418,CUST-0418,Coal India Ltd Unit-9,High,WIRE-ROD,Long,1247.6,Vadodara,Gujarat,2026-03-18,2026-03-23,3,True,224583,Rail,Pending,
+419,SO-BSP-2026-00419,CUST-0419,NTPC Ltd Unit-9,High,STRUCT-A,Long,493.9,Nashik,Maharashtra,2026-02-27,2026-03-21,1,True,51332,Rail,Dispatched,Day shift only
+420,SO-BSP-2026-00420,CUST-0420,BHEL Trichy Unit-9,High,PIG-IRON,Raw,1408.9,Faridabad,Haryana,2026-03-14,2026-03-22,2,True,282025,Rail,Pending,
+421,SO-BSP-2026-00421,CUST-0421,Larsen & Toubro Unit-9,Low,HR-COIL,Flat,1144.9,Meerut,Uttar Pradesh,2026-03-03,2026-03-26,6,True,178453,Rail,In Process,Priority delivery
+422,SO-BSP-2026-00422,CUST-0422,Shapoorji Pallonji Unit-9,Low,CR-SHEET,Flat,616.6,Rajkot,Gujarat,2026-03-06,2026-03-31,11,True,24648,Rail,In Process,Day shift only
+423,SO-BSP-2026-00423,CUST-0423,Gammon India Unit-9,Low,PLATE-H,Flat,386.4,Coimbatore,Tamil Nadu,2026-03-03,2026-03-26,6,True,20668,Rail,Dispatched,Handle with care
+424,SO-BSP-2026-00424,CUST-0424,Afcons Infrastructure Unit-9,Medium,PLATE-M,Flat,412.2,Jabalpur,Madhya Pradesh,2026-02-28,2026-03-30,10,True,26787,Rail,Pending,
+425,SO-BSP-2026-00425,CUST-0425,IRB Infrastructure Unit-9,Medium,SLAB-A,Semi-Finished,721.2,Gwalior,Madhya Pradesh,2026-02-19,2026-04-03,14,True,160744,Rail,In Process,
+426,SO-BSP-2026-00426,CUST-0426,HCC Ltd Unit-9,High,SLAB-B,Semi-Finished,830.3,Vijayawada,Andhra Pradesh,2026-03-06,2026-03-21,1,True,234697,Rail,Pending,Day shift only
+427,SO-BSP-2026-00427,CUST-0427,NCC Ltd Unit-9,Low,BILLET-S,Semi-Finished,816.4,Jodhpur,Rajasthan,2026-03-12,2026-03-28,8,True,59463,Rail,Pending,
+428,SO-BSP-2026-00428,CUST-0428,Dilip Buildcon Unit-9,Low,BILLET-H,Semi-Finished,1354.9,Madurai,Tamil Nadu,2026-03-04,2026-04-02,13,True,254944,Rail,Pending,
+429,SO-BSP-2026-00429,CUST-0429,PNC Infratech Unit-9,High,TMT-12,Long,656.6,Raipur,Chhattisgarh,2026-02-27,2026-03-30,10,True,27577,Rail,Pending,
+430,SO-BSP-2026-00430,CUST-0430,Ashoka Buildcon Unit-9,Low,TMT-16,Long,1312.2,Kota,Rajasthan,2026-03-04,2026-04-01,12,True,234471,Rail,Pending,
+431,SO-BSP-2026-00431,CUST-0431,Indian Railways (SCR) Unit-9,High,TMT-20,Long,1424.0,Ranchi,Jharkhand,2026-03-05,2026-03-22,2,True,289855,Rail,Pending,Night loading OK
+432,SO-BSP-2026-00432,CUST-0432,Indian Railways (ECR) Unit-9,High,WIRE-ROD,Long,1243.6,Howrah,West Bengal,2026-03-18,2026-04-01,12,True,222704,Rail,Pending,
+433,SO-BSP-2026-00433,CUST-0433,Indian Railways (WR) Unit-9,High,STRUCT-A,Long,772.6,Dhanbad,Jharkhand,2026-03-12,2026-03-24,4,True,193877,Rail,In Process,Priority delivery
+434,SO-BSP-2026-00434,CUST-0434,DRDO Pune Unit-9,High,PIG-IRON,Raw,1344.9,Jamshedpur,Jharkhand,2026-02-24,2026-03-27,7,True,250040,Rail,Pending,
+435,SO-BSP-2026-00435,CUST-0435,HAL Bengaluru Unit-9,High,HR-COIL,Flat,620.0,Bhilai,Chhattisgarh,2026-03-01,2026-03-21,1,True,25191,Rail,Pending,Handle with care
+436,SO-BSP-2026-00436,CUST-0436,BEL Hyderabad Unit-9,High,CR-SHEET,Flat,757.7,Durgapur,West Bengal,2026-02-23,2026-04-03,14,True,52028,Rail,Pending,
+437,SO-BSP-2026-00437,CUST-0437,BEML Bengaluru Unit-9,Medium,PLATE-H,Flat,453.0,Rourkela,Odisha,2026-03-07,2026-04-03,14,True,38081,Rail,Pending,Day shift only
+438,SO-BSP-2026-00438,CUST-0438,Maruti Suzuki Unit-9,Low,PLATE-M,Flat,664.7,Bokaro,Jharkhand,2026-03-03,2026-03-29,9,True,127876,Rail,In Process,
+439,SO-BSP-2026-00439,CUST-0439,Tata Motors Unit-9,High,SLAB-A,Semi-Finished,798.9,Allahabad,Uttar Pradesh,2026-03-13,2026-04-02,13,True,211984,Rail,Dispatched,
+440,SO-BSP-2026-00440,CUST-0440,Mahindra & Mahindra Unit-9,Medium,SLAB-B,Semi-Finished,734.6,Varanasi,Uttar Pradesh,2026-03-06,2026-03-27,7,True,169098,Rail,Pending,Priority delivery
+441,SO-BSP-2026-00441,CUST-0441,Hero MotoCorp Unit-9,Low,BILLET-S,Semi-Finished,1356.5,Mumbai,Maharashtra,2026-03-04,2026-03-24,4,True,255686,Rail,In Process,
+442,SO-BSP-2026-00442,CUST-0442,Bajaj Auto Unit-9,High,BILLET-H,Semi-Finished,742.9,Delhi,Delhi,2026-02-20,2026-04-03,14,True,43321,Rail,Pending,Handle with care
+443,SO-BSP-2026-00443,CUST-0443,TVS Motor Unit-9,High,TMT-12,Long,1253.7,Kolkata,West Bengal,2026-03-07,2026-03-21,1,True,207848,Rail,Dispatched,
+444,SO-BSP-2026-00444,CUST-0444,Ashok Leyland Unit-9,Medium,TMT-16,Long,776.3,Chennai,Tamil Nadu,2026-03-02,2026-03-27,7,True,50336,Rail,Pending,
+445,SO-BSP-2026-00445,CUST-0445,Kirloskar Brothers Unit-9,Medium,TMT-20,Long,844.8,Hyderabad,Telangana,2026-03-01,2026-03-31,11,True,66378,Rail,Pending,
+446,SO-BSP-2026-00446,CUST-0446,Thermax Ltd Unit-9,Medium,WIRE-ROD,Long,1190.6,Pune,Maharashtra,2026-03-13,2026-03-31,11,True,198335,Rail,Pending,
+447,SO-BSP-2026-00447,CUST-0447,Cummins India Unit-9,High,STRUCT-A,Long,929.9,Ahmedabad,Gujarat,2026-03-11,2026-03-24,4,True,314453,Rail,Pending,
+448,SO-BSP-2026-00448,CUST-0448,ABB India Unit-9,Low,PIG-IRON,Raw,1145.2,Surat,Gujarat,2026-02-27,2026-03-25,5,True,162679,Rail,In Process,Priority delivery
+449,SO-BSP-2026-00449,CUST-0449,Siemens India Unit-9,Medium,HR-COIL,Flat,632.2,Jaipur,Rajasthan,2026-03-12,2026-03-21,1,True,27190,Rail,Pending,
+450,SO-BSP-2026-00450,CUST-0450,Alstom India Unit-9,High,CR-SHEET,Flat,1110.8,Lucknow,Uttar Pradesh,2026-03-16,2026-03-25,5,True,164316,Rail,Pending,
+451,SO-BSP-2026-00451,CUST-0451,Tata Steel Ltd Unit-10,High,PLATE-H,Flat,407.0,Kanpur,Uttar Pradesh,2026-03-08,2026-03-26,6,True,25494,Rail,Pending,
+452,SO-BSP-2026-00452,CUST-0452,JSW Steel Unit-10,High,PLATE-M,Flat,876.3,Nagpur,Maharashtra,2026-03-04,2026-03-30,10,True,270137,Rail,Dispatched,
+453,SO-BSP-2026-00453,CUST-0453,RINL Vizag Unit-10,High,SLAB-A,Semi-Finished,779.0,Visakhapatnam,Andhra Pradesh,2026-03-14,2026-03-30,10,True,198204,Rail,In Process,Night loading OK
+454,SO-BSP-2026-00454,CUST-0454,JSPL Raigarh Unit-10,Medium,SLAB-B,Semi-Finished,479.9,Bhopal,Madhya Pradesh,2026-03-19,2026-04-01,12,True,46578,Rail,Dispatched,Day shift only
+455,SO-BSP-2026-00455,CUST-0455,Essar Steel Unit-10,Medium,BILLET-S,Semi-Finished,687.0,Patna,Bihar,2026-03-05,2026-03-31,11,True,32720,Rail,Dispatched,Handle with care
+456,SO-BSP-2026-00456,CUST-0456,SAIL Durgapur Unit-10,Medium,BILLET-H,Semi-Finished,767.9,Ludhiana,Punjab,2026-03-12,2026-04-02,13,True,48518,Rail,Dispatched,
+457,SO-BSP-2026-00457,CUST-0457,Bhushan Steel Unit-10,High,TMT-12,Long,1470.1,Agra,Uttar Pradesh,2026-03-01,2026-03-21,1,True,314359,Rail,Pending,Priority delivery
+458,SO-BSP-2026-00458,CUST-0458,Uttam Galva Unit-10,Medium,TMT-16,Long,1010.4,Vadodara,Gujarat,2026-02-19,2026-03-24,4,True,114217,Rail,Pending,
+459,SO-BSP-2026-00459,CUST-0459,Rashtriya Ispat Nigam Unit-10,Low,TMT-20,Long,1297.3,Nashik,Maharashtra,2026-02-21,2026-03-24,4,True,227546,Rail,Pending,Day shift only
+460,SO-BSP-2026-00460,CUST-0460,Kalyani Steels Unit-10,High,WIRE-ROD,Long,1128.0,Faridabad,Haryana,2026-03-02,2026-03-24,4,True,171358,Rail,Pending,Priority delivery
+461,SO-BSP-2026-00461,CUST-0461,Mahindra Steel Unit-10,Low,STRUCT-A,Long,702.5,Meerut,Uttar Pradesh,2026-03-02,2026-03-31,11,True,149471,Rail,In Process,
+462,SO-BSP-2026-00462,CUST-0462,L&T Construction Unit-10,High,PIG-IRON,Raw,734.0,Rajkot,Gujarat,2026-03-09,2026-03-25,5,True,41541,Rail,Pending,
+463,SO-BSP-2026-00463,CUST-0463,Adani Ports Unit-10,Low,HR-COIL,Flat,1391.8,Coimbatore,Tamil Nadu,2026-03-15,2026-03-21,1,True,298292,Rail,Pending,
+464,SO-BSP-2026-00464,CUST-0464,GMR Infrastructure Unit-10,Medium,CR-SHEET,Flat,842.5,Jabalpur,Madhya Pradesh,2026-03-09,2026-03-27,7,True,73293,Rail,In Process,
+465,SO-BSP-2026-00465,CUST-0465,Hindustan Zinc Unit-10,High,PLATE-H,Flat,705.7,Gwalior,Madhya Pradesh,2026-02-26,2026-03-30,10,True,151322,Rail,Pending,
+466,SO-BSP-2026-00466,CUST-0466,Vedanta Resources Unit-10,Low,PLATE-M,Flat,773.5,Vijayawada,Andhra Pradesh,2026-02-26,2026-03-25,5,True,194498,Rail,Pending,Handle with care
+467,SO-BSP-2026-00467,CUST-0467,NMDC Ltd Unit-10,High,SLAB-A,Semi-Finished,745.4,Jodhpur,Rajasthan,2026-02-27,2026-04-03,14,True,175917,Rail,Pending,Day shift only
+468,SO-BSP-2026-00468,CUST-0468,Coal India Ltd Unit-10,Medium,SLAB-B,Semi-Finished,907.8,Madurai,Tamil Nadu,2026-02-20,2026-03-26,6,True,295766,Rail,In Process,
+469,SO-BSP-2026-00469,CUST-0469,NTPC Ltd Unit-10,High,BILLET-S,Semi-Finished,737.0,Raipur,Chhattisgarh,2026-02-20,2026-03-25,5,True,42119,Rail,Pending,
+470,SO-BSP-2026-00470,CUST-0470,BHEL Trichy Unit-10,High,BILLET-H,Semi-Finished,1054.3,Kota,Rajasthan,2026-02-28,2026-04-01,12,True,129053,Rail,Pending,
+471,SO-BSP-2026-00471,CUST-0471,Larsen & Toubro Unit-10,Low,TMT-12,Long,962.3,Ranchi,Jharkhand,2026-03-03,2026-03-24,4,True,98998,Rail,Pending,
+472,SO-BSP-2026-00472,CUST-0472,Shapoorji Pallonji Unit-10,Low,TMT-16,Long,1024.1,Howrah,West Bengal,2026-03-17,2026-03-23,3,True,118765,Rail,In Process,
+473,SO-BSP-2026-00473,CUST-0473,Gammon India Unit-10,Medium,TMT-20,Long,711.2,Dhanbad,Jharkhand,2026-03-17,2026-03-21,1,True,37131,Rail,Pending,
+474,SO-BSP-2026-00474,CUST-0474,Afcons Infrastructure Unit-10,Medium,WIRE-ROD,Long,700.0,Jamshedpur,Jharkhand,2026-03-13,2026-03-27,7,True,39630,Rail,Pending,
+475,SO-BSP-2026-00475,CUST-0475,IRB Infrastructure Unit-10,Medium,STRUCT-A,Long,538.4,Bhilai,Chhattisgarh,2026-03-14,2026-04-01,12,True,67998,Rail,Dispatched,Day shift only
+476,SO-BSP-2026-00476,CUST-0476,HCC Ltd Unit-10,Low,PIG-IRON,Raw,874.7,Durgapur,West Bengal,2026-03-05,2026-03-24,4,True,74073,Rail,Dispatched,
+477,SO-BSP-2026-00477,CUST-0477,NCC Ltd Unit-10,Low,HR-COIL,Flat,950.3,Rourkela,Odisha,2026-02-28,2026-03-28,8,True,105532,Rail,Pending,
+478,SO-BSP-2026-00478,CUST-0478,Dilip Buildcon Unit-10,High,CR-SHEET,Flat,1106.3,Bokaro,Jharkhand,2026-03-13,2026-03-21,1,True,162484,Rail,Pending,
+479,SO-BSP-2026-00479,CUST-0479,PNC Infratech Unit-10,Medium,PLATE-H,Flat,737.2,Allahabad,Uttar Pradesh,2026-03-07,2026-03-31,11,True,170729,Rail,Pending,
+480,SO-BSP-2026-00480,CUST-0480,Ashoka Buildcon Unit-10,High,PLATE-M,Flat,613.0,Varanasi,Uttar Pradesh,2026-02-20,2026-03-22,2,True,101102,Rail,In Process,
+481,SO-BSP-2026-00481,CUST-0481,Indian Railways (SCR) Unit-10,High,SLAB-A,Semi-Finished,611.3,Mumbai,Maharashtra,2026-03-07,2026-03-29,9,True,100285,Rail,Pending,
+482,SO-BSP-2026-00482,CUST-0482,Indian Railways (ECR) Unit-10,High,SLAB-B,Semi-Finished,504.7,Delhi,Delhi,2026-03-17,2026-04-01,12,True,55172,Rail,Dispatched,
+483,SO-BSP-2026-00483,CUST-0483,Indian Railways (WR) Unit-10,High,BILLET-S,Semi-Finished,1124.8,Kolkata,West Bengal,2026-02-22,2026-03-21,1,True,154761,Rail,In Process,
+484,SO-BSP-2026-00484,CUST-0484,DRDO Pune Unit-10,High,BILLET-H,Semi-Finished,885.6,Chennai,Tamil Nadu,2026-02-20,2026-03-30,10,True,76977,Rail,Pending,
+485,SO-BSP-2026-00485,CUST-0485,HAL Bengaluru Unit-10,High,TMT-12,Long,637.9,Hyderabad,Telangana,2026-03-14,2026-04-03,14,True,24637,Rail,Pending,Handle with care
+486,SO-BSP-2026-00486,CUST-0486,BEL Hyderabad Unit-10,High,TMT-16,Long,975.0,Pune,Maharashtra,2026-03-13,2026-03-28,8,True,102910,Rail,Dispatched,
+487,SO-BSP-2026-00487,CUST-0487,BEML Bengaluru Unit-10,Medium,TMT-20,Long,1024.1,Ahmedabad,Gujarat,2026-03-05,2026-03-25,5,True,118760,Rail,In Process,
+488,SO-BSP-2026-00488,CUST-0488,Maruti Suzuki Unit-10,Medium,WIRE-ROD,Long,778.0,Surat,Gujarat,2026-03-14,2026-03-28,8,True,56782,Rail,In Process,Priority delivery
+489,SO-BSP-2026-00489,CUST-0489,Tata Motors Unit-10,Low,STRUCT-A,Long,702.6,Jaipur,Rajasthan,2026-03-02,2026-03-30,10,True,149478,Rail,Pending,Night loading OK
+490,SO-BSP-2026-00490,CUST-0490,Mahindra & Mahindra Unit-10,Medium,PIG-IRON,Raw,1104.9,Lucknow,Uttar Pradesh,2026-03-18,2026-04-01,12,True,147284,Rail,In Process,
+491,SO-BSP-2026-00491,CUST-0491,Hero MotoCorp Unit-10,Low,HR-COIL,Flat,1183.9,Kanpur,Uttar Pradesh,2026-03-04,2026-03-29,9,True,195335,Rail,In Process,
+492,SO-BSP-2026-00492,CUST-0492,Bajaj Auto Unit-10,Low,CR-SHEET,Flat,1137.8,Nagpur,Maharashtra,2026-03-02,2026-03-29,9,True,175456,Rail,Dispatched,Day shift only
+493,SO-BSP-2026-00493,CUST-0493,TVS Motor Unit-10,Low,PLATE-H,Flat,747.1,Visakhapatnam,Andhra Pradesh,2026-02-24,2026-04-03,14,True,177068,Rail,Pending,Night loading OK
+494,SO-BSP-2026-00494,CUST-0494,Ashok Leyland Unit-10,Medium,PLATE-M,Flat,559.7,Bhopal,Madhya Pradesh,2026-03-13,2026-03-28,8,True,76777,Rail,Pending,Day shift only
+495,SO-BSP-2026-00495,CUST-0495,Kirloskar Brothers Unit-10,High,SLAB-A,Semi-Finished,822.4,Patna,Bihar,2026-02-27,2026-04-01,12,True,228915,Rail,Pending,
+496,SO-BSP-2026-00496,CUST-0496,Thermax Ltd Unit-10,Medium,SLAB-B,Semi-Finished,689.6,Ludhiana,Punjab,2026-03-10,2026-03-23,3,True,141879,Rail,In Process,
+497,SO-BSP-2026-00497,CUST-0497,Cummins India Unit-10,High,BILLET-S,Semi-Finished,986.4,Agra,Uttar Pradesh,2026-03-01,2026-03-30,10,True,106509,Rail,Dispatched,Priority delivery
+498,SO-BSP-2026-00498,CUST-0498,ABB India Unit-10,Medium,BILLET-H,Semi-Finished,1158.0,Vadodara,Gujarat,2026-02-24,2026-03-22,2,True,167696,Rail,Pending,Night loading OK
+499,SO-BSP-2026-00499,CUST-0499,Siemens India Unit-10,Low,TMT-12,Long,924.1,Nashik,Maharashtra,2026-02-20,2026-03-23,3,True,87672,Rail,Pending,
+500,SO-BSP-2026-00500,CUST-0500,Alstom India Unit-10,Medium,TMT-16,Long,1058.1,Faridabad,Haryana,2026-03-05,2026-03-21,1,True,130398,Rail,Pending,

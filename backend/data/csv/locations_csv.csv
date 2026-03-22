@@ -1,0 +1,13 @@
+location_id,location_name,location_type,plant_name,latitude,longitude,storage_capacity_tons,operational_status
+1,Bokaro Main Yard,Yard,Bokaro Steel Plant,23.6693,86.1511,50000,Active
+2,SY-A North Block,Stockyard,Bokaro Steel Plant,23.671,86.153,12000,Active
+3,SY-B South Block,Stockyard,Bokaro Steel Plant,23.6675,86.1495,10000,Active
+4,SY-C East Block,Stockyard,Bokaro Steel Plant,23.672,86.156,8000,Active
+5,SY-D West Block,Stockyard,Bokaro Steel Plant,23.665,86.148,9000,Active
+6,SY-E Dispatch Yard,Stockyard,Bokaro Steel Plant,23.669,86.152,7000,Active
+7,SID-1 Loading Point,Siding,Bokaro Steel Plant,23.67,86.154,0,Active
+8,SID-2 Loading Point,Siding,Bokaro Steel Plant,23.6705,86.1545,0,Active
+9,SID-3 Loading Point,Siding,Bokaro Steel Plant,23.6695,86.1535,0,Active
+10,SID-4 Loading Point,Siding,Bokaro Steel Plant,23.6685,86.1525,0,Active
+11,SID-5 Loading Point,Siding,Bokaro Steel Plant,23.6715,86.1555,0,Maintenance
+12,SID-6 Loading Point,Siding,Bokaro Steel Plant,23.668,86.151,0,Active
