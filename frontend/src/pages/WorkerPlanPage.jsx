@@ -14,7 +14,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import axios from 'axios'
 
-const BASE = ''
+const BASE = 'https://sail-dss-backend.onrender.com'
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 const fmtRs  = n => n>=100000?`₹${(n/100000).toFixed(1)}L`:n>=1000?`₹${(n/1000).toFixed(0)}K`:`₹${Math.round(n)}`
