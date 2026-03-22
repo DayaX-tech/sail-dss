@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { LoadingSpinner } from '../components/UIKit'
 import axios from 'axios'
 
-const BASE = ''
+const BASE = 'https://sail-dss-backend.onrender.com'
 
 // ── All Indian destination coordinates ───────────────────────────────────────
 const CITY_COORDS = {
