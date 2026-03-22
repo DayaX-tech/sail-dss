@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import axios from 'axios'
 import { fetchOrders, fetchWagons } from '../services/api'
 
-const BASE = ''
+const BASE = 'https://sail-dss-backend.onrender.com'
 
 // ── Constants ────────────────────────────────────────────────────────────────
 const WAGONS_PER_RAKE = 58
