@@ -12,12 +12,9 @@ export default defineConfig({
       '/wagons':              { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/inventory':           { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/analytics':           { target: 'http://127.0.0.1:8000', changeOrigin: true },
-      '/compatibility':       { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/rakes':               { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/routes':              { target: 'http://127.0.0.1:8000', changeOrigin: true },
-      '/simulation':          { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/generate-plan':       { target: 'http://127.0.0.1:8000', changeOrigin: true },
-      '/plan-explanation':    { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/weather':             { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/financial':           { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/demurrage':           { target: 'http://127.0.0.1:8000', changeOrigin: true },
@@ -25,11 +22,13 @@ export default defineConfig({
       '/locos':               { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/dispatch':            { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/track':               { target: 'http://127.0.0.1:8000', changeOrigin: true },
-      '/dataset-info':        { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/loading-points':      { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/route-consolidation': { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/dispatch-plan':       { target: 'http://127.0.0.1:8000', changeOrigin: true },
       '/dispatch-intel':      { target: 'http://127.0.0.1:8000', changeOrigin: true },
     }
+  },
+  build: {
+    outDir: 'dist'
   }
 })
