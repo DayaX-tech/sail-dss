@@ -809,3 +809,12 @@ def dispatch_plan_endpoint(req: DispatchPlanRequest):
     except Exception as e:
         import traceback
         return {"error": str(e), "trace": traceback.format_exc()}
+
+
+@app.get("/debug-email")
+def debug_email():
+    import os
+    return {
+        "gmail_user_set": bool(os.getenv("GMAIL_USER")),
+        "gmail_pass_set": bool(os.getenv("GMAIL_APP_PASSWORD")),
+        "user_value": os.getenv("GMAIL_USER","NOT SET"),
