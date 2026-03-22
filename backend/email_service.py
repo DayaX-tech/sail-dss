@@ -692,4 +692,4 @@ def send_arrival_notification(order, customer_email):
 
 
 
-    }
+    
