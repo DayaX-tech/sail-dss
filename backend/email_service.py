@@ -76,7 +76,6 @@ def _send_email(to_email, subject, html_body, attachments=None):
                 encoders.encode_base64(part)
                 part.add_header("Content-Disposition", f'attachment; filename="{pdf_name}"')
                 msg.attach(part)
-        ctx = ssl.create_default_context()
         with smtplib.SMTP("smtp.gmail.com", 587) as srv:
             srv.ehlo()
             srv.starttls()
