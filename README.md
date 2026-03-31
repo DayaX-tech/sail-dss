@@ -184,8 +184,9 @@ GMAIL_APP_PASSWORD=your-app-password
 
 This project uses **synthetic datasets modeled on real-world logistics patterns** and is intended for research and prototyping purposes.
 
+
 ---
 
 ## 🤝 Acknowledgment
 
-Inspired by logistics challenges in large-scale steel plants such as SAIL.
+Inspired by logistics challenges in large-scale steel plants such as SAIL Industries.
